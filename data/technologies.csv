@@ -1,0 +1,141 @@
+name, expansion, age, develops_in, cost, build_time, applies_to, description
+Crossbowman, Age of Kings, Castle, Archery Range, {"Food": 125; "Gold": 75}, 35, Archer, Upgrade to Crossbowman
+Thumb Ring, Age of Kings, Castle, Archery Range, {"Food": 300; "Wood": 250}, 45, Archer;Cavalry Archer, Faster reload time (10-20%) and 100% accuracy
+Arbalest, Age of Kings, Imperial, Archery Range, {"Food":350; "Gold": 300}, 50, Crossbowman, Upgrade to Arbalest
+Elite Skirmisher, Age of Kings, Imperial, Archery Range, {"Wood":250; "Gold": 160}, 50, Skirmisher, Upgrade to Elite Skirmisher
+Heavy Cavalry Archer, Age of Kings, Imperial, Archery Range, {"Food":900; "Gold": 500}, 50, Cavalry Archer, Upgrade to Cavalry Archer
+Parthian Tactics, Age of Kings, Imperial, Archery Range, {"Food":200; "Gold": 250}, 65, Cavalry Archer;Mangudai, +1/+2 AR and Cavalry Archer +4 and Mangudai +2 agains pikeman
+Man At Arms, Age of Kings, Feudal, Barracks, {"Food": 40; "Gold": 40}, 40, Militia, Upgrade to Man at Arms
+Tracking, Age of Kings, Feudal, Barracks, {"Food": 75}, 35, Infantry, +2 Line of Sight and +2 Search Radius
+Long Swordman, Age of Kings, Castle, Barracks, {"Food": 200; "Gold": 65},45, Man At Arms, Upgrade to Long Swordman
+Pikeman, Age of Kings, Castle, Barracks, {"Food": 215; "Gold": 90}, 45, Spearman, Upgrade to Spearman
+Squires, Age of Kings, Castle, Barracks, {"Food": 200}, 40, Infantry, Movement Rate * 1.1
+Champion, Age of Kings, Imperial, Barracks, {"Food": 750; "Gold": 350}, 100, Two Handed Swordsman, Upgrade to Champion
+Elite Eagle Warrior, The Conquerors, Imperial, Barracks, {"Food": 800; "Gold": 500}, 40, Eagle Warrior, Upgrade to Elite Eagle Warrior
+Halberdier, The Conquerors, Imperial, Barracks, {"Food": 300; "Gold": 600}, 50, Pikeman, Upgrade to Halberdier
+Two Handed Swordsman, Age of Kings, Imperial, Barracks, {"Food": 300; "Gold": 100}, 75, Long Swordman, Upgrade to Long Swordsman
+Fletching, Age of Kings, Feudal, Blacksmith, {"Food": 100; "Gold": 50}, 30, Arrow shooting units and structures, +1 attack +1 range +1 Line of sight +1 search radius
+Forging, Age of Kings, Feudal, Blacksmith, {"Food": 150}, 50, Infantry;Cavalry, +1 attack
+Padded Archer Armor, Age of Kings, Feudal, Blacksmith, {"Food": 100}, 40, Archer;Cavalry Archer;Skirmisher;Hand Cannoneer;Conquistador, +1/+1 armor
+Scale Barding Armor, Age of Kings, Feudal, Blacksmith, {"Food": 150}, 45, Cavalry, +1/+1 armor
+Scale Mail Armor, Age of Kings, Feudal, Blacksmith, {"Food": 100}, 40, Infantry, +1/+1 armor
+Bodkin Arrow, Age of Kings, Castle, Blacksmith, {"Food":200;"Gold":100}, 35, Arrow shooting units and structures, +1 attack +1 range +1 Line of sight +1 search radius
+Chain Barding Armor, Age of Kings, Castle, Blacksmith, {"Food":250;"Gold":150}, 60, Cavalry, +1/+1 armor
+Chain Mail Armor, Age of Kings, Castle, Blacksmith, {"Food": 300; "Gold": 100}, 55, Infantry, +1/+1 armor
+Iron Casting, Age of Kings, Castle, Blacksmith, {"Food": 220; "Gold": 120}, 70, Infantry;Cavalry, +1 attack
+Leather Archer Armor, Age of Kings, Castle, Blacksmith, {"Food": 150; "Gold": 150}, 55, Archer;Cavalry Archer;Skirmisher;Hand Cannoneer;Conquistador, +1/+1 armor
+Blast Furnace, Age of Kings, Imperial, Blacksmith, {"Food": 275; "Gold": 225}, 100, Infantry;Cavalry, +2 attack
+Bracer, Age of Kings, Imperial, Blacksmith, {"Food":300;"Gold":200}, 40, Arrow shooting units and structures, +1 attack +1 range +1 Line of sight +1 search radius
+Plate Barding Armor, Age of Kings, Imperial, Blacksmith, {"Food":350;"Gold":200}, 75, Cavalry, +1/+2 armor
+Plate Mail Armor, Age of Kings, Imperial, Blacksmith, {"Food": 300; "Gold": 150}, 70, Infantry, +1/+2 armor
+Ring Archer Armor, Age of Kings, Imperial, Blacksmith, {"Food": 250; "Gold": 250}, 70, Archer;Cavalry Archer;Skirmisher;Hand Cannoneer;Conquistador, +1/+2 armor
+Conscription, Age of Kings, Imperial, Castle, {"Food": 150; "Gold": 150}, 60, Barracks;Archer Range;Stable;Castle, Work Rate * 1.33 (Units created 25% faster)
+Hoardings, Age of Kings, Imperial, Castle, {"Food": 400; "Gold": 400}, 75, Castle, +21% HP (HP*1.21 - 5808 HP)
+Sappers, Age of Kings, Imperial, Castle, {"Food": 400; "Gold": 200}, 10, Villagers, +15 attack vs buildings and stone defenses
+Spies, Age of Kings, Imperial, Castle, {"Gold": 200; "Enemy Villager": 1}, 1, Random map games, Show enemy line of sight
+Treason, Age of Kings, Imperial, Castle, {"Gold": 400}, 1, Regicide games, Glare enemy king's location for a few seconds
+Careening, Age of Kings, Castle, Dock, {"Food": 250; "Gold": 150}, 50, Ships, +0/+1 armor also transport ships carry +5 units
+War Galley, Age of Kings, Castle, Dock, {"Food": 230; "Gold": 100}, 50, Galley, Upgrade to War Galley
+Cannon Galleon, Age of Kings, Imperial, Dock, {"Food": 400; "Wood": 500}, 50, Cannon Galleon, Allows creation of Cannon Galleons
+Dry Dock, Age of Kings, Imperial, Dock, {"Food": 600; "Gold": 400}, 60, Ships, Movement rate * 1.15 (+15%) and transport ships carry +10 units
+Elite Cannon Galleon, Age of Kings, Imperial, Dock, {"Wood": 525; "Gold": 500}, 30, Cannon Galleon, Upgrade to Elite Cannon Galleon
+Elite Longboat, Age of Kings, Imperial, Dock, {"Food": 750; "Gold": 475}, 60, Longboat, Upgrade to Elite Longboat
+Elite Turtle Ship, The Conquerors, Imperial, Dock, {"Food": 1000; "Gold": 800}, 65, Turtle Ship, Upgrade to Elite Turtle Ship
+Fast Fire Ship, Age of Kings, Imperial, Dock, {"Wood": 280; "Gold": 250}, 50, Fire Ship, Upgrade to Fast Fire Ship
+Galleon, Age of Kings, Imperial, Dock, {"Food": 400; "Wood": 315}, 65, War Galley, Upgrade to Galleon
+Heavy Demolition Ship, Age of Kings, Imperial, Dock, {"Wood": 200; "Gold": 300}, 50, Demolition Ship, Upgrade to Heavy Demolition Ship
+Shipwright, Age of Kings, Imperial, Dock, {"Wood": 200; "Food": 1000}, 60, Ships, Wood cost * 0.8 (-20%) and build time * 0.65 (-35%)
+Double Bit Axe, Age of Kings, Feudal, Lumber Camp, {"Wood": 50; "Food": 100}, 25, Wood Chopper, Work Rate x 1.2 (20% faster)
+Bow Saw, Age of Kings, Castle, Lumber Camp, {"Wood": 100; "Food": 150}, 50, Wood Chopper, Work Rate x 1.2 (20% faster) which stacks with Double Bit Axe
+Two Man Saw, Age of Kings, Imperial, Lumber Camp, {"Wood": 200; "Food": 300}, 100, Wood Chopper, Work Rate x 1.1 (10% faster) which stacks with Bow Saw
+Cartography, Age of Kings, Feudal, Market, {"Food": 100; "Gold": 100}, 60,, See ally line of sight
+Coinage, Age of Kings, Feudal, Market, {"Food": 150; "Gold": 50}, 50,, Tribute inefficiency - 0.2 (20% tribute fee from 30%)
+Banking, Age of Kings, Castle, Market, {"Food": 200; "Gold": 100}, 50,,Tribute inefficiency - 0 (0% tribute fee from 20% coinage)
+Caravan, Age of Kings, Castle, Market, {"Food": 200; "Gold": 200}, 40, Trade Cart;Trade Cog, Movement rate * 1.5 (50% faster)
+Guilds, Age of Kings, Imperial, Market, {"Food": 300; "Gold": 200}, 50,,Commodity trading fee - 15% (from 30%)
+Horse Collar, Age of Kings, Feudal, Mill, {"Food": 75; "Wood": 75}, 20,Farm, Food amount +75
+Heavy Plow, Age of Kings, Castle, Mill, {"Food": 125; "Wood": 125}, 40,Farm;Farmers, Food amount +75 and Farmers carry +1 food
+Crop Rotation, Age of Kings, Imperial, Mill, {"Food": 250; "Wood": 250}, 70, Farm, Food amount +175
+Gold Mining, Age of Kings, Feudal, Mining Camp, {"Food": 100; "Wood": 75}, 30, Gold Miners, Work rate * 1.15 (15% faster)
+Stone Mining, Age of Kings, Feudal, Mining Camp, {"Food": 100; "Wood": 75}, 30, Stone Miners, Work rate * 1.15 (15% faster)
+Gold Shaft Mining, Age of Kings, Castle, Mining Camp, {"Food": 200; "Wood": 150}, 75, Gold Miners, Work rate * 1.15 (15% faster) which stacks with Gold Mining
+Stone Shaft Mining, Age of Kings, Castle, Mining Camp, {"Food": 200; "Wood": 150}, 75, Stone Miners, Work rate * 1.15 (15% faster) which stacks with Stone Mining
+Atonement, Age of Kings, Castle, Monastery, {"Gold": 325}, 40, Monks, Monks convert enemy monks
+Fervor, Age of Kings, Castle, Monastery, {"Gold": 140}, 50, Monks, Monks have +15% speed carrying relics
+Herbal Medicine, Age of Kings, Castle, Monastery, {"Gold": 350}, 35, Garrisoned Units, Garrisoned Units 4x healing speed
+Heresy, Age of Kings, Castle, Monastery, {"Gold": 1000}, 60, Monks, Converted units die
+Redemption, Age of Kings, Castle, Monastery, {"Gold": 475}, 50, Monks, convert siege units and buildings
+Sanctity, Age of Kings, Castle, Monastery, {"Gold": 120}, 60, Monks, +15 health points
+Block Printing, Age of Kings, Imperial, Monastery, {"Gold": 200}, 55, Monks, +3 range
+Faith, Age of Kings, Imperial, Monastery, {"Food": 750; "Gold": 1000}, 60, All units, Units are harder to convert
+Illumination, Age of Kings, Imperial, Monastery, {"Gold": 120}, 65, Monks, Faith regain 50% faster
+Theocracy, Age of Kings, Imperial, Monastery, {"Gold": 200}, 75, Monks, Only one monk needs to rest in a group
+Capped Ram, Age of Kings, Imperial, Siege Workshop, {"Food": 300}, 50, Battering Ram, Upgrade to Capped Ram
+Heavy Scorpion, Age of Kings, Imperial, Siege Workshop, {"Food": 1000; "Wood": 1100}, 50, Scorpion, Upgrade to Heavy Scorpion
+Onager, Age of Kings, Imperial, Siege Workshop, {"Food": 800; "Gold": 500}, 75, Mangonel, Upgrade to Onager
+Siege Onager, Age of Kings, Imperial, Siege Workshop, {"Food": 1450; "Gold": 1000}, 150, Onager, Upgrade to Siege Onager
+Siege Ram, Age of Kings, Imperial, Siege Workshop, {"Food": 1000}, 75, Capped Ram, Upgrade to Siege Ram
+Bloodlines, Age of Kings, Feudal, Stable, {"Food": 150; "Gold": 100}, 50, Cavalry;Cavalry Archer;Conquistador, +20 hit points
+Husbandry, Age of Kings, Castle, Stable, {"Food": 250}, 50, Cavalry;Cavalry Archer;Conquistador, Movement rate * 1.1
+Ligth Cavalry, Age of Kings, Castle, Stable, {"Food": 150; "Gold": 50}, 45, Scout, Upgrade to Light Cavalry
+Cavalier, Age of Kings, Imperial, Stable, {"Food": 300; "Gold": 300}, 100, Knight, Upgrade to Cavalier
+Heavy Camel, Age of Kings, Imperial, Stable, {"Food": 325; "Gold": 360}, 125, Camel, Upgrade to Heavy Camel
+Hussar, The Conquerors, Imperial, Stable, {"Food": 500; "Gold": 600}, 50, Ligth Cavalry, Upgrade to Hussar
+Paladin, Age of Kings, Imperial, Stable, {"Food": 1300; "Gold": 750}, 170, Cavalier, Upgrade to Paladin
+Feudal Age, Age of Kings, Dark, Town Center, {"Food": 500}, 130,,Advance to the Feudal Age
+Loom, Age of Kings, Dark, Town Center, {"Gold": 50}, 25, Villager, +15 hit points +1/+2 armor
+Castle Age, Age of Kings, Feudal, Town Center, {"Food": 800; "Gold": 200}, 160,,Advance to the Castle Age
+Town Watch, Age of Kings, Feudal, Town Center, {"Food": 75}, 25,Buildings;Towers, +4 Line of sight
+Wheelbarrow, Age of Kings, Feudal, Town Center, {"Food": 175; "Wood": 50}, 75, Villagers, Movement rate * 1.1 and carrying capacity * 1.25
+Hand Cart,  Age of Kings, Castle, Town Center, {"Food": 305; "Wood": 200}, 55, Villagers, Movement rate * 1.1 and carrying capacity * 1.5
+Imperial Age, Age of Kings, Castle, Town Center, {"Food": 1000; "Gold": 800}, 190,,Advance to the Imperial Age
+Town Patrol, Age of Kings, Castle, Town Center, {"Food": 300; "Gold": 200}, 40, Buildings;Towers, +4 Line of sight
+Ballistics, Age of Kings, Castle, University, {"Wood": 300; "Gold": 175}, 60, Arrow/Bolt-firing units;Buildings;Bombard Towers, Aim at the spot an enemy unit is moving towards instead of where it currently is
+Fortified Wall, Age of Kings, Castle, University, {"Wood": 100; "Food": 200}, 50, Stone Wall; Gate, Fortified Wall 3000 HP 12/12 armor 24 building armor and Gate 4000 HP 6/6 armor 20 building armor
+Guard Tower, Age of Kings, Castle, University, {"Food": 100; "Wood": 250}, 30, Watch Tower, Upgrade to Guard Tower
+Heated Shot, Age of Kings, Castle, University, {"Food": 350; "Gold": 100}, 30, Tower;Castle, Towers do 2.25 * attack bonus vs ships/camels and Castles do +4 damage against ships/camels
+Masonry, Age of Kings, Castle, University, {"Food": 150; "Wood": 175}, 50, Buildings;Tower, Hit points * 1.1 and +1/+1 armor and +3 building armor 
+Murder Holes, Age of Kings, Castle, University, {"Food": 200; "Stone": 200}, 60, Castle;Tower, Towers and Castles minimum range removed
+Treadmill Crane, Age of Kings, Castle, University, {"Food": 300; "Wood": 200}, 40, Builder, Builders work rate x 1.2 (20% faster builders - building get built 17% faster)
+Architecture, Age of Kings, Imperial, University, {"Food": 300; "Wood": 200}, 70, Buildings;Tower, Hit points * 1.1 and +1/+1 armor and +3 building armor
+Bombard Tower, Age of Kings, Imperial, University, {"Food": 800; "Wood": 400}, 60,, Allow creation of Bombard Tower
+Chemistry, Age of Kings, Imperial, University, {"Food": 300; "Gold": 200}, 100, Archer;Skirmisher;Cavalry Archer;Galley;Longboat;Scorpion;Tower, +1 pierce damage and projectile speed reduced from 3.5 MR to 2.9 MR for mangonels
+Keep, Age of Kings, Imperial, University, {"Food": 500; "Wood": 350}, 75, Guard Tower, Upgrade to Keep
+Siege Engineers, Age of Kings, Imperial, University, {"Food":500;"Wood": 600}, 45, Siege Weapons, Siege weapons do 1.2 * damage vs buildings and +1 range for ranged siege
+Anarchy, Age of Kings, Castle, Castle, {"Food": 450; "Gold": 250}, 60, Goths, Allow the creation of Huskarls in barracks
+Artillery, Age of Kings, Imperial, Castle, {"Food": 500; "Gold": 450}, 40, Turks;Tower;Galleon;Cannon, Bombard units +2 range
+Atheism, The Conquerors, Imperial, Castle, {"Food": 500; "Gold": 500}, 60, Huns,+100 years Wonder/Relic victory time and -50% Spies/Treason cost
+Bearded Axe, Age of Kings, Imperial, Castle, {"Food": 400; "Gold": 400}, 60, Franks;Throwing Axeman, +1 range +1 Line of sight
+Berserkergang, Age of Kings, Imperial, Castle, {"Food": 500; "Gold": 850}, 40, Vikings;Berserk, Berserks regenerate 2x faster - 2 HP every 3 seconds
+Crenellations, Age of Kings, Imperial, Castle, {"Food": 600; "Gold": 400}, 60, Teutons;Castle, +3 range and garrisoned infantry fires arrows
+Drill, Age of Kings, Imperial, Castle, {"Food": 500; "Gold": 450}, 60, Mongols, Siege Workshop units Movement Rate*1.5
+El Dorado, The Conquerors, Imperial, Castle, {"Food": 750; "Gold": 450}, 50, Mayans;Eagle Warrior, +40 Hit points
+Furor Celtica, Age of Kings, Imperial, Castle, {"Food": 750; "Gold": 450}, 50, Celts, Siege Workshop Units HP*1.5 (50% extra HP)
+Garland Wars, The Conquerors, Imperial, Castle, {"Food": 450; "Gold": 750}, 60, Aztecs, Infantry +4 attack
+Kataparuto, Age of Kings, Imperial, Castle, {"Food": 750; "Gold": 400}, 60, Japanese;Trebuchet, Trebuchets RT * 0.75 (25% faster reload time and practically 33% faster firing) and also (un)pack 4x faster
+Logistica, Age of Kings, Imperial, Castle, {"Food": 1000; "Gold": 600}, 50, Byzantines;Cataphract,Cataphract +0.5 blast radius - trample damage (5 damage) and +6 attack against infantry
+Mahouts, Age of Kings, Imperial, Castle, {"Food": 300; "Gold": 300}, 50, Persians;War Elephant, War Elephant Movement Rate * 1.3 = 0.78
+Perfusion, Age of Kings, Imperial, Castle, {"Food": 400; "Gold": 600}, 40, Goths;Barracks, Barracks working rate * 2 (unit creation time halved)
+Rocketry, Age of Kings, Imperial, Castle, {"Food": 600; "Gold": 600}, 60, Chinese;Chu Ko Nu;Scorpion, Chu Ko Nu +2 pierce damage and Scorpion +4 pierce
+Shinkichon, The Conquerors, Imperial, Castle, {"Food": 800; "Gold": 500}, 60, Koreans;Mangonel, Mangonel line +1 range
+Supremacy, The Conquerors, Imperial, Castle, {"Food": 400; "Gold": 250}, 60, Spanish;Villager, Villagers +6 attack and +40 hit points and +2/+2 armor / with loom: 80HP 9 attack 3/4 armor
+Yeomen, Age of Kings, Imperial, Castle, {"Food": 750; "Gold": 450}, 60, Britons;Foot Archer;Skirmisher;Tower, Foot archers and skirmishers +1 range +1 line of sight and Towers +2 attack
+Zealotry, Age of Kings, Imperial, Castle, {"Food": 750; "Gold": 800}, 50, Saracens;Mameluke;Camel, Mameluke and Camels +30 HP
+Elite Berserk, Age of Kings, Imperial, Castle, {"Food": 1300; "Gold": 550}, 45, Berserk, Upgrade to Elite Berserk
+Elite Cataphract, Age of Kings, Imperial, Castle, {"Food": 1600; "Gold": 800}, 50, Cataphract, Upgrade to Elite Cataphract
+Elite Chu Ko Nu, Age of Kings, Imperial, Castle, {"Food": 760; "Gold": 760}, 50, Chu Ko Nu, Upgrade to Elite Chu Ko Nu
+Elite Conquistador, The Conquerors, Imperial, Castle, {"Food": 1200; "Gold": 600}, 60, Conquistador, Upgrade to Elite Conquistador
+Elite Huskarl, Age of Kings, Imperial, Castle, {"Food": 1200; "Gold": 550}, 40, Huskarl, Upgrade to Elite Huskarl
+Elite Jaguar Warrior, The Conquerors, Imperial, Castle, {"Food": 1000; "Gold": 500}, 45, Jaguar Warrior, Upgrade to Elite Jaguar Warrior
+Elite Janissary, Age of Kings, Imperial, Castle, {"Food": 850; "Gold": 750}, 55, Janissary, Upgrade to Elite Janissary
+Elite Longbowman, Age of Kings, Imperial, Castle, {"Food": 850; "Gold": 850}, 60, Longbowman, Upgrade to Elite Longbowman
+Elite Mameluke, Age of Kings, Imperial, Castle, {"Food": 600; "Gold": 500}, 50, Mameluke, Upgrade to Elite Mameluke
+Elite Mangudai, Age of Kings, Imperial, Castle, {"Food": 1100; "Gold": 675}, 50, Mangudai, Upgrade to Elite Mangudai
+Elite Plumed Archer, The Conquerors, Imperial, Castle, {"Wood": 1000; "Food": 500}, 45, Plumed Archer, Upgrade to Elite Plumed Archer
+Elite Samurai, Age of Kings, Imperial, Castle, {"Food": 950; "Gold": 875}, 60, Samurai, Upgrade to Elite Samurai
+Elite Tarkan, The Conquerors, Imperial, Castle, {"Food": 1000; "Gold": 500}, 45, Tarkan, Upgrade to Elite Tarkan
+Elite Teutonic Knight, Age of Kings, Imperial, Castle, {"Food": 1200; "Gold": 600}, 50, Teutonic Knight, Upgrade to Elite Teutonic Knight
+Elite Throwing Axeman, Age of Kings, Imperial, Castle, {"Food": 1000; "Gold": 850}, 45, Throwing Axeman, Upgrade to Elite Throwing Axeman
+Elite War Elephant, Age of Kings, Imperial, Castle, {"Food": 1600; "Gold": 1200}, 75, War Elephant, Upgrade to Elite War Elephant
+Elite War Wagon, The Conquerors, Imperial, Castle, {"Food": 1000; "Gold": 800}, 75, War Wagon, Upgrade to Elite War Wagon
+Elite Woad Raider, Age of Kings, Imperial, Castle, {"Food": 1000; "Gold": 800}, 45, Woad Raider, Upgrade to Elite Woad Raider
