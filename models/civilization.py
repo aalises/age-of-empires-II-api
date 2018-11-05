@@ -59,7 +59,8 @@ class CivilizationModel(db.Model):
         name = cls.format_name_to_display(name)
         return cls.query.filter_by(name=name).first()
 
-    def format_name_to_display(name):
+    @classmethod
+    def format_name_to_display(cls,name):
         formatted_name = name.replace("_", " ").replace("-", " ").split()
         return " ".join([x.capitalize() for x in formatted_name])
 

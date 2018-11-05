@@ -11,7 +11,7 @@ class Structure(Resource):
             structure = StructureModel.find_by_name(_id)
 
         if structure:
-            return jsonify(structure.json()) if len(structure) == 1 else jsonify(list(map(lambda x: x.json(), structure)))
+            return jsonify(structure[0].json()) if len(structure) == 1 else jsonify(list(map(lambda x: x.json(), structure)))
         else:
             return {'message': 'Structure not found'}, 404
 
