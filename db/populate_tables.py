@@ -2,7 +2,7 @@ from numpy import genfromtxt
 from os import listdir
 from db import db
 
-from models.factory import get_model
+from api.models.factory import get_model
 
 def populate_db():
     for filename in listdir('data/'):

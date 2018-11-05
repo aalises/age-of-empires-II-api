@@ -1,7 +1,7 @@
-from db import db
+from db.db import db
 from flask import request
 from collections import OrderedDict
-from models.factory import get_model
+from api.models.factory import get_model
 
 class CivilizationModel(db.Model):
     __tablename__ = 'civilizations'
@@ -43,7 +43,8 @@ class CivilizationModel(db.Model):
                          ),
                         ('unique_tech', self.parse_array_field(self.unique_tech)
                          if not self.technology.first()
-                         else ['{}technology/{}'.format(request.url_root, self.format_name_to_query(self.technology.first().name))]
+                         else ['{}technology/{}'.format(request.url_root,
+                               self.format_name_to_query(self.technology.first().name))]
                          ),
                         ('team_bonus', self.team_bonus),
                         ('civilization_bonus', self.civilization_bonus.split(";"))
@@ -60,7 +61,7 @@ class CivilizationModel(db.Model):
         return cls.query.filter_by(name=name).first()
 
     @classmethod
-    def format_name_to_display(cls,name):
+    def format_name_to_display(cls, name):
         formatted_name = name.replace("_", " ").replace("-", " ").split()
         return " ".join([x.capitalize() for x in formatted_name])
 

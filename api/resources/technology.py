@@ -1,5 +1,5 @@
 from flask_restful import Resource
-from models.technology import TechnologyModel
+from api.models.technology import TechnologyModel
 from flask import jsonify
 
 class Technology(Resource):
@@ -17,4 +17,4 @@ class Technology(Resource):
 class TechnologyList(Resource):
     def get(self):
         return jsonify({'technologies': list(map(lambda x: x.json(),
-                TechnologyModel.query.all()))})
+                        TechnologyModel.query.all()))})

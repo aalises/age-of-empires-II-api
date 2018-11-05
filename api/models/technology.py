@@ -1,7 +1,7 @@
-from db import db
+from db.db import db
 import json
 from collections import OrderedDict
-from models.factory import get_model
+from api.models.factory import get_model
 
 
 from flask import request

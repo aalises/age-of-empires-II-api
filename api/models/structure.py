@@ -1,4 +1,4 @@
-from db import db
+from db.db import db
 import json
 from collections import OrderedDict
 
