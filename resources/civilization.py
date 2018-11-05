@@ -1,6 +1,6 @@
 from flask_restful import Resource
 from models.civilization import CivilizationModel
-
+from flask import jsonify
 
 class Civilization(Resource):
     def get(self, _id):
@@ -11,11 +11,11 @@ class Civilization(Resource):
             civilization = CivilizationModel.find_by_name(_id)
 
         if civilization:
-            return civilization.json()
+            return jsonify(civilization.json())
         return {'message': 'Civilization not found'}, 404
 
 
 class CivilizationList(Resource):
     def get(self):
-        return {'civilizations': list(map(lambda x: x.json(),
-                CivilizationModel.query.all()))}
+        return jsonify({'civilizations': list(map(lambda x: x.json(),
+                CivilizationModel.query.all()))})
