@@ -10,24 +10,34 @@ from db.populate_tables import populate_db
 from db.db import db
 
 
-app = Flask(__name__)
-app.config.update(APP_CONFIG)
+def create_app():
+        app = Flask(__name__)
+        app.config.update(APP_CONFIG)
 
-api_blueprint = Blueprint('api', __name__)
-api = Api(api_blueprint, prefix=API_PREFIX)
+        api_blueprint = Blueprint('api', __name__)
+        api = Api(api_blueprint, prefix=API_PREFIX)
 
-# Routes of our application
-api.add_resource(Civilization, '/civilization/<string:_id>')
-api.add_resource(CivilizationList, '/civilizations')
-api.add_resource(Unit, '/unit/<string:_id>')
-api.add_resource(UnitList, '/units')
-api.add_resource(Structure, '/structure/<string:_id>')
-api.add_resource(StructureList, '/structures')
-api.add_resource(Technology, '/technology/<string:_id>')
-api.add_resource(TechnologyList, '/technologies')
+        add_routes(api)
 
-app.register_blueprint(api_blueprint)
-db.init_app(app)
+        app.register_blueprint(api_blueprint)
+        db.init_app(app)
+
+        return app
+
+def add_routes(api):
+        # Routes of our application
+        api.add_resource(Civilization, '/civilization/<string:_id>')
+        api.add_resource(CivilizationList, '/civilizations')
+        api.add_resource(Unit, '/unit/<string:_id>')
+        api.add_resource(UnitList, '/units')
+        api.add_resource(Structure, '/structure/<string:_id>')
+        api.add_resource(StructureList, '/structures')
+        api.add_resource(Technology, '/technology/<string:_id>')
+        api.add_resource(TechnologyList, '/technologies')
+
+
+app = create_app()
+
 
 @app.before_first_request
 def create_tables():
