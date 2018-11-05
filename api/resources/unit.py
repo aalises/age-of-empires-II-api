@@ -1,5 +1,5 @@
 from flask_restful import Resource
-from models.unit import UnitModel
+from api.models.unit import UnitModel
 from flask import jsonify
 
 class Unit(Resource):
@@ -17,4 +17,4 @@ class Unit(Resource):
 class UnitList(Resource):
     def get(self):
         return jsonify({'units': list(map(lambda x: x.json(),
-                UnitModel.query.all()))})
+                        UnitModel.query.all()))})

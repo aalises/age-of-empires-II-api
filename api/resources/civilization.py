@@ -1,5 +1,5 @@
 from flask_restful import Resource
-from models.civilization import CivilizationModel
+from api.models.civilization import CivilizationModel
 from flask import jsonify
 
 class Civilization(Resource):
@@ -18,4 +18,4 @@ class Civilization(Resource):
 class CivilizationList(Resource):
     def get(self):
         return jsonify({'civilizations': list(map(lambda x: x.json(),
-                CivilizationModel.query.all()))})
+                        CivilizationModel.query.all()))})

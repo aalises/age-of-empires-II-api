@@ -2,14 +2,14 @@ from flask import Flask, redirect
 from flask_restful import Api
 from sqlalchemy_utils import database_exists
 
-from resources.civilization import Civilization, CivilizationList
-from resources.unit import Unit, UnitList
-from resources.structure import Structure, StructureList
-from resources.technology import Technology, TechnologyList
-from populate_tables import populate_db
-from db import db
+from api.resources.civilization import Civilization, CivilizationList
+from api.resources.unit import Unit, UnitList
+from api.resources.structure import Structure, StructureList
+from api.resources.technology import Technology, TechnologyList
+from db.populate_tables import populate_db
+from db.db import db
 
-DB_NAME = 'sqlite:///data.db'
+DB_NAME = 'sqlite:///db/data.db'
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = DB_NAME

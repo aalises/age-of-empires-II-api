@@ -1,5 +1,5 @@
 from flask_restful import Resource
-from models.structure import StructureModel
+from api.models.structure import StructureModel
 from flask import jsonify
 
 class Structure(Resource):
@@ -19,4 +19,4 @@ class Structure(Resource):
 class StructureList(Resource):
     def get(self):
         return jsonify({'structures': list(map(lambda x: x.json(),
-                StructureModel.query.all()))})
+                        StructureModel.query.all()))})
