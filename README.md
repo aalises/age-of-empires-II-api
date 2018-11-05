@@ -9,7 +9,7 @@ docker build -t aoe2api:v1 .
 docker run --name aoe2api -p 8080:80 -d aoe2api:v1 
 ```
 
-And navigate to `localhost:8080`
+And navigate to `localhost:8080/api/v1`
 
 ## Models
 ---
@@ -99,7 +99,7 @@ Gets all civilizations in a JSON list
 - ### GET /civilization/<id: string>
 Gets a given civilization with a string representing an ID (integer e.g 1, 34), or the name (britons,teutons). The name instead of spaces can be parsed with underscores or hyphens.
 
-Example call `/civilization/bizantines`
+Example call `/api/v1/civilization/bizantines`
 
 ```
 {
@@ -130,7 +130,7 @@ Gets all units in a JSON list
 - ### GET /unit/<id: string>
 Gets a given unit with a string representing an ID (integer e.g 1, 34), or the name longbowman, archer). The name instead of spaces can be parsed with underscores or hyphens (unit/teutonic_knight or unit/turtle-ship, for example)
 
-Example call `/unit/berserk`
+Example call `/api/v1/unit/berserk`
 
 ```
 {
@@ -164,7 +164,7 @@ Gets all structures in a JSON list
 - ### GET /structure/<id: string>
 Gets a given structure with a string representing an ID (integer e.g 1, 34), or the name (mill, market). The name instead of spaces can be parsed with underscores or hyphens (structure/siege_workshop, for example)
 
-Example call `/structure/29`
+Example call `/api/v1/structure/29`
 ```
  {
     "id": 29, 
@@ -190,7 +190,7 @@ Gets all technologies in a JSON list
 - ### GET /technology/<id: string>
 Gets a given technology with a string representing an ID (integer e.g 1, 34), or the name (masonry, architecture). The name instead of spaces can be parsed with underscores or hyphens (technology/garland_wars, for example)
 
-Example call `/technology/gold_mining`
+Example call `/api/v1/technology/gold_mining`
 ```
 {
   "id": 58, 
