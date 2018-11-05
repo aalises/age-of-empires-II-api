@@ -12,26 +12,26 @@ class TechnologyModel(db.Model):
 
     _id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(80), nullable=False)
+    description = db.Column(db.String(80))
     expansion = db.Column(db.String(80))
     age = db.Column(db.String(80))
     develops_in = db.Column(db.String(80), db.ForeignKey("structures.name"))
     cost = db.Column(db.String(80))
     build_time = db.Column(db.Integer)
     applies_to = db.Column(db.String(80), nullable=True)
-    description = db.Column(db.String(80))
 
     structure = db.relationship('StructureModel', lazy='dynamic', uselist=True)
 
-    def __init__(self, name, expansion, age, develops_in, cost, build_time,
-                 applies_to, description):
+    def __init__(self, name, description, expansion, age, develops_in, cost, build_time,
+                 applies_to):
         self.name = name
+        self.description = description
         self.expansion = expansion
         self.age = age
         self.develops_in = develops_in
         self.cost = cost
         self.build_time = int(build_time) if build_time else None
         self.applies_to = applies_to
-        self.description = description
 
     def __repr__(self):
         return "<Technology: {}>".format(self.name)
@@ -39,6 +39,7 @@ class TechnologyModel(db.Model):
     def json(self):
         technology = [('id', self._id),
                       ('name', self.name),
+                      ('description', self.description),
                       ('expansion', self.expansion),
                       ('age', self.age),
                       ('develops_in',
@@ -47,7 +48,7 @@ class TechnologyModel(db.Model):
                       ('cost', json.loads(self.cost.replace(";", ","))),
                       ('build_time', self.build_time),
                       ('applies_to', self.map_to_resource_url() if self.applies_to else None),
-                      ('description', self.description)]
+                      ]
         return OrderedDict([(k, v) for k, v in technology if v])
 
     @classmethod
