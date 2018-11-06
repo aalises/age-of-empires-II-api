@@ -1,4 +1,6 @@
 # Age of Empires 2 API
+[![Build Status](https://travis-ci.com/aalises/age-of-empires-II-api.svg?branch=master)](https://travis-ci.com/aalises/age-of-empires-II-api)
+[![Coverage Status](https://coveralls.io/repos/github/aalises/age-of-empires-II-api/badge.svg?branch=master)](https://coveralls.io/github/aalises/age-of-empires-II-api?branch=master)
 
 - `WIP. TODO:` Docs, Deployment
 
@@ -11,12 +13,17 @@ docker run --name aoe2api -p 8080:80 -d aoe2api:v1
 
 And navigate to `localhost:8080/api/v1`
 
-To test using `Pytest`, just run
+To test using `pytest`, just run
 
 ```
 python -m pytest
 ```
 
+For testing the coverage using `coverage` run:
+
+```
+coverage run -m pytest
+```
 ## Models
 ---
 
