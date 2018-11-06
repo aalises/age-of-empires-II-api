@@ -1,3 +1,6 @@
 __pycache__
 venv
 .vscode
+.coverage
+htmlcov
+.pytest_cache
