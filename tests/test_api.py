@@ -1,9 +1,29 @@
 import pytest
+from api.models.factory import get_model
 
 def getEntries(filename):
     with open(filename) as f:
         return sum(1 for line in f) - 1  # Discard header
 
+def test_create_instances(client):
+        instance_civ = get_model("civilizations", ("ExampleCiv", "Age of Kings", "Archers",
+                                                   "Sample Unit", "Sample Tech", "BonusTeam",
+                                                   "CivBonus"))
+
+        instance_unit = get_model("units", ("SampleUnit", "description", "expansion", "age",
+                                            "created_in", "{'cost': 'null'}", 34, 0.4, 0.3, 0.94, 3, 1000,
+                                            "1-8", 10, "3/4", None, None, None, None, None))
+
+        instance_strct = get_model("structures", ("AmazingStructure", "expansion", "age",
+                                   "{'cost':'null'}", 30, 1000, 5, "3/4", "1-8", None, None, None))
+
+        instance_tech = get_model("technologies", ("GroundbreakingTech", "description", "expansion", "age",
+                                  "develops_in", "{'cost': 'null'}", 30, "Someone"))
+
+        assert instance_civ is not None and repr(instance_civ) == "<Civilization: ExampleCiv>"
+        assert instance_unit is not None and repr(instance_unit) == "<Unit: SampleUnit>"
+        assert instance_strct is not None and repr(instance_strct) == "<Structure: AmazingStructure>"
+        assert instance_tech is not None and repr(instance_tech) == "<Technology: GroundbreakingTech>"
 
 def test_all_data_returned(client):
     """Check that all the data is parsed correctly from the database"""
