@@ -1,4 +1,4 @@
-from db.db import db
+from db import db
 import json
 from collections import OrderedDict
 from flask import request

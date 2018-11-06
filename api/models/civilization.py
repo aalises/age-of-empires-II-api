@@ -1,4 +1,4 @@
-from db.db import db
+from db import db
 from flask import request
 from collections import OrderedDict
 from api.models.factory import get_model

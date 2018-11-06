@@ -1,4 +1,4 @@
-from db.db import db
+from db import db
 import json
 from collections import OrderedDict
 from api.models.factory import get_model
