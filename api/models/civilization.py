@@ -78,6 +78,4 @@ class CivilizationModel(db.Model):
                     out.append('{}unit/{}'.format(request.url_root, self.format_name_to_query(unit.name)))
                 elif technology:
                     out.append('{}technology/{}'.format(request.url_root, self.format_name_to_query(technology.name)))
-                else:
-                    out.append(item)
             return out

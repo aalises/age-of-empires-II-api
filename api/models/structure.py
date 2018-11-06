@@ -67,7 +67,3 @@ class StructureModel(db.Model):
     def format_name_to_display(cls, name):
         formatted_name = name.replace("_", " ").replace("-", " ").split()
         return " ".join([x.capitalize() for x in formatted_name])
-
-    def format_name_to_query(self, name):
-        formatted_name = name.replace(" ", "_").replace(" ", "_").split()
-        return "_".join([x.lower() for x in formatted_name])
