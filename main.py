@@ -3,7 +3,7 @@ from sqlalchemy_utils import database_exists
 from config import APP_CONFIG, API_PREFIX, DB_NAME
 from api import create_app
 from db.populate_tables import populate_db
-from db.db import db
+from db import db
 
 app = create_app(APP_CONFIG)
 

@@ -5,7 +5,7 @@ from api.resources.unit import Unit, UnitList
 from api.resources.structure import Structure, StructureList
 from api.resources.technology import Technology, TechnologyList
 from config import API_PREFIX
-from db.db import db
+from db import db
 
 def create_app(cfg):
         app = Flask(__name__)
