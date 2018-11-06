@@ -3,3 +3,4 @@ flask_restful
 sqlalchemy_utils
 flask_sqlalchemy
 numpy
+coverage
