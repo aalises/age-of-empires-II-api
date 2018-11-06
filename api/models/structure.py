@@ -56,7 +56,7 @@ class StructureModel(db.Model):
 
     @classmethod
     def find_by_id(cls, id):
-        return cls.query.filter_by(_id=id).first()
+        return [cls.query.filter_by(_id=id).first()]
 
     @classmethod
     def find_by_name(cls, name):
@@ -64,7 +64,7 @@ class StructureModel(db.Model):
         return cls.query.filter_by(name=name).all()
 
     @classmethod
-    def format_name_to_display(cls,name):
+    def format_name_to_display(cls, name):
         formatted_name = name.replace("_", " ").replace("-", " ").split()
         return " ".join([x.capitalize() for x in formatted_name])
 
