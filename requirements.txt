@@ -4,3 +4,4 @@ sqlalchemy_utils
 flask_sqlalchemy
 numpy
 python-coveralls
+coveralls
