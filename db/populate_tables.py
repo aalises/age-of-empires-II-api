@@ -1,6 +1,6 @@
 from numpy import genfromtxt
 from os import listdir
-from db import db
+from db.db import db
 
 from api.models.factory import get_model
 

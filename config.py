@@ -1,4 +1,6 @@
-DB_NAME = 'sqlite:///db/data.db'
+import os
+
+DB_NAME = 'sqlite:///{}/db/data.db'.format(os.path.abspath("."))
 API_PREFIX = "/api/v1"
 
 APP_CONFIG = {
