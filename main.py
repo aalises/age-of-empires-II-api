@@ -10,9 +10,9 @@ from db.populate_tables import populate_db
 from db.db import db
 
 
-def create_app():
+def create_app(cfg):
         app = Flask(__name__)
-        app.config.update(APP_CONFIG)
+        app.config.update(cfg)
 
         api_blueprint = Blueprint('api', __name__)
         api = Api(api_blueprint, prefix=API_PREFIX)
@@ -36,7 +36,7 @@ def add_routes(api):
         api.add_resource(TechnologyList, '/technologies')
 
 
-app = create_app()
+app = create_app(APP_CONFIG)
 
 
 @app.before_first_request
