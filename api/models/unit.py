@@ -8,7 +8,7 @@ class UnitModel(db.Model):
 
     _id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(80), nullable=False)
-    description = db.Column(db.String(200), nullable=False)
+    description = db.Column(db.String(200), nullable=True)
     expansion = db.Column(db.String(80), nullable=False)
     age = db.Column(db.String(80), nullable=False)
     created_in = db.Column(db.String(80), db.ForeignKey("structures.name"))

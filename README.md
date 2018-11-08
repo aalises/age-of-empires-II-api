@@ -2,7 +2,7 @@
 [![Build Status](https://travis-ci.com/aalises/age-of-empires-II-api.svg?branch=master)](https://travis-ci.com/aalises/age-of-empires-II-api)
 [![Coverage Status](https://coveralls.io/repos/github/aalises/age-of-empires-II-api/badge.svg?branch=master)](https://coveralls.io/github/aalises/age-of-empires-II-api?branch=master)
 
-- `WIP. TODO:` Docs, Deployment
+- `WIP. TODO:` Deployment
 
 Age of Empires II API created with `Flask + FlaskRESTful` using SQLite as a DB and `SQLAlchemy` as ORM, which allows you to retrieve information about the civilizations, technologies, units and structures. To run you can use Docker, for example:
 
@@ -11,7 +11,9 @@ docker build -t aoe2api:v1 .
 docker run --name aoe2api -p 8080:80 -d aoe2api:v1 
 ```
 
-And navigate to `localhost:8080/api/v1`
+The routes are: 
+- Main API route: `localhost:8080/api/v1`
+- Docs Route: `localhost:8080/docs`
 
 To test using `pytest`, just run
 

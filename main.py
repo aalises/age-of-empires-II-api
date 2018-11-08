@@ -14,9 +14,12 @@ def create_tables():
         populate_db()
 
 @app.route(API_PREFIX)
-@app.route("/")
 def redirect_to_civilizations():
     return redirect("{}/civilizations".format(API_PREFIX), code=302)
+
+@app.route("/")
+def redirect_to_docs():
+    return redirect("docs/", code=302)
 
 
 if __name__ == "__main__":

@@ -4,8 +4,9 @@ from api.resources.civilization import Civilization, CivilizationList
 from api.resources.unit import Unit, UnitList
 from api.resources.structure import Structure, StructureList
 from api.resources.technology import Technology, TechnologyList
-from config import API_PREFIX
+from config import API_PREFIX, SWAGGER_CONFIG
 from db import db
+from flasgger import Swagger
 
 def create_app(cfg):
         app = Flask(__name__)
@@ -15,7 +16,7 @@ def create_app(cfg):
         api = Api(api_blueprint, prefix=API_PREFIX)
 
         add_routes(api)
-
+        add_docs(app, SWAGGER_CONFIG, '../data/apispecs.yaml')
         app.register_blueprint(api_blueprint)
         db.init_app(app)
 
@@ -31,3 +32,6 @@ def add_routes(api):
         api.add_resource(StructureList, '/structures')
         api.add_resource(Technology, '/technology/<string:_id>')
         api.add_resource(TechnologyList, '/technologies')
+
+def add_docs(app, cfg, template):
+        Swagger(app, config=cfg, template_file=template)
