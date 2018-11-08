@@ -17,8 +17,8 @@ def test_create_instances(client):
         instance_strct = get_model("structures", ("AmazingStructure", "expansion", "age",
                                    "{'cost':'null'}", 30, 1000, 5, "3/4", "1-8", None, None, None))
 
-        instance_tech = get_model("technologies", ("GroundbreakingTech", "description", "expansion", "age",
-                                  "develops_in", "{'cost': 'null'}", 30, "Someone"))
+        instance_tech = get_model("technologies", ("GroundbreakingTech", "expansion", "age", "develops_in",
+                                  "{'cost': 'null'}", 30, "Someone", "description"))
 
         assert instance_civ is not None and repr(instance_civ) == "<Civilization: ExampleCiv>"
         assert instance_unit is not None and repr(instance_unit) == "<Unit: SampleUnit>"

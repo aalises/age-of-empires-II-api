@@ -22,8 +22,7 @@ class TechnologyModel(db.Model):
 
     structure = db.relationship('StructureModel', lazy='dynamic', uselist=True)
 
-    def __init__(self, name, description, expansion, age, develops_in, cost, build_time,
-                 applies_to):
+    def __init__(self, name, expansion, age, develops_in, cost, build_time, applies_to, description):
         self.name = name
         self.description = description
         self.expansion = expansion

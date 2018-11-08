@@ -1,11 +1,11 @@
 from numpy import genfromtxt
-from os import listdir
+import os
 from db import db
 
 from api.models.factory import get_model
 
 def populate_db():
-    for filename in listdir('../data/'):
+    for filename in os.listdir(os.path.abspath('./data')):
         if not filename.endswith('.csv'):
             continue
 

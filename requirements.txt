@@ -6,3 +6,4 @@ numpy
 python-coveralls
 coverage
 flasgger
+pytest
