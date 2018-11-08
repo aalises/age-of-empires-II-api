@@ -8,12 +8,12 @@ class CivilizationModel(db.Model):
 
     _id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(80), nullable=False, unique=False)
-    expansion = db.Column(db.String(80))
-    army_type = db.Column(db.String(80))
-    unique_unit = db.Column(db.String(80), db.ForeignKey('units.name'))
-    unique_tech = db.Column(db.String(80), db.ForeignKey('technologies.name'))
-    team_bonus = db.Column(db.String(200))
-    civilization_bonus = db.Column(db.Text)
+    expansion = db.Column(db.String(80), nullable=False)
+    army_type = db.Column(db.String(80), nullable=False)
+    unique_unit = db.Column(db.String(80), db.ForeignKey('units.name'), nullable=False)
+    unique_tech = db.Column(db.String(80), db.ForeignKey('technologies.name'), nullable=False)
+    team_bonus = db.Column(db.String(200), nullable=False)
+    civilization_bonus = db.Column(db.Text, nullable=False)
 
     unit = db.relationship('UnitModel', lazy='dynamic', uselist=True)
     technology = db.relationship('TechnologyModel', lazy='dynamic', uselist=True)

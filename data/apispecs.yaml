@@ -129,6 +129,8 @@ paths:
       responses: 
           "200":
             description: "Structure Response"
+            schema:
+              $ref: '#/definitions/Structure'
           "404":
             description: "Structure not found"
             schema:
@@ -168,6 +170,8 @@ paths:
       responses: 
           "200":
             description: "Technology Response"
+            schema:
+              $ref: '#/definitions/Technology'
           "404":
             description: "Technology not found"
             schema:
@@ -246,7 +250,7 @@ definitions:
         description: Short description of the unit
       expansion: 
         type: string
-        description: Short description of the unit
+        description: Expansion in which the unit was introduced
       age:
         type: string
         description: Age in which the unit can be produced
@@ -255,6 +259,7 @@ definitions:
         description: Structure the unit is created in
       cost:
         type: object
+        $ref: '#/definitions/Cost'
         description: Cost of the unit (JSON Object)
       build_time:
         type: integer
@@ -309,6 +314,62 @@ definitions:
         items:
           $ref: '#/definitions/Unit'
   Structure:
+    required:
+      - id
+      - name
+      - expansion
+      - age
+      - cost
+      - build_time
+      - hit_points
+      - line_of_sight
+      - armor
+    properties:
+      id:
+        type: integer
+        description: Unique ID representing the structure
+      name:
+        type: string
+        description: Name of the structure
+      description: 
+        type: string
+        description: Short description of the structure
+      expansion: 
+          type: string
+          description: Expansion the structure was introduced
+      age:
+        type: string
+        description: Age in which the structure can be built
+      cost:
+        type: object
+        $ref: '#/definitions/Cost' 
+        description: Cost of the structure (JSON Object)
+      build_time:
+          type: integer
+          description: Build time in seconds
+      hit_points:
+        type: integer
+        description: Hit points (health) of the structure
+      line_of_sight:
+        type: integer
+        description: Line of sight of the structure
+      armor:
+        type: string
+        description: Armor of the structure formatted as 'melee/pierce'
+      range:
+        type: string
+        description: Range of the structure. There can be a minimum and maximum range in the format (min-max)
+      reload_time:
+        type: number
+        description: Reload time of the structure
+      attack:
+        type: integer
+        description: Attack points of the structure    
+      special:
+        type: array
+        items:
+          type: string
+        description: Other information about the structure and the units it can garrison
   StructureList:
     properties:
         structures:
@@ -316,6 +377,45 @@ definitions:
           items:
             $ref: '#/definitions/Structure'
   Technology:
+    required:
+      - id
+      - name
+      - expansion
+      - age
+      - develops_in
+      - cost
+      - build_time
+    properties:
+      id:
+        type: integer
+        description: Unique ID representing the technology
+      name:
+        type: string
+        description: Name of the technology
+      description: 
+        type: string
+        description: Short description of the technology
+      expansion: 
+          type: string
+          description: Expansion the technology was introduced
+      age:
+        type: string
+        description: Age in which the technology can be developed
+      develops_in:
+        type: string
+        description: Structure the technology is developed in
+      cost:
+        type: object
+        $ref: '#/definitions/Cost' 
+        description: Cost of the technology (JSON Object)
+      build_time:
+          type: integer
+          description: Build time in seconds
+      applies_to:
+        type: array
+        items:
+          type: string
+        description: Units or civilization the technology apply to
   TechnologyList: 
     properties:
         technologies:
@@ -328,5 +428,21 @@ definitions:
     properties:
       message:
         type: string
+        description: Description of the error message
+  Cost:
+    properties:
+      Wood:
+        type: integer
+        description: How much wood it costs
+      Food:
+        type: integer
+        description: How much food it costs
+      Stone:
+        type: integer
+        description: How much stone it costs
+      Gold:
+        type: integer
+        description: How much gold it costs      
+
           
 swagger: '3.0'

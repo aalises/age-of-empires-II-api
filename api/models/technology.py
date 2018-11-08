@@ -12,12 +12,12 @@ class TechnologyModel(db.Model):
 
     _id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(80), nullable=False)
-    description = db.Column(db.String(80))
-    expansion = db.Column(db.String(80))
-    age = db.Column(db.String(80))
-    develops_in = db.Column(db.String(80), db.ForeignKey("structures.name"))
-    cost = db.Column(db.String(80))
-    build_time = db.Column(db.Integer)
+    description = db.Column(db.String(80), nullable=True)
+    expansion = db.Column(db.String(80), nullable=False)
+    age = db.Column(db.String(80), nullable=False)
+    develops_in = db.Column(db.String(80), db.ForeignKey("structures.name"), nullable=False)
+    cost = db.Column(db.String(80), nullable=False)
+    build_time = db.Column(db.Integer, nullable=False)
     applies_to = db.Column(db.String(80), nullable=True)
 
     structure = db.relationship('StructureModel', lazy='dynamic', uselist=True)
