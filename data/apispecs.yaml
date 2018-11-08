@@ -88,6 +88,8 @@ paths:
       responses: 
           "200":
             description: "Unit Response"
+            schema:
+              $ref: '#/definitions/Unit'
           "404":
             description: "Unit not found"
             schema:
@@ -178,6 +180,12 @@ definitions:
     required:
       - name
       - id
+      - expansion
+      - army_type
+      - unique_unit
+      - unique_tech
+      - team_bonus
+      - civilization_bonus
     properties:
       id:
         type: integer
@@ -212,12 +220,94 @@ definitions:
         items:
           $ref: '#/definitions/Civilization'
   Unit:
+    required:
+      - id
+      - name
+      - expansion
+      - age
+      - created_in
+      - cost
+      - build_time
+      - reload_time
+      - movement_rate
+      - line_of_sight
+      - hit_points
+      - attack
+      - armor
+    properties:  
+      id:
+        type: integer
+        description: Unique ID representing the unit
+      name:
+        type: string
+        description: Name of the unit
+      description: 
+        type: string
+        description: Short description of the unit
+      expansion: 
+        type: string
+        description: Short description of the unit
+      age:
+        type: string
+        description: Age in which the unit can be produced
+      created_in:
+        type: string
+        description: Structure the unit is created in
+      cost:
+        type: object
+        description: Cost of the unit (JSON Object)
+      build_time:
+        type: integer
+        description: Build time in seconds
+      reload_time:
+        type: number
+        description: Reload time
+      attack_delay:
+        type: number
+        description: Attack delay when you give the order to attack
+      movement_rate:
+        type: number
+        description: Movement Rate
+      line_of_sight:
+        type: integer
+        description:  Line of sight of the unit
+      hit_points:
+        type: integer
+        description: Hit points (health) of the unit
+      range:
+        type: string
+        description: Range of the unit. There can be a minimum and maximum range in the format (min-max)
+      attack:
+        type: integer
+        description: Attack of the unit
+      armor:
+        type: string
+        description: Armor of the unit formated as 'melee/pierce'
+      attack_bonus:
+        type: array
+        items:
+          type: string
+        description: Attack bonuses of the unit
+      armor_bonus:
+        type: array
+        items:
+          type: string
+        description: Armor bonuses of the unit
+      search_radius:
+        type: integer
+        description: Search Radius of the unit
+      accuracy:
+        type: string
+        description: Attack accuracy (as %) of the unit
+      blast_radius:
+        type: number
+        description: Attack blast radius
   UnitList:
     properties:
-        units:
-          type: array
-          items:
-            $ref: '#/definitions/Unit'
+      units:
+        type: array
+        items:
+          $ref: '#/definitions/Unit'
   Structure:
   StructureList:
     properties:
