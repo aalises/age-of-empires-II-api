@@ -5,3 +5,4 @@ flask_sqlalchemy
 numpy
 python-coveralls
 coverage
+flasgger
