@@ -1,0 +1,161 @@
+basePath: "/api/v1"
+schemes:
+  - http
+info:
+  description: "Simple API to retrieve resources related to Age of Empires II"
+  title: "Age Of Empires II API"
+  version: 1.0.0
+  license: 
+      name: "License: BSD-3-Clause"
+      url: "https://github.com/aalises/age-of-empires-II-api/blob/master/LICENSE"
+externalDocs:
+  description: "Project repository"
+  url: "https://github.com/aalises/age-of-empires-II-api"  
+produces: 
+    - "application/json"
+paths:
+  "/civilizations":
+    get:
+      summary: Gets a list of all the civilizations
+      tags: 
+        - resources
+      produces:
+        - application/json  
+      description: Gets a list of all the civilizations in AOE2
+      responses: 
+          "200":
+            description: "Civilizations Response"
+          default:
+            description: "Unexpected Error"
+  "/civilization/{id}":
+    get:
+      summary: Gets a given civilization by ID or name
+      tags: 
+        - resources
+      produces:
+        - application/json
+      description: "Gets a given civilization by ID (Integer) or name (String with spaces replaced with hyphens/underscores)"
+      operationId: "Find civilization by id"
+      parameters: 
+          - 
+            name: "id"
+            in: "path"
+            description: "ID or name of the civilization to fetch"
+            required: true
+            type: "string"
+      responses: 
+          "200":
+            description: "Civilization Response"
+          "404":
+            description: "Civilization not found"
+          default:
+            description: "Unexpected Error"
+  "/units":
+    get:
+      summary: Gets a list of all the units
+      tags: 
+        - resources
+      produces:
+        - application/json
+      description: Gets a list of all the units in AOE2
+      responses: 
+          "200":
+            description: "Units Response"
+          default:
+            description: "Unexpected Error"
+  "/unit/{id}":
+    get:
+      summary: Gets a given unit by ID or name
+      tags: 
+        - resources
+      produces:
+        - application/json
+      description: "Gets a given unit by ID (Integer) or name (String with spaces replaced with hyphens/underscores)"
+      operationId: "Find unit by id"
+      parameters: 
+          - 
+            name: "id"
+            in: "path"
+            description: "ID or name of the unit to fetch"
+            required: true
+            type: "string"
+      responses: 
+          "200":
+            description: "Unit Response"
+          "404":
+            description: "Unit not found"
+          default:
+            description: "Unexpected Error"      
+  "/structures":
+    get:
+      summary: Gets a list of all the structures
+      tags: 
+        - resources
+      produces:
+        - application/json
+      description: Gets a list of all the structures in AOE2
+      responses: 
+          "200":
+            description: "Structures Response"
+          default:
+            description: "Unexpected Error"
+  "/structure/{id}":
+    get:
+      summary: Gets a given structure by ID or name
+      tags: 
+        - resources
+      produces:
+        - application/json
+      description: "Gets a given structure by ID (Integer) or name (String with spaces replaced with hyphens/underscores)"
+      operationId: "Find structure by id"
+      parameters: 
+          - 
+            name: "id"
+            in: "path"
+            description: "ID or name of the structure to fetch"
+            required: true
+            type: "string"
+      responses: 
+          "200":
+            description: "Structure Response"
+          "404":
+            description: "Structure not found"
+          default:
+            description: "Unexpected Error"
+  "/technologies":
+    get:
+      summary: Gets a list of all the technologies
+      tags: 
+        - resources
+      produces:
+        - application/json
+      description: Gets a list of all the technologies in AOE2
+      responses: 
+          "200":
+            description: "Technologies Response"
+          default:
+            description: "Unexpected Error"
+  "/technology/{id}":
+    get:
+      summary: Gets a given technology by ID or name
+      tags: 
+        - resources
+      produces:
+        - application/json
+      description: "Gets a given technology by ID (Integer) or name (String with spaces replaced with hyphens/underscores)"
+      operationId: "Find technology by id"
+      parameters: 
+          - 
+            name: "id"
+            in: "path"
+            description: "ID or name of the technology to fetch"
+            required: true
+            type: "string"
+      responses: 
+          "200":
+            description: "Technology Response"
+          "404":
+            description: "Technology not found"
+          default:
+            description: "Unexpected Error"
+swagger: '3.0'

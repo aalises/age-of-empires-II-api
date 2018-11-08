@@ -16,7 +16,7 @@ def create_app(cfg):
         api = Api(api_blueprint, prefix=API_PREFIX)
 
         add_routes(api)
-        add_docs(app, SWAGGER_CONFIG)
+        add_docs(app, SWAGGER_CONFIG, '../data/apispecs.yaml')
         app.register_blueprint(api_blueprint)
         db.init_app(app)
 
@@ -33,5 +33,5 @@ def add_routes(api):
         api.add_resource(Technology, '/technology/<string:_id>')
         api.add_resource(TechnologyList, '/technologies')
 
-def add_docs(app, cfg):
-        Swagger(app, config=cfg)
+def add_docs(app, cfg, template):
+        Swagger(app, config=cfg, template_file=template)
