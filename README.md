@@ -4,7 +4,14 @@
 
 - `WIP. TODO:` Deployment
 
-Age of Empires II API created with `Flask + FlaskRESTful` using SQLite as a DB and `SQLAlchemy` as ORM, which allows you to retrieve information about the civilizations, technologies, units and structures. To run you can use Docker, for example:
+Age of Empires II API created with:
+ - `Flask + FlaskRESTful` 
+ - `SQLite` (DB)
+ - `SQLAlchemy` (ORM)
+ - `Flasgger` (Swagger Docs)
+ - `Pytest + Coverage` (Tests)
+
+,which allows you to retrieve information about the civilizations, technologies, units and structures. To run you can use `Docker`, for example:
 
 ```
 docker build -t aoe2api:v1 .
