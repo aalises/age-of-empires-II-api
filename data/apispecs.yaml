@@ -12,7 +12,7 @@ externalDocs:
   description: "Project repository"
   url: "https://github.com/aalises/age-of-empires-II-api"  
 produces: 
-    - "application/json"
+    - "application/json"    
 paths:
   "/civilizations":
     get:
@@ -25,6 +25,8 @@ paths:
       responses: 
           "200":
             description: "Civilizations Response"
+            schema:
+              $ref: '#/definitions/CivilizationList'
           default:
             description: "Unexpected Error"
   "/civilization/{id}":
@@ -36,9 +38,8 @@ paths:
         - application/json
       description: "Gets a given civilization by ID (Integer) or name (String with spaces replaced with hyphens/underscores)"
       operationId: "Find civilization by id"
-      parameters: 
-          - 
-            name: "id"
+      parameters:  
+          - name: "id"
             in: "path"
             description: "ID or name of the civilization to fetch"
             required: true
@@ -46,8 +47,12 @@ paths:
       responses: 
           "200":
             description: "Civilization Response"
+            schema:
+              $ref: '#/definitions/Civilization'
           "404":
             description: "Civilization not found"
+            schema:
+              $ref: '#/definitions/NotFoundError'
           default:
             description: "Unexpected Error"
   "/units":
@@ -61,6 +66,8 @@ paths:
       responses: 
           "200":
             description: "Units Response"
+            schema:
+              $ref: '#/definitions/UnitList'
           default:
             description: "Unexpected Error"
   "/unit/{id}":
@@ -73,8 +80,7 @@ paths:
       description: "Gets a given unit by ID (Integer) or name (String with spaces replaced with hyphens/underscores)"
       operationId: "Find unit by id"
       parameters: 
-          - 
-            name: "id"
+          - name: "id"
             in: "path"
             description: "ID or name of the unit to fetch"
             required: true
@@ -84,6 +90,8 @@ paths:
             description: "Unit Response"
           "404":
             description: "Unit not found"
+            schema:
+              $ref: '#/definitions/NotFoundError'
           default:
             description: "Unexpected Error"      
   "/structures":
@@ -97,6 +105,8 @@ paths:
       responses: 
           "200":
             description: "Structures Response"
+            schema:
+              $ref: '#/definitions/StructureList'
           default:
             description: "Unexpected Error"
   "/structure/{id}":
@@ -108,9 +118,8 @@ paths:
         - application/json
       description: "Gets a given structure by ID (Integer) or name (String with spaces replaced with hyphens/underscores)"
       operationId: "Find structure by id"
-      parameters: 
-          - 
-            name: "id"
+      parameters:  
+          - name: "id"
             in: "path"
             description: "ID or name of the structure to fetch"
             required: true
@@ -120,6 +129,8 @@ paths:
             description: "Structure Response"
           "404":
             description: "Structure not found"
+            schema:
+              $ref: '#/definitions/NotFoundError'
           default:
             description: "Unexpected Error"
   "/technologies":
@@ -133,6 +144,8 @@ paths:
       responses: 
           "200":
             description: "Technologies Response"
+            schema:
+              $ref: '#/definitions/TechnologyList'
           default:
             description: "Unexpected Error"
   "/technology/{id}":
@@ -145,8 +158,7 @@ paths:
       description: "Gets a given technology by ID (Integer) or name (String with spaces replaced with hyphens/underscores)"
       operationId: "Find technology by id"
       parameters: 
-          - 
-            name: "id"
+          - name: "id"
             in: "path"
             description: "ID or name of the technology to fetch"
             required: true
@@ -156,6 +168,75 @@ paths:
             description: "Technology Response"
           "404":
             description: "Technology not found"
+            schema:
+              $ref: '#/definitions/NotFoundError'
           default:
             description: "Unexpected Error"
+
+definitions:
+  Civilization:
+    required:
+      - name
+      - id
+    properties:
+      id:
+        type: integer
+        description: Unique ID representing the civilization
+      name:
+        type: string
+        description: Name of the civilization
+      expansion:
+        type: string
+        description: Expansion the civilization was introduced
+      army_type:
+        type: string
+        description: Predominant army type of the civilization (e.g Archers, or Infantry)
+      unique_unit:
+        type: string
+        description: Unique unit of the civilization
+      unique_tech:
+        type: string
+        description: Unique technology of the civilization
+      team_bonus:
+        type: string
+        description: Team bonuses of the civilization
+      civilization_bonus:
+        type: array
+        items:
+          type: string
+        description: Bonuses of the civilization  
+  CivilizationList:
+    properties:
+      civilizations:
+        type: array
+        items:
+          $ref: '#/definitions/Civilization'
+  Unit:
+  UnitList:
+    properties:
+        units:
+          type: array
+          items:
+            $ref: '#/definitions/Unit'
+  Structure:
+  StructureList:
+    properties:
+        structures:
+          type: array
+          items:
+            $ref: '#/definitions/Structure'
+  Technology:
+  TechnologyList: 
+    properties:
+        technologies:
+          type: array
+          items:
+            $ref: '#/definitions/Technology'             
+  NotFoundError:
+    required:
+      - message
+    properties:
+      message:
+        type: string
+          
 swagger: '3.0'
