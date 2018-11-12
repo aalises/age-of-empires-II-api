@@ -115,6 +115,7 @@ Parameters:
 ## Resources
 
 The API allows to retrieve information about **civilizations, structures, units and technologies** for the AOE2 Age of Kings and The Conquerors.
+The base route returns an object with the different resources you can access
 
 - ### GET /civilizations
 Gets all civilizations in a JSON list
