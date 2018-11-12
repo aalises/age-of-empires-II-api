@@ -65,7 +65,8 @@ class UnitModel(db.Model):
                 ('expansion', self.expansion),
                 ('age', self.age),
                 ('created_in',
-                '{}structure/{}'.format(request.url_root, self.format_name_to_query(self.structure.first().name))
+                '{}structure/{}'.format(request.url_root + request.blueprint,
+                                        self.format_name_to_query(self.structure.first().name))
                  if self.structure.first() else self.created_in),
                 ('cost', json.loads(self.cost.replace(";", ","))),
                 ('build_time', self.build_time),

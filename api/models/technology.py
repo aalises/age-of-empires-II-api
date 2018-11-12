@@ -42,7 +42,7 @@ class TechnologyModel(db.Model):
                       ('expansion', self.expansion),
                       ('age', self.age),
                       ('develops_in',
-                      '{}structure/{}'.format(request.url_root, self.format_name_to_query(self.structure.first().name))
+                      '{}structure/{}'.format(request.url_root + request.blueprint, self.format_name_to_query(self.structure.first().name))
                        if self.structure.first() else self.develops_in),
                       ('cost', json.loads(self.cost.replace(";", ","))),
                       ('build_time', self.build_time),
@@ -76,11 +76,11 @@ class TechnologyModel(db.Model):
             civilization = get_model('civilizations').query.filter_by(name=item).first()
 
             if unit:
-                out.append('{}unit/{}'.format(request.url_root, self.format_name_to_query(unit.name)))
+                out.append('{}unit/{}'.format(request.url_root + request.blueprint, self.format_name_to_query(unit.name)))
             elif structure:
-                out.append('{}structure/{}'.format(request.url_root, self.format_name_to_query(structure.name)))
+                out.append('{}structure/{}'.format(request.url_root + request.blueprint, self.format_name_to_query(structure.name)))
             elif civilization:
-                out.append('{}civilization/{}'.format(request.url_root, self.format_name_to_query(civilization.name)))
+                out.append('{}civilization/{}'.format(request.url_root + request.blueprint, self.format_name_to_query(civilization.name)))
             else:
                 out.append(item)
         return out

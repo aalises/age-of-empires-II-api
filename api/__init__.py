@@ -12,7 +12,7 @@ def create_app(cfg):
         app = Flask(__name__)
         app.config.update(cfg)
 
-        api_blueprint = Blueprint('api', __name__)
+        api_blueprint = Blueprint('api/v1/', __name__)
         api = Api(api_blueprint, prefix=API_PREFIX)
 
         add_routes(api)

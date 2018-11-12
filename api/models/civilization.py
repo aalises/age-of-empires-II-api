@@ -39,11 +39,12 @@ class CivilizationModel(db.Model):
                         ('army_type', self.army_type),
                         ('unique_unit', self.parse_array_field(self.unique_unit)
                          if not self.unit.first()
-                         else ['{}unit/{}'.format(request.url_root, self.format_name_to_query(self.unit.first().name))]
+                         else ['{}unit/{}'.format(request.url_root + request.blueprint,
+                                                  self.format_name_to_query(self.unit.first().name))]
                          ),
                         ('unique_tech', self.parse_array_field(self.unique_tech)
                          if not self.technology.first()
-                         else ['{}technology/{}'.format(request.url_root,
+                         else ['{}technology/{}'.format(request.url_root + request.blueprint,
                                self.format_name_to_query(self.technology.first().name))]
                          ),
                         ('team_bonus', self.team_bonus),
@@ -75,7 +76,9 @@ class CivilizationModel(db.Model):
                 unit = get_model('units').query.filter_by(name=item).first()
                 technology = get_model('technologies').query.filter_by(name=item).first()
                 if unit:
-                    out.append('{}unit/{}'.format(request.url_root, self.format_name_to_query(unit.name)))
+                    out.append('{}unit/{}'.format(request.url_root + request.blueprint,
+                                                  self.format_name_to_query(unit.name)))
                 elif technology:
-                    out.append('{}technology/{}'.format(request.url_root, self.format_name_to_query(technology.name)))
+                    out.append('{}technology/{}'.format(request.url_root + request.blueprint,
+                                                        self.format_name_to_query(technology.name)))
             return out
