@@ -1,9 +1,10 @@
-from flask import redirect
+from flask import redirect, jsonify, request
 from sqlalchemy_utils import database_exists
 from config import APP_CONFIG, API_PREFIX, DB_NAME
 from api import create_app
 from db.populate_tables import populate_db
 from db import db
+from collections import OrderedDict
 
 app = create_app(APP_CONFIG)
 
@@ -14,8 +15,13 @@ def create_tables():
         populate_db()
 
 @app.route(API_PREFIX)
-def redirect_to_civilizations():
-    return redirect("{}/civilizations".format(API_PREFIX), code=302)
+def show_resources():
+    resources = [('civilizations', '{}civilizations'.format(request.url_root)),
+                 ('units', '{}units'.format(request.url_root)),
+                 ('structures', '{}structures'.format(request.url_root)),
+                 ('technologies', '{}technologies'.format(request.url_root))
+                 ]
+    return jsonify({'resources': OrderedDict(resources)})
 
 @app.route("/")
 def redirect_to_docs():
