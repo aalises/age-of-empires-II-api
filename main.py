@@ -16,10 +16,10 @@ def create_tables():
 
 @app.route(API_PREFIX)
 def show_resources():
-    resources = [('civilizations', '{}civilizations'.format(request.url_root)),
-                 ('units', '{}units'.format(request.url_root)),
-                 ('structures', '{}structures'.format(request.url_root)),
-                 ('technologies', '{}technologies'.format(request.url_root))
+    resources = [('civilizations', '{}/civilizations'.format(request.url)),
+                 ('units', '{}/units'.format(request.url)),
+                 ('structures', '{}/structures'.format(request.url)),
+                 ('technologies', '{}/technologies'.format(request.url))
                  ]
     return jsonify({'resources': OrderedDict(resources)})
 
