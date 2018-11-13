@@ -1,7 +1,7 @@
 # Age of Empires 2 API
 [![Build Status](https://travis-ci.com/aalises/age-of-empires-II-api.svg?branch=master)](https://travis-ci.com/aalises/age-of-empires-II-api)
 [![Coverage Status](https://coveralls.io/repos/github/aalises/age-of-empires-II-api/badge.svg?branch=master)](https://coveralls.io/github/aalises/age-of-empires-II-api?branch=master)
-[![Docker Image](https://img.shields.io/badge/Docker%20image-latest-blue.svg?link=https://hub.docker.com/r/aalises/aoe2api/)](https://img.shields.io/badge/Docker%20image-latest-blue.svg?link=https://hub.docker.com/r/aalises/aoe2api/)
+[![Docker Image](https://img.shields.io/badge/Docker%20image-latest-blue.svg?link=https://hub.docker.com/r/aalises/aoe2api/)](https://hub.docker.com/r/aalises/aoe2api/)
 
 - `WIP. TODO:` Deployment
 
