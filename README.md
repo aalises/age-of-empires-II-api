@@ -3,7 +3,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/aalises/age-of-empires-II-api/badge.svg?branch=master)](https://coveralls.io/github/aalises/age-of-empires-II-api?branch=master)
 [![Docker Image](https://img.shields.io/badge/Docker%20image-latest-blue.svg?link=https://hub.docker.com/r/aalises/aoe2api/)](https://img.shields.io/badge/Docker%20image-latest-blue.svg?link=https://hub.docker.com/r/aalises/aoe2api/)
 
-- `WIP. TODO:` Deployment
+- `TODO:` Deployment
 
 Age of Empires II API created with:
  - `Flask + FlaskRESTful` 
@@ -12,13 +12,17 @@ Age of Empires II API created with:
  - `Flasgger` (Swagger Docs)
  - `Pytest + Coverage` (Tests)
 
-,which allows you to retrieve information about the civilizations, technologies, units and structures. To run you can use `Docker`, for example:
+Which allows you to retrieve information about the civilizations, technologies, units and structures of AOE2. To run you can use `Docker`, for example:
 
 ```
 docker build -t aoe2api:v1 .
 docker run --name aoe2api -p 8080:80 -d aoe2api:v1 
 ```
+or pull the image from DockerHub:
 
+```
+docker pull aalises/aoe2api:latest
+```
 The routes are: 
 - Main API route: `localhost:8080/api/v1`
 - Docs Route: `localhost:8080/docs`

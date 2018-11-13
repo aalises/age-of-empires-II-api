@@ -14,7 +14,7 @@ def create_tables():
         db.create_all()
         populate_db()
 
-@app.route(API_PREFIX)
+@app.route("/" + API_PREFIX)
 def show_resources():
     resources = [('civilizations', '{}/civilizations'.format(request.url)),
                  ('units', '{}/units'.format(request.url)),
