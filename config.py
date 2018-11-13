@@ -1,7 +1,8 @@
 import os
 
 DB_NAME = 'sqlite:///{}/db/data.db'.format(os.path.abspath("."))
-API_PREFIX = "/api/v1"
+VERSION = 1
+API_PREFIX = "api/v{}".format(VERSION)
 
 APP_CONFIG = {
     'SQLALCHEMY_DATABASE_URI': DB_NAME,

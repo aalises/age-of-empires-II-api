@@ -12,8 +12,8 @@ def create_app(cfg):
         app = Flask(__name__)
         app.config.update(cfg)
 
-        api_blueprint = Blueprint('api/v1/', __name__)
-        api = Api(api_blueprint, prefix=API_PREFIX)
+        api_blueprint = Blueprint(API_PREFIX + "/", __name__)
+        api = Api(api_blueprint, prefix="/" + API_PREFIX)
 
         add_routes(api)
         add_docs(app, SWAGGER_CONFIG, '../data/apispecs.yaml')
