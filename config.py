@@ -25,6 +25,7 @@ SWAGGER_CONFIG = {
             "route": '/apispec.json'
         }
     ],
+    'hide_top_bar': True,
     "static_url_path": "/flasgger_static",
     "swagger_ui": True,
     "specs_route": "/docs/"
