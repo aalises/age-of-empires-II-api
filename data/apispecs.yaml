@@ -1,6 +1,6 @@
 basePath: "/api/v1"
 schemes:
-  - http
+  - https
 info:
   description: "Simple API to retrieve resources related to Age of Empires II. The base URL for retrieving the resources is /api/v1"
   title: "Age Of Empires II API"
