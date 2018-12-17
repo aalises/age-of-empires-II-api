@@ -7,3 +7,4 @@ python-coveralls
 coverage
 flasgger
 pytest
+uwsgi

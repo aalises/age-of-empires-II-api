@@ -3,7 +3,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/aalises/age-of-empires-II-api/badge.svg?branch=master)](https://coveralls.io/github/aalises/age-of-empires-II-api?branch=master)
 [![Docker Image](https://img.shields.io/badge/Docker%20image-latest-blue.svg?link=https://hub.docker.com/r/aalises/aoe2api/)](https://hub.docker.com/r/aalises/aoe2api/)
 
-- `TODO:` Deployment
+API available at : https://age-of-empires-2-api.herokuapp.com
 
 Age of Empires II API created with:
  - `Flask + FlaskRESTful` 
