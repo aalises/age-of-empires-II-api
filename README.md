@@ -5,6 +5,8 @@
 
 API available at : https://age-of-empires-2-api.herokuapp.com
 
+**TODO:** Check for typos, add expansions, add field on which civilizations each technology unit or building is available for.
+
 Age of Empires II API created with:
  - `Flask + FlaskRESTful` 
  - `SQLite` (DB)
