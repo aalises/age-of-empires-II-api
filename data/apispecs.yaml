@@ -5,179 +5,179 @@ info:
   description: "Simple API to retrieve resources related to Age of Empires II. The base URL for retrieving the resources is /api/v1"
   title: "Age Of Empires II API"
   version: 1.0.0
-  license: 
-      name: "License: BSD-3-Clause"
-      url: "https://github.com/aalises/age-of-empires-II-api/blob/master/LICENSE"
+  license:
+    name: "License: BSD-3-Clause"
+    url: "https://github.com/aalises/age-of-empires-II-api/blob/master/LICENSE"
 externalDocs:
   description: "Project repository"
-  url: "https://github.com/aalises/age-of-empires-II-api"  
-produces: 
-    - "application/json"    
+  url: "https://github.com/aalises/age-of-empires-II-api"
+produces:
+  - "application/json"
 paths:
   "/civilizations":
     get:
       summary: Gets a list of all the civilizations
-      tags: 
+      tags:
         - resources
       produces:
-        - application/json  
+        - application/json
       description: Gets a list of all the civilizations in AOE2
-      responses: 
-          "200":
-            description: "Civilizations Response"
-            schema:
-              $ref: '#/definitions/CivilizationList'
-          default:
-            description: "Unexpected Error"
+      responses:
+        "200":
+          description: "Civilizations Response"
+          schema:
+            $ref: "#/definitions/CivilizationList"
+        default:
+          description: "Unexpected Error"
   "/civilization/{id}":
     get:
       summary: Gets a given civilization by ID or name
-      tags: 
+      tags:
         - resources
       produces:
         - application/json
       description: "Gets a given civilization by ID (Integer) or name (String with spaces replaced with hyphens/underscores)"
       operationId: "Find civilization by id"
-      parameters:  
-          - name: "id"
-            in: "path"
-            description: "ID or name of the civilization to fetch"
-            required: true
-            type: "string"
-      responses: 
-          "200":
-            description: "Civilization Response"
-            schema:
-              $ref: '#/definitions/Civilization'
-          "404":
-            description: "Civilization not found"
-            schema:
-              $ref: '#/definitions/NotFoundError'
-          default:
-            description: "Unexpected Error"
+      parameters:
+        - name: "id"
+          in: "path"
+          description: "ID or name of the civilization to fetch"
+          required: true
+          type: "string"
+      responses:
+        "200":
+          description: "Civilization Response"
+          schema:
+            $ref: "#/definitions/Civilization"
+        "404":
+          description: "Civilization not found"
+          schema:
+            $ref: "#/definitions/NotFoundError"
+        default:
+          description: "Unexpected Error"
   "/units":
     get:
       summary: Gets a list of all the units
-      tags: 
+      tags:
         - resources
       produces:
         - application/json
       description: Gets a list of all the units in AOE2
-      responses: 
-          "200":
-            description: "Units Response"
-            schema:
-              $ref: '#/definitions/UnitList'
-          default:
-            description: "Unexpected Error"
+      responses:
+        "200":
+          description: "Units Response"
+          schema:
+            $ref: "#/definitions/UnitList"
+        default:
+          description: "Unexpected Error"
   "/unit/{id}":
     get:
       summary: Gets a given unit by ID or name
-      tags: 
+      tags:
         - resources
       produces:
         - application/json
       description: "Gets a given unit by ID (Integer) or name (String with spaces replaced with hyphens/underscores)"
       operationId: "Find unit by id"
-      parameters: 
-          - name: "id"
-            in: "path"
-            description: "ID or name of the unit to fetch"
-            required: true
-            type: "string"
-      responses: 
-          "200":
-            description: "Unit Response"
-            schema:
-              $ref: '#/definitions/Unit'
-          "404":
-            description: "Unit not found"
-            schema:
-              $ref: '#/definitions/NotFoundError'
-          default:
-            description: "Unexpected Error"      
+      parameters:
+        - name: "id"
+          in: "path"
+          description: "ID or name of the unit to fetch"
+          required: true
+          type: "string"
+      responses:
+        "200":
+          description: "Unit Response"
+          schema:
+            $ref: "#/definitions/Unit"
+        "404":
+          description: "Unit not found"
+          schema:
+            $ref: "#/definitions/NotFoundError"
+        default:
+          description: "Unexpected Error"
   "/structures":
     get:
       summary: Gets a list of all the structures
-      tags: 
+      tags:
         - resources
       produces:
         - application/json
       description: Gets a list of all the structures in AOE2
-      responses: 
-          "200":
-            description: "Structures Response"
-            schema:
-              $ref: '#/definitions/StructureList'
-          default:
-            description: "Unexpected Error"
+      responses:
+        "200":
+          description: "Structures Response"
+          schema:
+            $ref: "#/definitions/StructureList"
+        default:
+          description: "Unexpected Error"
   "/structure/{id}":
     get:
       summary: Gets a given structure by ID or name
-      tags: 
+      tags:
         - resources
       produces:
         - application/json
       description: "Gets a given structure by ID (Integer) or name (String with spaces replaced with hyphens/underscores)"
       operationId: "Find structure by id"
-      parameters:  
-          - name: "id"
-            in: "path"
-            description: "ID or name of the structure to fetch"
-            required: true
-            type: "string"
-      responses: 
-          "200":
-            description: "Structure Response"
-            schema:
-              $ref: '#/definitions/Structure'
-          "404":
-            description: "Structure not found"
-            schema:
-              $ref: '#/definitions/NotFoundError'
-          default:
-            description: "Unexpected Error"
+      parameters:
+        - name: "id"
+          in: "path"
+          description: "ID or name of the structure to fetch"
+          required: true
+          type: "string"
+      responses:
+        "200":
+          description: "Structure Response"
+          schema:
+            $ref: "#/definitions/Structure"
+        "404":
+          description: "Structure not found"
+          schema:
+            $ref: "#/definitions/NotFoundError"
+        default:
+          description: "Unexpected Error"
   "/technologies":
     get:
       summary: Gets a list of all the technologies
-      tags: 
+      tags:
         - resources
       produces:
         - application/json
       description: Gets a list of all the technologies in AOE2
-      responses: 
-          "200":
-            description: "Technologies Response"
-            schema:
-              $ref: '#/definitions/TechnologyList'
-          default:
-            description: "Unexpected Error"
+      responses:
+        "200":
+          description: "Technologies Response"
+          schema:
+            $ref: "#/definitions/TechnologyList"
+        default:
+          description: "Unexpected Error"
   "/technology/{id}":
     get:
       summary: Gets a given technology by ID or name
-      tags: 
+      tags:
         - resources
       produces:
         - application/json
       description: "Gets a given technology by ID (Integer) or name (String with spaces replaced with hyphens/underscores)"
       operationId: "Find technology by id"
-      parameters: 
-          - name: "id"
-            in: "path"
-            description: "ID or name of the technology to fetch"
-            required: true
-            type: "string"
-      responses: 
-          "200":
-            description: "Technology Response"
-            schema:
-              $ref: '#/definitions/Technology'
-          "404":
-            description: "Technology not found"
-            schema:
-              $ref: '#/definitions/NotFoundError'
-          default:
-            description: "Unexpected Error"
+      parameters:
+        - name: "id"
+          in: "path"
+          description: "ID or name of the technology to fetch"
+          required: true
+          type: "string"
+      responses:
+        "200":
+          description: "Technology Response"
+          schema:
+            $ref: "#/definitions/Technology"
+        "404":
+          description: "Technology not found"
+          schema:
+            $ref: "#/definitions/NotFoundError"
+        default:
+          description: "Unexpected Error"
 
 definitions:
   Civilization:
@@ -204,11 +204,15 @@ definitions:
         type: string
         description: Predominant army type of the civilization (e.g Archers, or Infantry)
       unique_unit:
-        type: string
-        description: Unique unit of the civilization
+        type: array
+        items:
+          type: string
+        description: Unique units of the civilization
       unique_tech:
-        type: string
-        description: Unique technology of the civilization
+        type: array
+        items:
+          type: string
+        description: Unique technologies of the civilization
       team_bonus:
         type: string
         description: Team bonuses of the civilization
@@ -216,13 +220,13 @@ definitions:
         type: array
         items:
           type: string
-        description: Bonuses of the civilization  
+        description: Bonuses of the civilization
   CivilizationList:
     properties:
       civilizations:
         type: array
         items:
-          $ref: '#/definitions/Civilization'
+          $ref: "#/definitions/Civilization"
   Unit:
     required:
       - id
@@ -238,17 +242,17 @@ definitions:
       - hit_points
       - attack
       - armor
-    properties:  
+    properties:
       id:
         type: integer
         description: Unique ID representing the unit
       name:
         type: string
         description: Name of the unit
-      description: 
+      description:
         type: string
         description: Short description of the unit
-      expansion: 
+      expansion:
         type: string
         description: Expansion in which the unit was introduced
       age:
@@ -259,7 +263,7 @@ definitions:
         description: Structure the unit is created in
       cost:
         type: object
-        $ref: '#/definitions/Cost'
+        $ref: "#/definitions/Cost"
         description: Cost of the unit (JSON Object)
       build_time:
         type: integer
@@ -275,7 +279,7 @@ definitions:
         description: Movement Rate
       line_of_sight:
         type: integer
-        description:  Line of sight of the unit
+        description: Line of sight of the unit
       hit_points:
         type: integer
         description: Hit points (health) of the unit
@@ -312,7 +316,7 @@ definitions:
       units:
         type: array
         items:
-          $ref: '#/definitions/Unit'
+          $ref: "#/definitions/Unit"
   Structure:
     required:
       - id
@@ -331,22 +335,22 @@ definitions:
       name:
         type: string
         description: Name of the structure
-      description: 
+      description:
         type: string
         description: Short description of the structure
-      expansion: 
-          type: string
-          description: Expansion the structure was introduced
+      expansion:
+        type: string
+        description: Expansion the structure was introduced
       age:
         type: string
         description: Age in which the structure can be built
       cost:
         type: object
-        $ref: '#/definitions/Cost' 
+        $ref: "#/definitions/Cost"
         description: Cost of the structure (JSON Object)
       build_time:
-          type: integer
-          description: Build time in seconds
+        type: integer
+        description: Build time in seconds
       hit_points:
         type: integer
         description: Hit points (health) of the structure
@@ -364,7 +368,7 @@ definitions:
         description: Reload time of the structure
       attack:
         type: integer
-        description: Attack points of the structure    
+        description: Attack points of the structure
       special:
         type: array
         items:
@@ -372,10 +376,10 @@ definitions:
         description: Other information about the structure and the units it can garrison
   StructureList:
     properties:
-        structures:
-          type: array
-          items:
-            $ref: '#/definitions/Structure'
+      structures:
+        type: array
+        items:
+          $ref: "#/definitions/Structure"
   Technology:
     required:
       - id
@@ -392,12 +396,12 @@ definitions:
       name:
         type: string
         description: Name of the technology
-      description: 
+      description:
         type: string
         description: Short description of the technology
-      expansion: 
-          type: string
-          description: Expansion the technology was introduced
+      expansion:
+        type: string
+        description: Expansion the technology was introduced
       age:
         type: string
         description: Age in which the technology can be developed
@@ -406,22 +410,22 @@ definitions:
         description: Structure the technology is developed in
       cost:
         type: object
-        $ref: '#/definitions/Cost' 
+        $ref: "#/definitions/Cost"
         description: Cost of the technology (JSON Object)
       build_time:
-          type: integer
-          description: Build time in seconds
+        type: integer
+        description: Build time in seconds
       applies_to:
         type: array
         items:
           type: string
         description: Units or civilization the technology apply to
-  TechnologyList: 
+  TechnologyList:
     properties:
-        technologies:
-          type: array
-          items:
-            $ref: '#/definitions/Technology'             
+      technologies:
+        type: array
+        items:
+          $ref: "#/definitions/Technology"
   NotFoundError:
     required:
       - message
@@ -442,7 +446,6 @@ definitions:
         description: How much stone it costs
       Gold:
         type: integer
-        description: How much gold it costs      
+        description: How much gold it costs
 
-          
-swagger: '3.0'
+swagger: "3.0"
