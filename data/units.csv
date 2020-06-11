@@ -14,9 +14,9 @@ Spearman,Medium infantry, Age of Kings, Feudal, Barracks, {"Food": 35;"Wood": 15
 Pikeman,Upgraded Spearman, Age of Kings, Castle, Barracks, {"Food": 35;"Wood": 25}, 22, 3, 0, 1, 4, 55, 0, 4, 0/0,+1 eagles;+1 buildings;+47 war elephants;+22 cavalry;+11 camels/ships,,,,
 Halberdier,Upgraded Pikeman, The Conquerors, Imperial, Barracks, {"Food": 35;"Wood": 25}, 22, 3, 0, 1, 4, 60, 0, 6, 0/0,+1 eagles;+1 buildings;+60 war elephants;+32 cavalry;+16 camels/ships,,,,
 Militia,Basic infantry swordsman. Quick and cheap to create, Age of Kings, Dark, Barracks, {"Food": 60;"Gold": 20}, 21, 2, 0, 0.9, 4, 40, 0, 4, 0/1,,,,,
-Man At Arms,Upgraded Militia. Attack bonus vs. buildings, Age of Kings, Feudal, Barracks, {"Food": 60;"Gold": 20}, 21, 2, 0, 0.9, 4, 45, 0, 6, 0/1,+2 eagles;+1 buildings,,,,
-Long Swordman, Upgraded Man-at-Arms, Age of Kings, Castle, Barracks, {"Food": 60;"Gold": 20}, 21, 2, 0, 0.9, 4, 55, 0, 9, 0/1,+4 eagles;+2 buildings,,,,
-Two Handed Swordsman, Upgraded Long Swordsman. Attack bonus vs. buildings, Age of Kings, Imperial, Barracks, {"Food": 60;"Gold": 20}, 21, 2, 0, 0.9, 5, 60, 0, 11, 0/1,+6 eagles;+3 buildings,,4,,
+Man-at-Arms,Upgraded Militia. Attack bonus vs. buildings, Age of Kings, Feudal, Barracks, {"Food": 60;"Gold": 20}, 21, 2, 0, 0.9, 4, 45, 0, 6, 0/1,+2 eagles;+1 buildings,,,,
+Long Swordsman, Upgraded Man-at-Arms, Age of Kings, Castle, Barracks, {"Food": 60;"Gold": 20}, 21, 2, 0, 0.9, 4, 55, 0, 9, 0/1,+4 eagles;+2 buildings,,,,
+Two-Handed Swordsman, Upgraded Long Swordsman. Attack bonus vs. buildings, Age of Kings, Imperial, Barracks, {"Food": 60;"Gold": 20}, 21, 2, 0, 0.9, 5, 60, 0, 11, 0/1,+6 eagles;+3 buildings,,4,,
 Champion,Upgraded Two-Handed Swordsman, Age of Kings, Imperial, Barracks, {"Food": 60;"Gold": 20}, 21, 2, 0, 0.9, 5, 70, 0, 13, 1/1,+6 eagles;+3 buildings,,5,,
 King,Cannot be produced so the cost and build time just for the sake of interest, Age of Kings, Dark, Castle, {"Food": 50}, 30, 0, 0, 1.32, 6, 75, 0, 0, 0/0,,,,,
 Petard,Demolition infantry unit armed with explosives. Bonuses add up - for example against walls and gates: +500 buildings +900 walls = +1400 bonus attack, The Conquerors, Castle, Castle, {"Food": 80;"Gold": 20}, 25, 0, 0, 0.8, 4, 50, 0, 25, 0/2,+500 buildings;+100 castle;+60 siege;+900 walls & gates,,,,0.5
