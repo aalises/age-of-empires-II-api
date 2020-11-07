@@ -33,15 +33,15 @@ def test_all_data_returned(client):
     data_all_strct = client.get('/api/v1/structures').get_json()["structures"]
     data_all_tech = client.get('/api/v1/technologies').get_json()["technologies"]
 
-    assert len(data_all_civ) is getEntries("data/civilizations.csv")
-    assert len(data_all_unit) is getEntries("data/units.csv")
-    assert len(data_all_strct) is getEntries("data/structures.csv")
-    assert len(data_all_tech) is getEntries("data/technologies.csv")
+    assert len(data_all_civ) == getEntries("data/civilizations.csv")
+    assert len(data_all_unit) == getEntries("data/units.csv")
+    assert len(data_all_strct) == getEntries("data/structures.csv")
+    assert len(data_all_tech) == getEntries("data/technologies.csv")
 
 def test_civilizations(client):
     data_id = client.get('/api/v1/civilization/4').get_json()
-    data_name = client.get('/api/v1/civilization/bizantines').get_json()
-    data_name2 = client.get('/api/v1/civilization/TeUtOns').get_json()
+    data_name = client.get('/api/v1/civilization/byzantines').get_json()
+    data_name2 = client.get('/api/v1/civilization/Teutons').get_json()
 
     assert data_id["name"] == "Celts"
     assert data_name["army_type"] == "Defensive"

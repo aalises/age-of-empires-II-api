@@ -75,7 +75,7 @@ class UnitModel(db.Model):
                 ('movement_rate', self.movement_rate),
                 ('line_of_sight', self.line_of_sight),
                 ('hit_points', self.hit_points),
-                ('range', int(self.range) if self.range.isdigit() else self.range),
+                ('range', int(self.range) if self.range and self.range.isdigit() else self.range),
                 ('attack', self.attack), ('armor', self.armor),
                 ('attack_bonus', self.attack_bonus.split(";") if self.attack_bonus else None),
                 ('armor_bonus', self.armor_bonus.split(";") if self.armor_bonus else None),
