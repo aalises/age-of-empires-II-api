@@ -1,4 +1,4 @@
-from numpy import genfromtxt
+import pandas as pd
 import os
 from db import db
 
@@ -18,6 +18,5 @@ def populate_db():
 
 
 def load_data(file_name):
-    data = genfromtxt(file_name, delimiter=',', skip_header=1,
-                      dtype='unicode', autostrip=True)
-    return data.tolist()
+    data = pd.read_csv(file_name, sep=',',header=0, skipinitialspace=True)  
+    return data.where(pd.notnull(data), None).values.tolist()
