@@ -16,7 +16,7 @@ def create_app(cfg):
         api = Api(api_blueprint, prefix="/" + API_PREFIX)
 
         add_routes(api)
-        add_docs(app, SWAGGER_CONFIG, '../data/apispecs.yaml')
+        add_docs(app, SWAGGER_CONFIG, '../docs/apispecs.yaml')
         app.register_blueprint(api_blueprint)
         db.init_app(app)
 
