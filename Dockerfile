@@ -1,6 +1,10 @@
-FROM tiangolo/uwsgi-nginx-flask:python3.7
-COPY . /app
+FROM python:latest
+
+COPY requirements.txt /
+
 RUN pip install -r requirements.txt
 
+COPY . /app
+WORKDIR /app
 
-
+CMD ["gunicorn","--config", "gunicorn_config.py", "app:app"]
