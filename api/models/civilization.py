@@ -33,7 +33,6 @@ class CivilizationModel(db.Model):
         return "<Civilization: {}>".format(self.name)
 
     def json(self):
-        print(type(self.unit))
         civilization = [('id', self._id),
                         ('name', self.name),
                         ('expansion', self.expansion),
