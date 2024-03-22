@@ -8,3 +8,4 @@ flasgger
 pytest
 uwsgi
 pandas
+gunicorn
