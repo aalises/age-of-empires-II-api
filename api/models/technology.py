@@ -20,7 +20,7 @@ class TechnologyModel(db.Model):
     build_time = db.Column(db.Integer, nullable=False)
     applies_to = db.Column(db.String(80), nullable=True)
 
-    structure = db.relationship('StructureModel', lazy='dynamic', uselist=True)
+    structure = db.relationship('StructureModel', lazy='joined', uselist=True)
 
     def __init__(self, name, expansion, age, develops_in, cost, build_time, applies_to, description):
         self.name = name

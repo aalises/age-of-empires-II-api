@@ -28,7 +28,7 @@ class UnitModel(db.Model):
     accuracy = db.Column(db.String(3), nullable=True)
     blast_radius = db.Column(db.Float, nullable=True)
 
-    structure = db.relationship('StructureModel', lazy='dynamic', uselist=True)
+    structure = db.relationship('StructureModel')
 
     def __init__(self, name, description, expansion, age, created_in, cost, build_time,
                  reload_time, attack_delay, movement_rate, line_of_sight,
