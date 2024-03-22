@@ -5,3 +5,7 @@ venv
 htmlcov
 .pytest_cache
 *.pyc
+
+bin
+lib
+lib64
