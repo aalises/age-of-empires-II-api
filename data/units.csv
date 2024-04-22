@@ -103,3 +103,5 @@ War Wagon,Korean unique unit. Heavily armored horse-drawn archery unit, The Conq
 Elite War Wagon, Upgraded War Wagon, The Conquerors, Imperial, Castle, {"Wood": 120;"Gold": 60}, 25, 2.5, 1, 1.2, 8, 200, 5, 9, 0/4,+5 buildings,,7,100%,
 Woad Raider,Celtic unique unit. Exceptionally quick infantry. Attack bonus vs. buildings, Age of Kings, Castle, Castle, {"Food": 65;"Gold": 25}, 10, 2, 0, 1.38, 3, 65, 0, 8, 0/1,+2 eagles;+2 buildings,,,,
 Elite Woad Raider, Upgraded Woad Raider, Age of Kings, Imperial, Castle, {"Food": 65;"Gold": 25}, 10, 2, 0, 1.38, 5, 80, 0, 13, 0/1,+3 eagles;+3 buildings,,,,
+Karambit Warrior, Malay unique unit. Cheap and weak infantry unit that only takes half a population slot, Rise of Rajas, Castle, Castle, {"Food": 30;"Gold": 15}, 6, 2, , 1.2, 5, 30, 0, 7, 0/1,+2 eagle warrior,,,,
+Elite Karambit Warrior, Upgraded Karambit Warrior, Rise of Rajas, Imperial, Castle, {"Food": 30;"Gold": 15}, 6, 2, , 1.2, 5, 40, 0, 8, 1/1,+2 eagle warrior;+1 standard building,,,,
