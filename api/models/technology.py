@@ -20,7 +20,7 @@ class TechnologyModel(db.Model):
     build_time = db.Column(db.Integer, nullable=False)
     applies_to = db.Column(db.String(80), nullable=True)
 
-    structure = db.relationship('StructureModel', lazy='dynamic', uselist=True)
+    structure = db.relationship('StructureModel')
 
     def __init__(self, name, expansion, age, develops_in, cost, build_time, applies_to, description):
         self.name = name
@@ -42,8 +42,8 @@ class TechnologyModel(db.Model):
                       ('expansion', self.expansion),
                       ('age', self.age),
                       ('develops_in',
-                      '{}structure/{}'.format(request.url_root + request.blueprint, self.format_name_to_query(self.structure.first().name))
-                       if self.structure.first() else self.develops_in),
+                      '{}structure/{}'.format(request.url_root + request.blueprint, self.format_name_to_query(self.structure.name))
+                       if self.structure else self.develops_in),
                       ('cost', json.loads(self.cost.replace(";", ","))),
                       ('build_time', self.build_time),
                       ('applies_to', self.map_to_resource_url() if self.applies_to else None),
@@ -52,12 +52,12 @@ class TechnologyModel(db.Model):
 
     @classmethod
     def find_by_id(cls, id):
-        return cls.query.filter_by(_id=id).first()
+        return cls.query.filter_by(_id=id)
 
     @classmethod
     def find_by_name(cls, name):
         name = cls.format_name_to_display(name)
-        return cls.query.filter_by(name=name).first()
+        return cls.query.filter_by(name=name)
 
     @classmethod
     def format_name_to_display(cls, name):
@@ -71,16 +71,17 @@ class TechnologyModel(db.Model):
     def map_to_resource_url(self):
         out = []
         for item in self.applies_to.split(';'):
-            unit = get_model('units').query.filter_by(name=item).first()
-            structure = get_model('structures').query.filter_by(name=item).first()
-            civilization = get_model('civilizations').query.filter_by(name=item).first()
+            unit = get_model('units').query.filter_by(name=item)
+            structure = get_model('structures').query.filter_by(name=item)
+            civilization = get_model('civilizations').query.filter_by(name=item)
 
-            if unit:
-                out.append('{}unit/{}'.format(request.url_root + request.blueprint, self.format_name_to_query(unit.name)))
-            elif structure:
-                out.append('{}structure/{}'.format(request.url_root + request.blueprint, self.format_name_to_query(structure.name)))
-            elif civilization:
-                out.append('{}civilization/{}'.format(request.url_root + request.blueprint, self.format_name_to_query(civilization.name)))
+            if unit.first():
+                out.append('{}unit/{}'.format(request.url_root + request.blueprint, self.format_name_to_query(unit.first().name)))
+            elif structure.first():
+                print(structure.first())
+                out.append('{}structure/{}'.format(request.url_root + request.blueprint, self.format_name_to_query(structure.first().name)))
+            elif civilization.first():
+                out.append('{}civilization/{}'.format(request.url_root + request.blueprint, self.format_name_to_query(civilization.first().name)))
             else:
                 out.append(item)
         return out

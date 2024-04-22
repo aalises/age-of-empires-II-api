@@ -28,7 +28,7 @@ class UnitModel(db.Model):
     accuracy = db.Column(db.String(3), nullable=True)
     blast_radius = db.Column(db.Float, nullable=True)
 
-    structure = db.relationship('StructureModel', lazy='dynamic', uselist=True)
+    structure = db.relationship('StructureModel')
 
     def __init__(self, name, description, expansion, age, created_in, cost, build_time,
                  reload_time, attack_delay, movement_rate, line_of_sight,
@@ -66,8 +66,8 @@ class UnitModel(db.Model):
                 ('age', self.age),
                 ('created_in',
                 '{}structure/{}'.format(request.url_root + request.blueprint,
-                                        self.format_name_to_query(self.structure.first().name))
-                 if self.structure.first() else self.created_in),
+                                        self.format_name_to_query(self.structure.name))
+                 if self.structure else self.created_in),
                 ('cost', json.loads(self.cost.replace(";", ","))),
                 ('build_time', self.build_time),
                 ('reload_time', self.reload_time),
@@ -86,12 +86,12 @@ class UnitModel(db.Model):
 
     @classmethod
     def find_by_id(cls, id):
-        return cls.query.filter_by(_id=id).first()
+        return cls.query.filter_by(_id=id)
 
     @classmethod
     def find_by_name(cls, name):
         name = cls.format_name_to_display(name)
-        return cls.query.filter_by(name=name).first()
+        return cls.query.filter_by(name=name)
 
     @classmethod
     def format_name_to_display(cls, name):

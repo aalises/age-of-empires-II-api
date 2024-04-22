@@ -6,9 +6,9 @@ class Technology(Resource):
     def get(self, _id):
         technology = None
         if _id.isdigit():
-            technology = TechnologyModel.find_by_id(_id)
+            technology = TechnologyModel.find_by_id(_id).first()
         else:
-            technology = TechnologyModel.find_by_name(_id)
+            technology = TechnologyModel.find_by_name(_id).first()
         if technology:
             return jsonify(technology.json())
         return {'message': 'Technology not found'}, 404
