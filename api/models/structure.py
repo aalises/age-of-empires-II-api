@@ -48,7 +48,7 @@ class StructureModel(db.Model):
                      ('reload_time', self.reload_time),
                      ('hit_points', self.hit_points),
                      ('line_of_sight', self.line_of_sight),
-                     ('range', int(self.range) if self.range.isdigit() else self.range),
+                     ('range', int(self.range) if self.range and self.range.isdigit() else self.range),
                      ('attack', self.attack),
                      ('armor', self.armor),
                      ('special', self.special.split(";") if self.special else [])]

@@ -1,9 +1,18 @@
 # Age of Empires 2 API
-[![Build Status](https://travis-ci.com/aalises/age-of-empires-II-api.svg?branch=master)](https://travis-ci.com/aalises/age-of-empires-II-api)
 [![Coverage Status](https://coveralls.io/repos/github/aalises/age-of-empires-II-api/badge.svg?branch=master)](https://coveralls.io/github/aalises/age-of-empires-II-api?branch=master)
 [![Docker Image](https://img.shields.io/badge/Docker%20image-latest-blue.svg?link=https://hub.docker.com/r/aalises/aoe2api/)](https://hub.docker.com/r/aalises/aoe2api/)
 
-API available at : https://age-of-empires-2-api.herokuapp.com
+
+## Disclaimer
+The Age of Empires II API was originally conceived as a pet project 6 years ago (...already, phew!). Initially I had it running on Heroku and was working just fine.
+
+As time passed people was using it, paired with good ole' Heroku changing its ways and quotes, we were running out of the free tier hours, so unfortunately I had to shut it down.
+
+Don't have time these days to dedicate to it and I'm not sure if it's still working as intended, so take the project with a pinch of salt! Anyways, feel free to improve it, fork it, self-host it (there's the docker image still dangling around), or do with it whatever you see fit!
+
+Farewell, paladins!
+
+---
 
 Age of Empires II API created with:
  - `Flask + FlaskRESTful` 
@@ -237,4 +246,3 @@ Example call `/api/v1/technology/gold_mining`
   "description": "Work rate * 1.15 (15% faster)"
 }
 ```
-

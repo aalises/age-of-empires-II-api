@@ -8,11 +8,11 @@ from collections import OrderedDict
 
 app = create_app(APP_CONFIG)
 
-@app.before_first_request
-def create_tables():
+with app.app_context():
     if not database_exists(DB_NAME):
-        db.create_all()
-        populate_db()
+     db.create_all()
+     populate_db()
+
 
 @app.route("/" + API_PREFIX)
 def show_resources():

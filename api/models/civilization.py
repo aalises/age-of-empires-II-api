@@ -15,8 +15,8 @@ class CivilizationModel(db.Model):
     team_bonus = db.Column(db.String(200), nullable=False)
     civilization_bonus = db.Column(db.Text, nullable=False)
 
-    unit = db.relationship('UnitModel', lazy='dynamic', uselist=True)
-    technology = db.relationship('TechnologyModel', lazy='dynamic', uselist=True)
+    unit = db.relationship('UnitModel')
+    technology = db.relationship('TechnologyModel')
 
     def __init__(self, name, expansion, army_type,
                  unique_unit, unique_tech,
@@ -38,14 +38,14 @@ class CivilizationModel(db.Model):
                         ('expansion', self.expansion),
                         ('army_type', self.army_type),
                         ('unique_unit', self.parse_array_field(self.unique_unit)
-                         if not self.unit.first()
+                         if not self.unit
                          else ['{}unit/{}'.format(request.url_root + request.blueprint,
-                                                  self.format_name_to_query(self.unit.first().name))]
+                                                  self.format_name_to_query(self.unit.name))]
                          ),
                         ('unique_tech', self.parse_array_field(self.unique_tech)
-                         if not self.technology.first()
+                         if not self.technology
                          else ['{}technology/{}'.format(request.url_root + request.blueprint,
-                               self.format_name_to_query(self.technology.first().name))]
+                               self.format_name_to_query(self.technology.name))]
                          ),
                         ('team_bonus', self.team_bonus),
                         ('civilization_bonus', self.civilization_bonus.split(";"))

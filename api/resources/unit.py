@@ -6,9 +6,9 @@ class Unit(Resource):
     def get(self, _id):
         unit = None
         if _id.isdigit():
-            unit = UnitModel.find_by_id(_id)
+            unit = UnitModel.find_by_id(_id).first()
         else:
-            unit = UnitModel.find_by_name(_id)
+            unit = UnitModel.find_by_name(_id).first()
         if unit:
             return jsonify(unit.json())
         return {'message': 'Unit not found'}, 404

@@ -1,7 +1,7 @@
 name, description, expansion, age, created_in, cost, build_time, reload_time, attack_delay, movement_rate, line_of_sight, hit_points, range, attack, armor, attack_bonus, armor_bonus, search_radius, accuracy, blast_radius
 Archer, Quick and light. Weak at close range; excels at battle from distance, Age of Kings, Feudal, Archery Range, {"Wood": 25;"Gold": 45}, 35, 2, 0.35, 0.96, 6, 4, 30, 4, 0/0,,,,80%,
 Crossbowman,Upgraded archer, Age of Kings, Castle, Archery Range, {"Wood": 25;"Gold": 45}, 27, 2, 0.35, 0.96, 7, 35, 5, 5, 0/0,+3 spearmen,,,85%,
-Arbalest,Upgraded crossbowman, Age of Kings, Imperial, Archery Range, {"Wood": 25;"Gold": 45}, 27, 2, 0.35, 0.96, 7, 40, 5, 6, 0/0,+3 spearmen,,,90%, 
+Arbalest,Upgraded crossbowman, Age of Kings, Imperial, Archery Range, {"Wood": 25;"Gold": 45}, 27, 2, 0.35, 0.96, 7, 40, 5, 6, 0/0,+3 spearmen,,,90%,
 Cavalry Archer,Fast with ranged attack. Ideal for hit-and-run attacks, Age of Kings, Castle, Archery Range, {"Wood": 40;"Gold": 70}, 34, 2, 1, 1.4, 5, 50, 4, 6, 0/0,+2 spearmen,,6,50%,
 Heavy Cavalry Archer,Upgraded Cavalry Archer, Age of Kings, Imperial, Archery Range, {"Wood": 40;"Gold": 70}, 27, 2, 1, 1.4, 6, 60, 4, 7, 1/0,+2 spearmen,,,50%,
 Hand Cannoneer,Powerful close attack; inaccurate at range. Attack bonus against spearman +11 in total, Age of Kings, Imperial, Archery Range, {"Food": 45;"Gold": 50}, 34, 3.45, 0.45, 0.96, 9, 35, 7, 17, 1/0,1 spearmen;+10 infantry;+2 rams,,,65%,
@@ -103,3 +103,5 @@ War Wagon,Korean unique unit. Heavily armored horse-drawn archery unit, The Conq
 Elite War Wagon, Upgraded War Wagon, The Conquerors, Imperial, Castle, {"Wood": 120;"Gold": 60}, 25, 2.5, 1, 1.2, 8, 200, 5, 9, 0/4,+5 buildings,,7,100%,
 Woad Raider,Celtic unique unit. Exceptionally quick infantry. Attack bonus vs. buildings, Age of Kings, Castle, Castle, {"Food": 65;"Gold": 25}, 10, 2, 0, 1.38, 3, 65, 0, 8, 0/1,+2 eagles;+2 buildings,,,,
 Elite Woad Raider, Upgraded Woad Raider, Age of Kings, Imperial, Castle, {"Food": 65;"Gold": 25}, 10, 2, 0, 1.38, 5, 80, 0, 13, 0/1,+3 eagles;+3 buildings,,,,
+Karambit Warrior, Malay unique unit. Cheap and weak infantry unit that only takes half a population slot, Rise of Rajas, Castle, Castle, {"Food": 30;"Gold": 15}, 6, 2, , 1.2, 5, 30, 0, 7, 0/1,+2 eagle warrior,,,,
+Elite Karambit Warrior, Upgraded Karambit Warrior, Rise of Rajas, Imperial, Castle, {"Food": 30;"Gold": 15}, 6, 2, , 1.2, 5, 40, 0, 8, 1/1,+2 eagle warrior;+1 standard building,,,,
