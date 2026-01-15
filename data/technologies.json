@@ -1,0 +1,1932 @@
+[
+  {
+    "name": "Crossbowman",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "develops_in": "Archery Range",
+    "cost": {
+      "Food": 125,
+      "Gold": 75
+    },
+    "build_time": 35,
+    "applies_to": "Archer",
+    "description": "Upgrade to Crossbowman"
+  },
+  {
+    "name": "Thumb Ring",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "develops_in": "Archery Range",
+    "cost": {
+      "Food": 300,
+      "Wood": 250
+    },
+    "build_time": 45,
+    "applies_to": [
+      "Archer",
+      "Cavalry Archer"
+    ],
+    "description": "Faster reload time (10-20%) and 100% accuracy"
+  },
+  {
+    "name": "Arbalest",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Archery Range",
+    "cost": {
+      "Food": 350,
+      "Gold": 300
+    },
+    "build_time": 50,
+    "applies_to": "Crossbowman",
+    "description": "Upgrade to Arbalest"
+  },
+  {
+    "name": "Elite Skirmisher",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Archery Range",
+    "cost": {
+      "Wood": 250,
+      "Gold": 160
+    },
+    "build_time": 50,
+    "applies_to": "Skirmisher",
+    "description": "Upgrade to Elite Skirmisher"
+  },
+  {
+    "name": "Heavy Cavalry Archer",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Archery Range",
+    "cost": {
+      "Food": 900,
+      "Gold": 500
+    },
+    "build_time": 50,
+    "applies_to": "Cavalry Archer",
+    "description": "Upgrade to Cavalry Archer"
+  },
+  {
+    "name": "Parthian Tactics",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Archery Range",
+    "cost": {
+      "Food": 200,
+      "Gold": 250
+    },
+    "build_time": 65,
+    "applies_to": [
+      "Cavalry Archer",
+      "Mangudai"
+    ],
+    "description": "+1/+2 AR and Cavalry Archer +4 and Mangudai +2 agains pikeman"
+  },
+  {
+    "name": "Man At Arms",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "develops_in": "Barracks",
+    "cost": {
+      "Food": 40,
+      "Gold": 40
+    },
+    "build_time": 40,
+    "applies_to": "Militia",
+    "description": "Upgrade to Man at Arms"
+  },
+  {
+    "name": "Tracking",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "develops_in": "Barracks",
+    "cost": {
+      "Food": 75
+    },
+    "build_time": 35,
+    "applies_to": "Infantry",
+    "description": "+2 Line of Sight and +2 Search Radius"
+  },
+  {
+    "name": "Long Swordman",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "develops_in": "Barracks",
+    "cost": {
+      "Food": 200,
+      "Gold": 65
+    },
+    "build_time": 45,
+    "applies_to": "Man At Arms",
+    "description": "Upgrade to Long Swordman"
+  },
+  {
+    "name": "Pikeman",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "develops_in": "Barracks",
+    "cost": {
+      "Food": 215,
+      "Gold": 90
+    },
+    "build_time": 45,
+    "applies_to": "Spearman",
+    "description": "Upgrade to Spearman"
+  },
+  {
+    "name": "Squires",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "develops_in": "Barracks",
+    "cost": {
+      "Food": 200
+    },
+    "build_time": 40,
+    "applies_to": "Infantry",
+    "description": "Movement Rate * 1.1"
+  },
+  {
+    "name": "Champion",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Barracks",
+    "cost": {
+      "Food": 750,
+      "Gold": 350
+    },
+    "build_time": 100,
+    "applies_to": "Two Handed Swordsman",
+    "description": "Upgrade to Champion"
+  },
+  {
+    "name": "Elite Eagle Warrior",
+    "expansion": "The Conquerors",
+    "age": "Imperial",
+    "develops_in": "Barracks",
+    "cost": {
+      "Food": 800,
+      "Gold": 500
+    },
+    "build_time": 40,
+    "applies_to": "Eagle Warrior",
+    "description": "Upgrade to Elite Eagle Warrior"
+  },
+  {
+    "name": "Halberdier",
+    "expansion": "The Conquerors",
+    "age": "Imperial",
+    "develops_in": "Barracks",
+    "cost": {
+      "Food": 300,
+      "Gold": 600
+    },
+    "build_time": 50,
+    "applies_to": "Pikeman",
+    "description": "Upgrade to Halberdier"
+  },
+  {
+    "name": "Two Handed Swordsman",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Barracks",
+    "cost": {
+      "Food": 300,
+      "Gold": 100
+    },
+    "build_time": 75,
+    "applies_to": "Long Swordman",
+    "description": "Upgrade to Long Swordsman"
+  },
+  {
+    "name": "Fletching",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "develops_in": "Blacksmith",
+    "cost": {
+      "Food": 100,
+      "Gold": 50
+    },
+    "build_time": 30,
+    "applies_to": "Arrow shooting units and structures",
+    "description": "+1 attack +1 range +1 Line of sight +1 search radius"
+  },
+  {
+    "name": "Forging",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "develops_in": "Blacksmith",
+    "cost": {
+      "Food": 150
+    },
+    "build_time": 50,
+    "applies_to": [
+      "Infantry",
+      "Cavalry"
+    ],
+    "description": "+1 attack"
+  },
+  {
+    "name": "Padded Archer Armor",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "develops_in": "Blacksmith",
+    "cost": {
+      "Food": 100
+    },
+    "build_time": 40,
+    "applies_to": [
+      "Archer",
+      "Cavalry Archer",
+      "Skirmisher",
+      "Hand Cannoneer",
+      "Conquistador"
+    ],
+    "description": "+1/+1 armor"
+  },
+  {
+    "name": "Scale Barding Armor",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "develops_in": "Blacksmith",
+    "cost": {
+      "Food": 150
+    },
+    "build_time": 45,
+    "applies_to": "Cavalry",
+    "description": "+1/+1 armor"
+  },
+  {
+    "name": "Scale Mail Armor",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "develops_in": "Blacksmith",
+    "cost": {
+      "Food": 100
+    },
+    "build_time": 40,
+    "applies_to": "Infantry",
+    "description": "+1/+1 armor"
+  },
+  {
+    "name": "Bodkin Arrow",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "develops_in": "Blacksmith",
+    "cost": {
+      "Food": 200,
+      "Gold": 100
+    },
+    "build_time": 35,
+    "applies_to": "Arrow shooting units and structures",
+    "description": "+1 attack +1 range +1 Line of sight +1 search radius"
+  },
+  {
+    "name": "Chain Barding Armor",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "develops_in": "Blacksmith",
+    "cost": {
+      "Food": 250,
+      "Gold": 150
+    },
+    "build_time": 60,
+    "applies_to": "Cavalry",
+    "description": "+1/+1 armor"
+  },
+  {
+    "name": "Chain Mail Armor",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "develops_in": "Blacksmith",
+    "cost": {
+      "Food": 300,
+      "Gold": 100
+    },
+    "build_time": 55,
+    "applies_to": "Infantry",
+    "description": "+1/+1 armor"
+  },
+  {
+    "name": "Iron Casting",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "develops_in": "Blacksmith",
+    "cost": {
+      "Food": 220,
+      "Gold": 120
+    },
+    "build_time": 70,
+    "applies_to": [
+      "Infantry",
+      "Cavalry"
+    ],
+    "description": "+1 attack"
+  },
+  {
+    "name": "Leather Archer Armor",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "develops_in": "Blacksmith",
+    "cost": {
+      "Food": 150,
+      "Gold": 150
+    },
+    "build_time": 55,
+    "applies_to": [
+      "Archer",
+      "Cavalry Archer",
+      "Skirmisher",
+      "Hand Cannoneer",
+      "Conquistador"
+    ],
+    "description": "+1/+1 armor"
+  },
+  {
+    "name": "Blast Furnace",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Blacksmith",
+    "cost": {
+      "Food": 275,
+      "Gold": 225
+    },
+    "build_time": 100,
+    "applies_to": [
+      "Infantry",
+      "Cavalry"
+    ],
+    "description": "+2 attack"
+  },
+  {
+    "name": "Bracer",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Blacksmith",
+    "cost": {
+      "Food": 300,
+      "Gold": 200
+    },
+    "build_time": 40,
+    "applies_to": "Arrow shooting units and structures",
+    "description": "+1 attack +1 range +1 Line of sight +1 search radius"
+  },
+  {
+    "name": "Plate Barding Armor",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Blacksmith",
+    "cost": {
+      "Food": 350,
+      "Gold": 200
+    },
+    "build_time": 75,
+    "applies_to": "Cavalry",
+    "description": "+1/+2 armor"
+  },
+  {
+    "name": "Plate Mail Armor",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Blacksmith",
+    "cost": {
+      "Food": 300,
+      "Gold": 150
+    },
+    "build_time": 70,
+    "applies_to": "Infantry",
+    "description": "+1/+2 armor"
+  },
+  {
+    "name": "Ring Archer Armor",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Blacksmith",
+    "cost": {
+      "Food": 250,
+      "Gold": 250
+    },
+    "build_time": 70,
+    "applies_to": [
+      "Archer",
+      "Cavalry Archer",
+      "Skirmisher",
+      "Hand Cannoneer",
+      "Conquistador"
+    ],
+    "description": "+1/+2 armor"
+  },
+  {
+    "name": "Conscription",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Food": 150,
+      "Gold": 150
+    },
+    "build_time": 60,
+    "applies_to": [
+      "Barracks",
+      "Archer Range",
+      "Stable",
+      "Castle"
+    ],
+    "description": "Work Rate * 1.33 (Units created 25% faster)"
+  },
+  {
+    "name": "Hoardings",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Food": 400,
+      "Gold": 400
+    },
+    "build_time": 75,
+    "applies_to": "Castle",
+    "description": "+21% HP (HP*1.21 - 5808 HP)"
+  },
+  {
+    "name": "Sappers",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Food": 400,
+      "Gold": 200
+    },
+    "build_time": 10,
+    "applies_to": "Villagers",
+    "description": "+15 attack vs buildings and stone defenses"
+  },
+  {
+    "name": "Spies",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Gold": 200
+    },
+    "build_time": 1,
+    "applies_to": "Random map games",
+    "description": "Show enemy line of sight"
+  },
+  {
+    "name": "Treason",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Gold": 400
+    },
+    "build_time": 1,
+    "applies_to": "Regicide games",
+    "description": "Glare enemy king's location for a few seconds"
+  },
+  {
+    "name": "Careening",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "develops_in": "Dock",
+    "cost": {
+      "Food": 250,
+      "Gold": 150
+    },
+    "build_time": 50,
+    "applies_to": "Ships",
+    "description": "+0/+1 armor also transport ships carry +5 units"
+  },
+  {
+    "name": "War Galley",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "develops_in": "Dock",
+    "cost": {
+      "Food": 230,
+      "Gold": 100
+    },
+    "build_time": 50,
+    "applies_to": "Galley",
+    "description": "Upgrade to War Galley"
+  },
+  {
+    "name": "Cannon Galleon",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Dock",
+    "cost": {
+      "Food": 400,
+      "Wood": 500
+    },
+    "build_time": 50,
+    "applies_to": "Cannon Galleon",
+    "description": "Allows creation of Cannon Galleons"
+  },
+  {
+    "name": "Dry Dock",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Dock",
+    "cost": {
+      "Food": 600,
+      "Gold": 400
+    },
+    "build_time": 60,
+    "applies_to": "Ships",
+    "description": "Movement rate * 1.15 (+15%) and transport ships carry +10 units"
+  },
+  {
+    "name": "Elite Cannon Galleon",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Dock",
+    "cost": {
+      "Wood": 525,
+      "Gold": 500
+    },
+    "build_time": 30,
+    "applies_to": "Cannon Galleon",
+    "description": "Upgrade to Elite Cannon Galleon"
+  },
+  {
+    "name": "Elite Longboat",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Dock",
+    "cost": {
+      "Food": 750,
+      "Gold": 475
+    },
+    "build_time": 60,
+    "applies_to": "Longboat",
+    "description": "Upgrade to Elite Longboat"
+  },
+  {
+    "name": "Elite Turtle Ship",
+    "expansion": "The Conquerors",
+    "age": "Imperial",
+    "develops_in": "Dock",
+    "cost": {
+      "Food": 1000,
+      "Gold": 800
+    },
+    "build_time": 65,
+    "applies_to": "Turtle Ship",
+    "description": "Upgrade to Elite Turtle Ship"
+  },
+  {
+    "name": "Fast Fire Ship",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Dock",
+    "cost": {
+      "Wood": 280,
+      "Gold": 250
+    },
+    "build_time": 50,
+    "applies_to": "Fire Ship",
+    "description": "Upgrade to Fast Fire Ship"
+  },
+  {
+    "name": "Galleon",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Dock",
+    "cost": {
+      "Food": 400,
+      "Wood": 315
+    },
+    "build_time": 65,
+    "applies_to": "War Galley",
+    "description": "Upgrade to Galleon"
+  },
+  {
+    "name": "Heavy Demolition Ship",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Dock",
+    "cost": {
+      "Wood": 200,
+      "Gold": 300
+    },
+    "build_time": 50,
+    "applies_to": "Demolition Ship",
+    "description": "Upgrade to Heavy Demolition Ship"
+  },
+  {
+    "name": "Shipwright",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Dock",
+    "cost": {
+      "Wood": 200,
+      "Food": 1000
+    },
+    "build_time": 60,
+    "applies_to": "Ships",
+    "description": "Wood cost * 0.8 (-20%) and build time * 0.65 (-35%)"
+  },
+  {
+    "name": "Double Bit Axe",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "develops_in": "Lumber Camp",
+    "cost": {
+      "Wood": 50,
+      "Food": 100
+    },
+    "build_time": 25,
+    "applies_to": "Wood Chopper",
+    "description": "Work Rate x 1.2 (20% faster)"
+  },
+  {
+    "name": "Bow Saw",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "develops_in": "Lumber Camp",
+    "cost": {
+      "Wood": 100,
+      "Food": 150
+    },
+    "build_time": 50,
+    "applies_to": "Wood Chopper",
+    "description": "Work Rate x 1.2 (20% faster) which stacks with Double Bit Axe"
+  },
+  {
+    "name": "Two Man Saw",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Lumber Camp",
+    "cost": {
+      "Wood": 200,
+      "Food": 300
+    },
+    "build_time": 100,
+    "applies_to": "Wood Chopper",
+    "description": "Work Rate x 1.1 (10% faster) which stacks with Bow Saw"
+  },
+  {
+    "name": "Cartography",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "develops_in": "Market",
+    "cost": {
+      "Food": 100,
+      "Gold": 100
+    },
+    "build_time": 60,
+    "applies_to": null,
+    "description": "See ally line of sight"
+  },
+  {
+    "name": "Coinage",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "develops_in": "Market",
+    "cost": {
+      "Food": 150,
+      "Gold": 50
+    },
+    "build_time": 50,
+    "applies_to": null,
+    "description": "Tribute inefficiency - 0.2 (20% tribute fee from 30%)"
+  },
+  {
+    "name": "Banking",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "develops_in": "Market",
+    "cost": {
+      "Food": 200,
+      "Gold": 100
+    },
+    "build_time": 50,
+    "applies_to": null,
+    "description": "Tribute inefficiency - 0 (0% tribute fee from 20% coinage)"
+  },
+  {
+    "name": "Caravan",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "develops_in": "Market",
+    "cost": {
+      "Food": 200,
+      "Gold": 200
+    },
+    "build_time": 40,
+    "applies_to": [
+      "Trade Cart",
+      "Trade Cog"
+    ],
+    "description": "Movement rate * 1.5 (50% faster)"
+  },
+  {
+    "name": "Guilds",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Market",
+    "cost": {
+      "Food": 300,
+      "Gold": 200
+    },
+    "build_time": 50,
+    "applies_to": null,
+    "description": "Commodity trading fee - 15% (from 30%)"
+  },
+  {
+    "name": "Horse Collar",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "develops_in": "Mill",
+    "cost": {
+      "Food": 75,
+      "Wood": 75
+    },
+    "build_time": 20,
+    "applies_to": "Farm",
+    "description": "Food amount +75"
+  },
+  {
+    "name": "Heavy Plow",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "develops_in": "Mill",
+    "cost": {
+      "Food": 125,
+      "Wood": 125
+    },
+    "build_time": 40,
+    "applies_to": [
+      "Farm",
+      "Farmers"
+    ],
+    "description": "Food amount +75 and Farmers carry +1 food"
+  },
+  {
+    "name": "Crop Rotation",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Mill",
+    "cost": {
+      "Food": 250,
+      "Wood": 250
+    },
+    "build_time": 70,
+    "applies_to": "Farm",
+    "description": "Food amount +175"
+  },
+  {
+    "name": "Gold Mining",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "develops_in": "Mining Camp",
+    "cost": {
+      "Food": 100,
+      "Wood": 75
+    },
+    "build_time": 30,
+    "applies_to": "Gold Miners",
+    "description": "Work rate * 1.15 (15% faster)"
+  },
+  {
+    "name": "Stone Mining",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "develops_in": "Mining Camp",
+    "cost": {
+      "Food": 100,
+      "Wood": 75
+    },
+    "build_time": 30,
+    "applies_to": "Stone Miners",
+    "description": "Work rate * 1.15 (15% faster)"
+  },
+  {
+    "name": "Gold Shaft Mining",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "develops_in": "Mining Camp",
+    "cost": {
+      "Food": 200,
+      "Wood": 150
+    },
+    "build_time": 75,
+    "applies_to": "Gold Miners",
+    "description": "Work rate * 1.15 (15% faster) which stacks with Gold Mining"
+  },
+  {
+    "name": "Stone Shaft Mining",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "develops_in": "Mining Camp",
+    "cost": {
+      "Food": 200,
+      "Wood": 150
+    },
+    "build_time": 75,
+    "applies_to": "Stone Miners",
+    "description": "Work rate * 1.15 (15% faster) which stacks with Stone Mining"
+  },
+  {
+    "name": "Atonement",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "develops_in": "Monastery",
+    "cost": {
+      "Gold": 325
+    },
+    "build_time": 40,
+    "applies_to": "Monks",
+    "description": "Monks convert enemy monks"
+  },
+  {
+    "name": "Fervor",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "develops_in": "Monastery",
+    "cost": {
+      "Gold": 140
+    },
+    "build_time": 50,
+    "applies_to": "Monks",
+    "description": "Monks have +15% speed carrying relics"
+  },
+  {
+    "name": "Herbal Medicine",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "develops_in": "Monastery",
+    "cost": {
+      "Gold": 350
+    },
+    "build_time": 35,
+    "applies_to": "Garrisoned Units",
+    "description": "Garrisoned Units 4x healing speed"
+  },
+  {
+    "name": "Heresy",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "develops_in": "Monastery",
+    "cost": {
+      "Gold": 1000
+    },
+    "build_time": 60,
+    "applies_to": "Monks",
+    "description": "Converted units die"
+  },
+  {
+    "name": "Redemption",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "develops_in": "Monastery",
+    "cost": {
+      "Gold": 475
+    },
+    "build_time": 50,
+    "applies_to": "Monks",
+    "description": "convert siege units and buildings"
+  },
+  {
+    "name": "Sanctity",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "develops_in": "Monastery",
+    "cost": {
+      "Gold": 120
+    },
+    "build_time": 60,
+    "applies_to": "Monks",
+    "description": "+15 health points"
+  },
+  {
+    "name": "Block Printing",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Monastery",
+    "cost": {
+      "Gold": 200
+    },
+    "build_time": 55,
+    "applies_to": "Monks",
+    "description": "+3 range"
+  },
+  {
+    "name": "Faith",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Monastery",
+    "cost": {
+      "Food": 750,
+      "Gold": 1000
+    },
+    "build_time": 60,
+    "applies_to": "All units",
+    "description": "Units are harder to convert"
+  },
+  {
+    "name": "Illumination",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Monastery",
+    "cost": {
+      "Gold": 120
+    },
+    "build_time": 65,
+    "applies_to": "Monks",
+    "description": "Faith regain 50% faster"
+  },
+  {
+    "name": "Theocracy",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Monastery",
+    "cost": {
+      "Gold": 200
+    },
+    "build_time": 75,
+    "applies_to": "Monks",
+    "description": "Only one monk needs to rest in a group"
+  },
+  {
+    "name": "Capped Ram",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Siege Workshop",
+    "cost": {
+      "Food": 300
+    },
+    "build_time": 50,
+    "applies_to": "Battering Ram",
+    "description": "Upgrade to Capped Ram"
+  },
+  {
+    "name": "Heavy Scorpion",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Siege Workshop",
+    "cost": {
+      "Food": 1000,
+      "Wood": 1100
+    },
+    "build_time": 50,
+    "applies_to": "Scorpion",
+    "description": "Upgrade to Heavy Scorpion"
+  },
+  {
+    "name": "Onager",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Siege Workshop",
+    "cost": {
+      "Food": 800,
+      "Gold": 500
+    },
+    "build_time": 75,
+    "applies_to": "Mangonel",
+    "description": "Upgrade to Onager"
+  },
+  {
+    "name": "Siege Onager",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Siege Workshop",
+    "cost": {
+      "Food": 1450,
+      "Gold": 1000
+    },
+    "build_time": 150,
+    "applies_to": "Onager",
+    "description": "Upgrade to Siege Onager"
+  },
+  {
+    "name": "Siege Ram",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Siege Workshop",
+    "cost": {
+      "Food": 1000
+    },
+    "build_time": 75,
+    "applies_to": "Capped Ram",
+    "description": "Upgrade to Siege Ram"
+  },
+  {
+    "name": "Bloodlines",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "develops_in": "Stable",
+    "cost": {
+      "Food": 150,
+      "Gold": 100
+    },
+    "build_time": 50,
+    "applies_to": [
+      "Cavalry",
+      "Cavalry Archer",
+      "Conquistador"
+    ],
+    "description": "+20 hit points"
+  },
+  {
+    "name": "Husbandry",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "develops_in": "Stable",
+    "cost": {
+      "Food": 250
+    },
+    "build_time": 50,
+    "applies_to": [
+      "Cavalry",
+      "Cavalry Archer",
+      "Conquistador"
+    ],
+    "description": "Movement rate * 1.1"
+  },
+  {
+    "name": "Ligth Cavalry",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "develops_in": "Stable",
+    "cost": {
+      "Food": 150,
+      "Gold": 50
+    },
+    "build_time": 45,
+    "applies_to": "Scout",
+    "description": "Upgrade to Light Cavalry"
+  },
+  {
+    "name": "Cavalier",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Stable",
+    "cost": {
+      "Food": 300,
+      "Gold": 300
+    },
+    "build_time": 100,
+    "applies_to": "Knight",
+    "description": "Upgrade to Cavalier"
+  },
+  {
+    "name": "Heavy Camel",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Stable",
+    "cost": {
+      "Food": 325,
+      "Gold": 360
+    },
+    "build_time": 125,
+    "applies_to": "Camel",
+    "description": "Upgrade to Heavy Camel"
+  },
+  {
+    "name": "Hussar",
+    "expansion": "The Conquerors",
+    "age": "Imperial",
+    "develops_in": "Stable",
+    "cost": {
+      "Food": 500,
+      "Gold": 600
+    },
+    "build_time": 50,
+    "applies_to": "Ligth Cavalry",
+    "description": "Upgrade to Hussar"
+  },
+  {
+    "name": "Paladin",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Stable",
+    "cost": {
+      "Food": 1300,
+      "Gold": 750
+    },
+    "build_time": 170,
+    "applies_to": "Cavalier",
+    "description": "Upgrade to Paladin"
+  },
+  {
+    "name": "Feudal Age",
+    "expansion": "Age of Kings",
+    "age": "Dark",
+    "develops_in": "Town Center",
+    "cost": {
+      "Food": 500
+    },
+    "build_time": 130,
+    "applies_to": null,
+    "description": "Advance to the Feudal Age"
+  },
+  {
+    "name": "Loom",
+    "expansion": "Age of Kings",
+    "age": "Dark",
+    "develops_in": "Town Center",
+    "cost": {
+      "Gold": 50
+    },
+    "build_time": 25,
+    "applies_to": "Villager",
+    "description": "+15 hit points +1/+2 armor"
+  },
+  {
+    "name": "Castle Age",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "develops_in": "Town Center",
+    "cost": {
+      "Food": 800,
+      "Gold": 200
+    },
+    "build_time": 160,
+    "applies_to": null,
+    "description": "Advance to the Castle Age"
+  },
+  {
+    "name": "Town Watch",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "develops_in": "Town Center",
+    "cost": {
+      "Food": 75
+    },
+    "build_time": 25,
+    "applies_to": [
+      "Buildings",
+      "Towers"
+    ],
+    "description": "+4 Line of sight"
+  },
+  {
+    "name": "Wheelbarrow",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "develops_in": "Town Center",
+    "cost": {
+      "Food": 175,
+      "Wood": 50
+    },
+    "build_time": 75,
+    "applies_to": "Villagers",
+    "description": "Movement rate * 1.1 and carrying capacity * 1.25"
+  },
+  {
+    "name": "Hand Cart",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "develops_in": "Town Center",
+    "cost": {
+      "Food": 305,
+      "Wood": 200
+    },
+    "build_time": 55,
+    "applies_to": "Villagers",
+    "description": "Movement rate * 1.1 and carrying capacity * 1.5"
+  },
+  {
+    "name": "Imperial Age",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "develops_in": "Town Center",
+    "cost": {
+      "Food": 1000,
+      "Gold": 800
+    },
+    "build_time": 190,
+    "applies_to": null,
+    "description": "Advance to the Imperial Age"
+  },
+  {
+    "name": "Town Patrol",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "develops_in": "Town Center",
+    "cost": {
+      "Food": 300,
+      "Gold": 200
+    },
+    "build_time": 40,
+    "applies_to": [
+      "Buildings",
+      "Towers"
+    ],
+    "description": "+4 Line of sight"
+  },
+  {
+    "name": "Ballistics",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "develops_in": "University",
+    "cost": {
+      "Wood": 300,
+      "Gold": 175
+    },
+    "build_time": 60,
+    "applies_to": [
+      "Arrow/Bolt-firing units",
+      "Buildings",
+      "Bombard Towers"
+    ],
+    "description": "Aim at the spot an enemy unit is moving towards instead of where it currently is"
+  },
+  {
+    "name": "Fortified Wall",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "develops_in": "University",
+    "cost": {
+      "Wood": 100,
+      "Food": 200
+    },
+    "build_time": 50,
+    "applies_to": [
+      "Stone Wall",
+      "Gate"
+    ],
+    "description": "Fortified Wall 3000 HP 12/12 armor 24 building armor and Gate 4000 HP 6/6 armor 20 building armor"
+  },
+  {
+    "name": "Guard Tower",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "develops_in": "University",
+    "cost": {
+      "Food": 100,
+      "Wood": 250
+    },
+    "build_time": 30,
+    "applies_to": "Watch Tower",
+    "description": "Upgrade to Guard Tower"
+  },
+  {
+    "name": "Heated Shot",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "develops_in": "University",
+    "cost": {
+      "Food": 350,
+      "Gold": 100
+    },
+    "build_time": 30,
+    "applies_to": [
+      "Tower",
+      "Castle"
+    ],
+    "description": "Towers do 2.25 * attack bonus vs ships/camels and Castles do +4 damage against ships/camels"
+  },
+  {
+    "name": "Masonry",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "develops_in": "University",
+    "cost": {
+      "Food": 150,
+      "Wood": 175
+    },
+    "build_time": 50,
+    "applies_to": [
+      "Buildings",
+      "Tower"
+    ],
+    "description": "Hit points * 1.1 and +1/+1 armor and +3 building armor"
+  },
+  {
+    "name": "Murder Holes",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "develops_in": "University",
+    "cost": {
+      "Food": 200,
+      "Stone": 200
+    },
+    "build_time": 60,
+    "applies_to": [
+      "Castle",
+      "Tower"
+    ],
+    "description": "Towers and Castles minimum range removed"
+  },
+  {
+    "name": "Treadmill Crane",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "develops_in": "University",
+    "cost": {
+      "Food": 300,
+      "Wood": 200
+    },
+    "build_time": 40,
+    "applies_to": "Builder",
+    "description": "Builders work rate x 1.2 (20% faster builders - building get built 17% faster)"
+  },
+  {
+    "name": "Architecture",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "University",
+    "cost": {
+      "Food": 300,
+      "Wood": 200
+    },
+    "build_time": 70,
+    "applies_to": [
+      "Buildings",
+      "Tower"
+    ],
+    "description": "Hit points * 1.1 and +1/+1 armor and +3 building armor"
+  },
+  {
+    "name": "Bombard Tower",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "University",
+    "cost": {
+      "Food": 800,
+      "Wood": 400
+    },
+    "build_time": 60,
+    "applies_to": null,
+    "description": "Allow creation of Bombard Tower"
+  },
+  {
+    "name": "Chemistry",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "University",
+    "cost": {
+      "Food": 300,
+      "Gold": 200
+    },
+    "build_time": 100,
+    "applies_to": [
+      "Archer",
+      "Skirmisher",
+      "Cavalry Archer",
+      "Galley",
+      "Longboat",
+      "Scorpion",
+      "Tower"
+    ],
+    "description": "+1 pierce damage and projectile speed reduced from 3.5 MR to 2.9 MR for mangonels"
+  },
+  {
+    "name": "Keep",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "University",
+    "cost": {
+      "Food": 500,
+      "Wood": 350
+    },
+    "build_time": 75,
+    "applies_to": "Guard Tower",
+    "description": "Upgrade to Keep"
+  },
+  {
+    "name": "Siege Engineers",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "University",
+    "cost": {
+      "Food": 500,
+      "Wood": 600
+    },
+    "build_time": 45,
+    "applies_to": "Siege Weapons",
+    "description": "Siege weapons do 1.2 * damage vs buildings and +1 range for ranged siege"
+  },
+  {
+    "name": "Anarchy",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "develops_in": "Castle",
+    "cost": {
+      "Food": 450,
+      "Gold": 250
+    },
+    "build_time": 60,
+    "applies_to": "Goths",
+    "description": "Allow the creation of Huskarls in barracks"
+  },
+  {
+    "name": "Artillery",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Food": 500,
+      "Gold": 450
+    },
+    "build_time": 40,
+    "applies_to": [
+      "Turks",
+      "Tower",
+      "Galleon",
+      "Cannon"
+    ],
+    "description": "Bombard units +2 range"
+  },
+  {
+    "name": "Atheism",
+    "expansion": "The Conquerors",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Food": 500,
+      "Gold": 500
+    },
+    "build_time": 60,
+    "applies_to": "Huns",
+    "description": "+100 years Wonder/Relic victory time and -50% Spies/Treason cost"
+  },
+  {
+    "name": "Bearded Axe",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Food": 400,
+      "Gold": 400
+    },
+    "build_time": 60,
+    "applies_to": [
+      "Franks",
+      "Throwing Axeman"
+    ],
+    "description": "+1 range +1 Line of sight"
+  },
+  {
+    "name": "Berserkergang",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Food": 500,
+      "Gold": 850
+    },
+    "build_time": 40,
+    "applies_to": [
+      "Vikings",
+      "Berserk"
+    ],
+    "description": "Berserks regenerate 2x faster - 2 HP every 3 seconds"
+  },
+  {
+    "name": "Crenellations",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Food": 600,
+      "Gold": 400
+    },
+    "build_time": 60,
+    "applies_to": [
+      "Teutons",
+      "Castle"
+    ],
+    "description": "+3 range and garrisoned infantry fires arrows"
+  },
+  {
+    "name": "Drill",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Food": 500,
+      "Gold": 450
+    },
+    "build_time": 60,
+    "applies_to": "Mongols",
+    "description": "Siege Workshop units Movement Rate*1.5"
+  },
+  {
+    "name": "El Dorado",
+    "expansion": "The Conquerors",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Food": 750,
+      "Gold": 450
+    },
+    "build_time": 50,
+    "applies_to": [
+      "Mayans",
+      "Eagle Warrior"
+    ],
+    "description": "+40 Hit points"
+  },
+  {
+    "name": "Furor Celtica",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Food": 750,
+      "Gold": 450
+    },
+    "build_time": 50,
+    "applies_to": "Celts",
+    "description": "Siege Workshop Units HP*1.5 (50% extra HP)"
+  },
+  {
+    "name": "Garland Wars",
+    "expansion": "The Conquerors",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Food": 450,
+      "Gold": 750
+    },
+    "build_time": 60,
+    "applies_to": "Aztecs",
+    "description": "Infantry +4 attack"
+  },
+  {
+    "name": "Kataparuto",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Food": 750,
+      "Gold": 400
+    },
+    "build_time": 60,
+    "applies_to": [
+      "Japanese",
+      "Trebuchet"
+    ],
+    "description": "Trebuchets RT * 0.75 (25% faster reload time and practically 33% faster firing) and also (un)pack 4x faster"
+  },
+  {
+    "name": "Logistica",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Food": 1000,
+      "Gold": 600
+    },
+    "build_time": 50,
+    "applies_to": [
+      "Byzantines",
+      "Cataphract"
+    ],
+    "description": "Cataphract +0.5 blast radius - trample damage (5 damage) and +6 attack against infantry"
+  },
+  {
+    "name": "Mahouts",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Food": 300,
+      "Gold": 300
+    },
+    "build_time": 50,
+    "applies_to": [
+      "Persians",
+      "War Elephant"
+    ],
+    "description": "War Elephant Movement Rate * 1.3 = 0.78"
+  },
+  {
+    "name": "Perfusion",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Food": 400,
+      "Gold": 600
+    },
+    "build_time": 40,
+    "applies_to": [
+      "Goths",
+      "Barracks"
+    ],
+    "description": "Barracks working rate * 2 (unit creation time halved)"
+  },
+  {
+    "name": "Rocketry",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Food": 600,
+      "Gold": 600
+    },
+    "build_time": 60,
+    "applies_to": [
+      "Chinese",
+      "Chu Ko Nu",
+      "Scorpion"
+    ],
+    "description": "Chu Ko Nu +2 pierce damage and Scorpion +4 pierce"
+  },
+  {
+    "name": "Shinkichon",
+    "expansion": "The Conquerors",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Food": 800,
+      "Gold": 500
+    },
+    "build_time": 60,
+    "applies_to": [
+      "Koreans",
+      "Mangonel"
+    ],
+    "description": "Mangonel line +1 range"
+  },
+  {
+    "name": "Supremacy",
+    "expansion": "The Conquerors",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Food": 400,
+      "Gold": 250
+    },
+    "build_time": 60,
+    "applies_to": [
+      "Spanish",
+      "Villager"
+    ],
+    "description": "Villagers +6 attack and +40 hit points and +2/+2 armor / with loom: 80HP 9 attack 3/4 armor"
+  },
+  {
+    "name": "Yeomen",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Food": 750,
+      "Gold": 450
+    },
+    "build_time": 60,
+    "applies_to": [
+      "Britons",
+      "Foot Archer",
+      "Skirmisher",
+      "Tower"
+    ],
+    "description": "Foot archers and skirmishers +1 range +1 line of sight and Towers +2 attack"
+  },
+  {
+    "name": "Zealotry",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Food": 750,
+      "Gold": 800
+    },
+    "build_time": 50,
+    "applies_to": [
+      "Saracens",
+      "Mameluke",
+      "Camel"
+    ],
+    "description": "Mameluke and Camels +30 HP"
+  },
+  {
+    "name": "Elite Berserk",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Food": 1300,
+      "Gold": 550
+    },
+    "build_time": 45,
+    "applies_to": "Berserk",
+    "description": "Upgrade to Elite Berserk"
+  },
+  {
+    "name": "Elite Cataphract",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Food": 1600,
+      "Gold": 800
+    },
+    "build_time": 50,
+    "applies_to": "Cataphract",
+    "description": "Upgrade to Elite Cataphract"
+  },
+  {
+    "name": "Elite Chu Ko Nu",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Food": 760,
+      "Gold": 760
+    },
+    "build_time": 50,
+    "applies_to": "Chu Ko Nu",
+    "description": "Upgrade to Elite Chu Ko Nu"
+  },
+  {
+    "name": "Elite Conquistador",
+    "expansion": "The Conquerors",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Food": 1200,
+      "Gold": 600
+    },
+    "build_time": 60,
+    "applies_to": "Conquistador",
+    "description": "Upgrade to Elite Conquistador"
+  },
+  {
+    "name": "Elite Huskarl",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Food": 1200,
+      "Gold": 550
+    },
+    "build_time": 40,
+    "applies_to": "Huskarl",
+    "description": "Upgrade to Elite Huskarl"
+  },
+  {
+    "name": "Elite Jaguar Warrior",
+    "expansion": "The Conquerors",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Food": 1000,
+      "Gold": 500
+    },
+    "build_time": 45,
+    "applies_to": "Jaguar Warrior",
+    "description": "Upgrade to Elite Jaguar Warrior"
+  },
+  {
+    "name": "Elite Janissary",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Food": 850,
+      "Gold": 750
+    },
+    "build_time": 55,
+    "applies_to": "Janissary",
+    "description": "Upgrade to Elite Janissary"
+  },
+  {
+    "name": "Elite Longbowman",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Food": 850,
+      "Gold": 850
+    },
+    "build_time": 60,
+    "applies_to": "Longbowman",
+    "description": "Upgrade to Elite Longbowman"
+  },
+  {
+    "name": "Elite Mameluke",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Food": 600,
+      "Gold": 500
+    },
+    "build_time": 50,
+    "applies_to": "Mameluke",
+    "description": "Upgrade to Elite Mameluke"
+  },
+  {
+    "name": "Elite Mangudai",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Food": 1100,
+      "Gold": 675
+    },
+    "build_time": 50,
+    "applies_to": "Mangudai",
+    "description": "Upgrade to Elite Mangudai"
+  },
+  {
+    "name": "Elite Plumed Archer",
+    "expansion": "The Conquerors",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Wood": 1000,
+      "Food": 500
+    },
+    "build_time": 45,
+    "applies_to": "Plumed Archer",
+    "description": "Upgrade to Elite Plumed Archer"
+  },
+  {
+    "name": "Elite Samurai",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Food": 950,
+      "Gold": 875
+    },
+    "build_time": 60,
+    "applies_to": "Samurai",
+    "description": "Upgrade to Elite Samurai"
+  },
+  {
+    "name": "Elite Tarkan",
+    "expansion": "The Conquerors",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Food": 1000,
+      "Gold": 500
+    },
+    "build_time": 45,
+    "applies_to": "Tarkan",
+    "description": "Upgrade to Elite Tarkan"
+  },
+  {
+    "name": "Elite Teutonic Knight",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Food": 1200,
+      "Gold": 600
+    },
+    "build_time": 50,
+    "applies_to": "Teutonic Knight",
+    "description": "Upgrade to Elite Teutonic Knight"
+  },
+  {
+    "name": "Elite Throwing Axeman",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Food": 1000,
+      "Gold": 850
+    },
+    "build_time": 45,
+    "applies_to": "Throwing Axeman",
+    "description": "Upgrade to Elite Throwing Axeman"
+  },
+  {
+    "name": "Elite War Elephant",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Food": 1600,
+      "Gold": 1200
+    },
+    "build_time": 75,
+    "applies_to": "War Elephant",
+    "description": "Upgrade to Elite War Elephant"
+  },
+  {
+    "name": "Elite War Wagon",
+    "expansion": "The Conquerors",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Food": 1000,
+      "Gold": 800
+    },
+    "build_time": 75,
+    "applies_to": "War Wagon",
+    "description": "Upgrade to Elite War Wagon"
+  },
+  {
+    "name": "Elite Woad Raider",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "develops_in": "Castle",
+    "cost": {
+      "Food": 1000,
+      "Gold": 800
+    },
+    "build_time": 45,
+    "applies_to": "Woad Raider",
+    "description": "Upgrade to Elite Woad Raider"
+  }
+]

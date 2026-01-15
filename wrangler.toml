@@ -1,0 +1,7 @@
+name = "aoe2-api"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+[[routes]]
+pattern = "aoe2api.teamrespawntv.com"
+custom_domain = true
