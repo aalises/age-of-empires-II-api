@@ -3,8 +3,8 @@
  * Provides data about civilizations, units, structures, and technologies
  */
 
-// Base URL for fetching JSON files (configure to your GitHub Pages or static host)
-const BASE_URL = 'https://aoe2api.teamrespawntv.com/data';
+// Base URL for fetching JSON files from GitHub
+const BASE_URL = 'https://raw.githubusercontent.com/AndyTheNerd/age-of-empires-II-api/master/data';
 
 // Resource types with their JSON file names
 const RESOURCES = {
