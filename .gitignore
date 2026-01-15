@@ -1,13 +1,7 @@
-__pycache__
-venv
-.vscode
-.coverage
-htmlcov
-.pytest_cache
-*.pyc
+node_modules/
+.wrangler/
+.vscode/
+*.log
+.DS_Store
 
-bin
-lib
-lib64
-pyvenv.cfg
-.idea
+.claude

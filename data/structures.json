@@ -1,0 +1,1134 @@
+[
+  {
+    "name": "Barracks",
+    "expansion": "Age of Kings",
+    "age": "Dark",
+    "cost": {
+      "Wood": 175
+    },
+    "build_time": 50,
+    "hit_points": 1200,
+    "line_of_sight": 5,
+    "armor": {
+      "melee": 0,
+      "pierce": 7
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": "Garrison: 10 created units"
+  },
+  {
+    "name": "Dock",
+    "expansion": "Age of Kings",
+    "age": "Dark",
+    "cost": {
+      "Wood": 150
+    },
+    "build_time": 35,
+    "hit_points": 1800,
+    "line_of_sight": 5,
+    "armor": {
+      "melee": 0,
+      "pierce": 7
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": "Garrison: 10 created units"
+  },
+  {
+    "name": "Farm",
+    "expansion": "Age of Kings",
+    "age": "Dark",
+    "cost": {
+      "Wood": 60
+    },
+    "build_time": 15,
+    "hit_points": 480,
+    "line_of_sight": 0,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": "Standard = 175 Food;Horse Collar = 250 Food;Heavy Plow = 375 Food;Crop Rotation = 550 Food"
+  },
+  {
+    "name": "Fish Trap",
+    "expansion": "Age of Kings",
+    "age": "Dark",
+    "cost": {
+      "Wood": 100
+    },
+    "build_time": 53,
+    "hit_points": 50,
+    "line_of_sight": 1,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": "Gives 715 Food"
+  },
+  {
+    "name": "House",
+    "expansion": "Age of Kings",
+    "age": "Dark",
+    "cost": {
+      "Wood": 30
+    },
+    "build_time": 25,
+    "hit_points": 900,
+    "line_of_sight": 1,
+    "armor": {
+      "melee": 0,
+      "pierce": 7
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": "Supports 5 population"
+  },
+  {
+    "name": "Lumber Camp",
+    "expansion": "Age of Kings",
+    "age": "Dark",
+    "cost": {
+      "Wood": 100
+    },
+    "build_time": 35,
+    "hit_points": 1000,
+    "line_of_sight": 5,
+    "armor": {
+      "melee": 0,
+      "pierce": 7
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": null
+  },
+  {
+    "name": "Mill",
+    "expansion": "Age of Kings",
+    "age": "Dark",
+    "cost": {
+      "Wood": 100
+    },
+    "build_time": 35,
+    "hit_points": 1000,
+    "line_of_sight": 5,
+    "armor": {
+      "melee": 0,
+      "pierce": 7
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": "Max 40 farms queued"
+  },
+  {
+    "name": "Mining Camp",
+    "expansion": "Age of Kings",
+    "age": "Dark",
+    "cost": {
+      "Wood": 100
+    },
+    "build_time": 35,
+    "hit_points": 1000,
+    "line_of_sight": 5,
+    "armor": {
+      "melee": 0,
+      "pierce": 7
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": null
+  },
+  {
+    "name": "Town Center",
+    "expansion": "Age of Kings",
+    "age": "Dark",
+    "cost": {
+      "Wood": 275,
+      "Stone": 100
+    },
+    "build_time": 150,
+    "hit_points": 2400,
+    "line_of_sight": 7,
+    "armor": {
+      "melee": 3,
+      "pierce": 5
+    },
+    "range": 6,
+    "reload_time": 2,
+    "attack": 5,
+    "special": "15 units (supports 5 population);max 10 arrows;+5 vs all buildings;+5 vs ships/camels"
+  },
+  {
+    "name": "Archery Range",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "cost": {
+      "Wood": 175
+    },
+    "build_time": 50,
+    "hit_points": 1500,
+    "line_of_sight": 5,
+    "armor": {
+      "melee": 1,
+      "pierce": 8
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": "Garrison: 10 created units"
+  },
+  {
+    "name": "Barracks",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "cost": {
+      "Wood": 175
+    },
+    "build_time": 50,
+    "hit_points": 1500,
+    "line_of_sight": 5,
+    "armor": {
+      "melee": 1,
+      "pierce": 8
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": "Garrison: 10 created units"
+  },
+  {
+    "name": "Blacksmith",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "cost": {
+      "Wood": 150
+    },
+    "build_time": 40,
+    "hit_points": 2100,
+    "line_of_sight": 5,
+    "armor": {
+      "melee": 1,
+      "pierce": 8
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": null
+  },
+  {
+    "name": "Dock",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "cost": {
+      "Wood": 150
+    },
+    "build_time": 35,
+    "hit_points": 1800,
+    "line_of_sight": 5,
+    "armor": {
+      "melee": 1,
+      "pierce": 8
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": "Garrison: 10 created units"
+  },
+  {
+    "name": "House",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "cost": {
+      "Wood": 30
+    },
+    "build_time": 25,
+    "hit_points": 900,
+    "line_of_sight": 1,
+    "armor": {
+      "melee": 1,
+      "pierce": 8
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": "Supports 5 population"
+  },
+  {
+    "name": "Lumber Camp",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "cost": {
+      "Wood": 100
+    },
+    "build_time": 35,
+    "hit_points": 1000,
+    "line_of_sight": 5,
+    "armor": {
+      "melee": 1,
+      "pierce": 8
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": null
+  },
+  {
+    "name": "Market",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "cost": {
+      "Wood": 175
+    },
+    "build_time": 60,
+    "hit_points": 2100,
+    "line_of_sight": 4,
+    "armor": {
+      "melee": 1,
+      "pierce": 8
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": null
+  },
+  {
+    "name": "Mill",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "cost": {
+      "Wood": 100
+    },
+    "build_time": 35,
+    "hit_points": 1000,
+    "line_of_sight": 5,
+    "armor": {
+      "melee": 1,
+      "pierce": 8
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": "Max 40 farms queued"
+  },
+  {
+    "name": "Mining Camp",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "cost": {
+      "Wood": 100
+    },
+    "build_time": 35,
+    "hit_points": 1000,
+    "line_of_sight": 5,
+    "armor": {
+      "melee": 1,
+      "pierce": 8
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": null
+  },
+  {
+    "name": "Stable",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "cost": {
+      "Wood": 175
+    },
+    "build_time": 50,
+    "hit_points": 1500,
+    "line_of_sight": 5,
+    "armor": {
+      "melee": 1,
+      "pierce": 8
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": "Garrison: 10 created units"
+  },
+  {
+    "name": "Town Center",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "cost": {
+      "Wood": 275,
+      "Stone": 100
+    },
+    "build_time": 150,
+    "hit_points": 2400,
+    "line_of_sight": 7,
+    "armor": {
+      "melee": 4,
+      "pierce": 6
+    },
+    "range": 6,
+    "reload_time": 2,
+    "attack": 5,
+    "special": "15 units (supports 5 population);max 10 arrows;+5 vs all buildings;+5 vs ships/camels"
+  },
+  {
+    "name": "Archery Range",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "cost": {
+      "Wood": 175
+    },
+    "build_time": 50,
+    "hit_points": 1800,
+    "line_of_sight": 5,
+    "armor": {
+      "melee": 2,
+      "pierce": 9
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": "Garrison: 10 created units"
+  },
+  {
+    "name": "Barracks",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "cost": {
+      "Wood": 175
+    },
+    "build_time": 50,
+    "hit_points": 1800,
+    "line_of_sight": 5,
+    "armor": {
+      "melee": 2,
+      "pierce": 9
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": "Garrison: 10 created units"
+  },
+  {
+    "name": "Blacksmith",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "cost": {
+      "Wood": 150
+    },
+    "build_time": 40,
+    "hit_points": 2100,
+    "line_of_sight": 5,
+    "armor": {
+      "melee": 2,
+      "pierce": 9
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": null
+  },
+  {
+    "name": "Castle",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "cost": {
+      "Stone": 650
+    },
+    "build_time": 200,
+    "hit_points": 4800,
+    "line_of_sight": 10,
+    "armor": {
+      "melee": 8,
+      "pierce": 11
+    },
+    "range": 1,
+    "reload_time": 2,
+    "attack": 11,
+    "special": "20 units (support 20 population);max 21 arrows;1st arrow +2 against spearmen;From 2nd arrow +11 damage vs ships/camels;+11 vs stone defense"
+  },
+  {
+    "name": "Dock",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "cost": {
+      "Wood": 150
+    },
+    "build_time": 35,
+    "hit_points": 1800,
+    "line_of_sight": 5,
+    "armor": {
+      "melee": 2,
+      "pierce": 9
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": "Garrison: 10 created units"
+  },
+  {
+    "name": "House",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "cost": {
+      "Wood": 30
+    },
+    "build_time": 25,
+    "hit_points": 900,
+    "line_of_sight": 1,
+    "armor": {
+      "melee": 2,
+      "pierce": 9
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": "Supports 5 population"
+  },
+  {
+    "name": "Lumber Camp",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "cost": {
+      "Wood": 100
+    },
+    "build_time": 35,
+    "hit_points": 1000,
+    "line_of_sight": 5,
+    "armor": {
+      "melee": 2,
+      "pierce": 9
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": null
+  },
+  {
+    "name": "Market",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "cost": {
+      "Wood": 175
+    },
+    "build_time": 60,
+    "hit_points": 2100,
+    "line_of_sight": 4,
+    "armor": {
+      "melee": 2,
+      "pierce": 9
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": null
+  },
+  {
+    "name": "Mill",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "cost": {
+      "Wood": 100
+    },
+    "build_time": 35,
+    "hit_points": 1000,
+    "line_of_sight": 5,
+    "armor": {
+      "melee": 2,
+      "pierce": 9
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": "Max 40 farms queued"
+  },
+  {
+    "name": "Mining Camp",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "cost": {
+      "Wood": 100
+    },
+    "build_time": 35,
+    "hit_points": 1000,
+    "line_of_sight": 5,
+    "armor": {
+      "melee": 2,
+      "pierce": 9
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": null
+  },
+  {
+    "name": "Monastery",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "cost": {
+      "Wood": 175
+    },
+    "build_time": 40,
+    "hit_points": 2100,
+    "line_of_sight": 5,
+    "armor": {
+      "melee": 2,
+      "pierce": 9
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": "Garrison: 10 created units"
+  },
+  {
+    "name": "Siege Workshop",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "cost": {
+      "Wood": 200
+    },
+    "build_time": 40,
+    "hit_points": 2100,
+    "line_of_sight": 4,
+    "armor": {
+      "melee": 2,
+      "pierce": 9
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": "Garrison: 10 created units"
+  },
+  {
+    "name": "Stable",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "cost": {
+      "Wood": 175
+    },
+    "build_time": 50,
+    "hit_points": 1800,
+    "line_of_sight": 5,
+    "armor": {
+      "melee": 2,
+      "pierce": 9
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": "Garrison: 10 created units"
+  },
+  {
+    "name": "Town Center",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "cost": {
+      "Wood": 275,
+      "Stone": 100
+    },
+    "build_time": 150,
+    "hit_points": 2400,
+    "line_of_sight": 7,
+    "armor": {
+      "melee": 5,
+      "pierce": 7
+    },
+    "range": 6,
+    "reload_time": 2,
+    "attack": 5,
+    "special": "15 units (supports 5 population);max 10 arrows;+5 vs all buildings;+5 vs ships/camels"
+  },
+  {
+    "name": "University",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "cost": {
+      "Wood": 200
+    },
+    "build_time": 60,
+    "hit_points": 2100,
+    "line_of_sight": 4,
+    "armor": {
+      "melee": 2,
+      "pierce": 9
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": null
+  },
+  {
+    "name": "Archery Range",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "cost": {
+      "Wood": 175
+    },
+    "build_time": 50,
+    "hit_points": 2100,
+    "line_of_sight": 5,
+    "armor": {
+      "melee": 3,
+      "pierce": 10
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": "Garrison: 10 created units"
+  },
+  {
+    "name": "Barracks",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "cost": {
+      "Wood": 175
+    },
+    "build_time": 50,
+    "hit_points": 2100,
+    "line_of_sight": 5,
+    "armor": {
+      "melee": 3,
+      "pierce": 10
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": "Garrison: 10 created units"
+  },
+  {
+    "name": "Blacksmith",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "cost": {
+      "Wood": 150
+    },
+    "build_time": 40,
+    "hit_points": 2100,
+    "line_of_sight": 5,
+    "armor": {
+      "melee": 3,
+      "pierce": 10
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": null
+  },
+  {
+    "name": "Dock",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "cost": {
+      "Wood": 150
+    },
+    "build_time": 35,
+    "hit_points": 1800,
+    "line_of_sight": 5,
+    "armor": {
+      "melee": 3,
+      "pierce": 10
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": "Garrison: 10 created units"
+  },
+  {
+    "name": "House",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "cost": {
+      "Wood": 30
+    },
+    "build_time": 25,
+    "hit_points": 900,
+    "line_of_sight": 1,
+    "armor": {
+      "melee": 3,
+      "pierce": 10
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": "Supports 5 population"
+  },
+  {
+    "name": "Lumber Camp",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "cost": {
+      "Wood": 100
+    },
+    "build_time": 35,
+    "hit_points": 1000,
+    "line_of_sight": 5,
+    "armor": {
+      "melee": 3,
+      "pierce": 10
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": null
+  },
+  {
+    "name": "Market",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "cost": {
+      "Wood": 175
+    },
+    "build_time": 60,
+    "hit_points": 2100,
+    "line_of_sight": 4,
+    "armor": {
+      "melee": 3,
+      "pierce": 10
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": null
+  },
+  {
+    "name": "Mill",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "cost": {
+      "Wood": 100
+    },
+    "build_time": 35,
+    "hit_points": 1000,
+    "line_of_sight": 5,
+    "armor": {
+      "melee": 3,
+      "pierce": 10
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": "Max 40 farms queued"
+  },
+  {
+    "name": "Mining Camp",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "cost": {
+      "Wood": 100
+    },
+    "build_time": 35,
+    "hit_points": 1000,
+    "line_of_sight": 5,
+    "armor": {
+      "melee": 3,
+      "pierce": 10
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": null
+  },
+  {
+    "name": "Monastery",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "cost": {
+      "Wood": 175
+    },
+    "build_time": 40,
+    "hit_points": 2100,
+    "line_of_sight": 5,
+    "armor": {
+      "melee": 3,
+      "pierce": 10
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": "Garrison: 10 created units"
+  },
+  {
+    "name": "Siege Workshop",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "cost": {
+      "Wood": 200
+    },
+    "build_time": 40,
+    "hit_points": 2100,
+    "line_of_sight": 4,
+    "armor": {
+      "melee": 3,
+      "pierce": 10
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": "Garrison: 10 created units"
+  },
+  {
+    "name": "Stable",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "cost": {
+      "Wood": 175
+    },
+    "build_time": 50,
+    "hit_points": 2100,
+    "line_of_sight": 5,
+    "armor": {
+      "melee": 3,
+      "pierce": 10
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": "Garrison: 10 created units"
+  },
+  {
+    "name": "Town Center",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "cost": {
+      "Wood": 275,
+      "Stone": 100
+    },
+    "build_time": 150,
+    "hit_points": 2400,
+    "line_of_sight": 7,
+    "armor": {
+      "melee": 6,
+      "pierce": 8
+    },
+    "range": 6,
+    "reload_time": 2,
+    "attack": 5,
+    "special": "15 units (supports 5 population);Max 10 arrows;+5 vs all buildings;+5 vs ships/camels"
+  },
+  {
+    "name": "University",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "cost": {
+      "Wood": 200
+    },
+    "build_time": 60,
+    "hit_points": 2100,
+    "line_of_sight": 4,
+    "armor": {
+      "melee": 3,
+      "pierce": 10
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": null
+  },
+  {
+    "name": "Wonder",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "cost": {
+      "Wood": 1000,
+      "Stone": 1000,
+      "Gold": 1000
+    },
+    "build_time": 3503,
+    "hit_points": 4800,
+    "line_of_sight": 6,
+    "armor": {
+      "melee": 3,
+      "pierce": 10
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": null
+  },
+  {
+    "name": "Outpost",
+    "expansion": "Age of Kings",
+    "age": "Dark",
+    "cost": {
+      "Wood": 25,
+      "Stone": 10
+    },
+    "build_time": 15,
+    "hit_points": 500,
+    "line_of_sight": 6,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": "+2 Line of sight per age"
+  },
+  {
+    "name": "Palisade Wall",
+    "expansion": "Age of Kings",
+    "age": "Dark",
+    "cost": {
+      "Wood": 2
+    },
+    "build_time": 5,
+    "hit_points": 250,
+    "line_of_sight": 2,
+    "armor": {
+      "melee": 2,
+      "pierce": 5
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": null
+  },
+  {
+    "name": "Gate",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "cost": {
+      "Stone": 30
+    },
+    "build_time": 70,
+    "hit_points": 2750,
+    "line_of_sight": 6,
+    "armor": {
+      "melee": 6,
+      "pierce": 6
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": "+1250 HP with Fortified Wall (Gates parallel to the bottom right edge have 0:30 bt)"
+  },
+  {
+    "name": "Stone Wall",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "cost": {
+      "Stone": 5
+    },
+    "build_time": 8,
+    "hit_points": 1800,
+    "line_of_sight": 2,
+    "armor": {
+      "melee": 8,
+      "pierce": 10
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": null
+  },
+  {
+    "name": "Watch Tower",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "cost": {
+      "Wood": 25,
+      "Stone": 125
+    },
+    "build_time": 80,
+    "hit_points": 1020,
+    "line_of_sight": 10,
+    "armor": {
+      "melee": 1,
+      "pierce": 7
+    },
+    "range": 1,
+    "reload_time": 2,
+    "attack": 5,
+    "special": "Garrison 5 units;+2 vs spearmen line;+7 damage vs ships/camels;Max 5 arrows"
+  },
+  {
+    "name": "Fortified Wall",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "cost": {
+      "Stone": 5
+    },
+    "build_time": 8,
+    "hit_points": 3000,
+    "line_of_sight": 2,
+    "armor": {
+      "melee": 12,
+      "pierce": 12
+    },
+    "range": null,
+    "reload_time": null,
+    "attack": null,
+    "special": null
+  },
+  {
+    "name": "Guard Tower",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "cost": {
+      "Wood": 25,
+      "Stone": 125
+    },
+    "build_time": 80,
+    "hit_points": 1500,
+    "line_of_sight": 10,
+    "armor": {
+      "melee": 2,
+      "pierce": 8
+    },
+    "range": 1,
+    "reload_time": 2,
+    "attack": 6,
+    "special": "Garrison 5 units;+2 vs spearmen line;+9 damage vs ships/camels;Max 5 arrows"
+  },
+  {
+    "name": "Bombard Tower",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "cost": {
+      "Wood": 25,
+      "Stone": 125
+    },
+    "build_time": 80,
+    "hit_points": 2220,
+    "line_of_sight": 10,
+    "armor": {
+      "melee": 3,
+      "pierce": 9
+    },
+    "range": 1,
+    "reload_time": 6,
+    "attack": 120,
+    "special": "Garrison 5 units;+40 damage vs ships/camels;Pierce attack"
+  },
+  {
+    "name": "Keep",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "cost": {
+      "Wood": 25,
+      "Stone": 125
+    },
+    "build_time": 80,
+    "hit_points": 2250,
+    "line_of_sight": 10,
+    "armor": {
+      "melee": 3,
+      "pierce": 9
+    },
+    "range": 1,
+    "reload_time": 2,
+    "attack": 7,
+    "special": "Garrison 5 units;+2 vs spearmen line;+10 damage vs ships/camels;Max 5 arrows"
+  }
+]

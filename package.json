@@ -1,0 +1,20 @@
+{
+  "name": "aoe2-api",
+  "version": "1.0.0",
+  "description": "Age of Empires II API - Cloudflare Worker",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": ["age-of-empires", "aoe2", "api", "cloudflare-workers"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^4.56.0",
+    "vitest": "^4.0.16"
+  }
+}

@@ -1,0 +1,4709 @@
+[
+  {
+    "name": "Archer",
+    "description": "Quick and light. Weak at close range; excels at battle from distance",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "created_in": "Archery Range",
+    "cost": {
+      "Wood": 25,
+      "Gold": 45
+    },
+    "build_time": 35,
+    "reload_time": 2,
+    "attack_delay": 0.35,
+    "movement_rate": 0.96,
+    "line_of_sight": 6,
+    "hit_points": 4,
+    "range": 30,
+    "attack": 4,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "attack_bonus": null,
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 80,
+    "blast_radius": null
+  },
+  {
+    "name": "Crossbowman",
+    "description": "Upgraded archer",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "created_in": "Archery Range",
+    "cost": {
+      "Wood": 25,
+      "Gold": 45
+    },
+    "build_time": 27,
+    "reload_time": 2,
+    "attack_delay": 0.35,
+    "movement_rate": 0.96,
+    "line_of_sight": 7,
+    "hit_points": 35,
+    "range": 5,
+    "attack": 5,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "attack_bonus": "+3 spearmen",
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 85,
+    "blast_radius": null
+  },
+  {
+    "name": "Arbalest",
+    "description": "Upgraded crossbowman",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "created_in": "Archery Range",
+    "cost": {
+      "Wood": 25,
+      "Gold": 45
+    },
+    "build_time": 27,
+    "reload_time": 2,
+    "attack_delay": 0.35,
+    "movement_rate": 0.96,
+    "line_of_sight": 7,
+    "hit_points": 40,
+    "range": 5,
+    "attack": 6,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "attack_bonus": "+3 spearmen",
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 90,
+    "blast_radius": null
+  },
+  {
+    "name": "Cavalry Archer",
+    "description": "Fast with ranged attack. Ideal for hit-and-run attacks",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "created_in": "Archery Range",
+    "cost": {
+      "Wood": 40,
+      "Gold": 70
+    },
+    "build_time": 34,
+    "reload_time": 2,
+    "attack_delay": 1,
+    "movement_rate": 1.4,
+    "line_of_sight": 5,
+    "hit_points": 50,
+    "range": 4,
+    "attack": 6,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "attack_bonus": "+2 spearmen",
+    "armor_bonus": null,
+    "search_radius": 6,
+    "accuracy": 50,
+    "blast_radius": null
+  },
+  {
+    "name": "Heavy Cavalry Archer",
+    "description": "Upgraded Cavalry Archer",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "created_in": "Archery Range",
+    "cost": {
+      "Wood": 40,
+      "Gold": 70
+    },
+    "build_time": 27,
+    "reload_time": 2,
+    "attack_delay": 1,
+    "movement_rate": 1.4,
+    "line_of_sight": 6,
+    "hit_points": 60,
+    "range": 4,
+    "attack": 7,
+    "armor": {
+      "melee": 1,
+      "pierce": 0
+    },
+    "attack_bonus": "+2 spearmen",
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 50,
+    "blast_radius": null
+  },
+  {
+    "name": "Hand Cannoneer",
+    "description": "Powerful close attack; inaccurate at range. Attack bonus against spearman +11 in total",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "created_in": "Archery Range",
+    "cost": {
+      "Food": 45,
+      "Gold": 50
+    },
+    "build_time": 34,
+    "reload_time": 3.45,
+    "attack_delay": 0.45,
+    "movement_rate": 0.96,
+    "line_of_sight": 9,
+    "hit_points": 35,
+    "range": 7,
+    "attack": 17,
+    "armor": {
+      "melee": 1,
+      "pierce": 0
+    },
+    "attack_bonus": [
+      "1 spearmen",
+      "+10 infantry",
+      "+2 rams"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 65,
+    "blast_radius": null
+  },
+  {
+    "name": "Skirmisher",
+    "description": "Ranged unit equipped with armor vs. archer attacks",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "created_in": "Archery Range",
+    "cost": {
+      "Food": 25,
+      "Wood": 35
+    },
+    "build_time": 22,
+    "reload_time": 3,
+    "attack_delay": 0.5,
+    "movement_rate": 0.96,
+    "line_of_sight": 6,
+    "hit_points": 30,
+    "range": 1,
+    "attack": 2,
+    "armor": {
+      "melee": 0,
+      "pierce": 3
+    },
+    "attack_bonus": [
+      "+3 spearmen",
+      "+3 archers/hand cannon/skirms/conquistadors"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 90,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Skirmisher",
+    "description": "Upgraded skirmisher",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "created_in": "Archery Range",
+    "cost": {
+      "Food": 25,
+      "Wood": 35
+    },
+    "build_time": 22,
+    "reload_time": 3,
+    "attack_delay": 0.5,
+    "movement_rate": 0.96,
+    "line_of_sight": 7,
+    "hit_points": 35,
+    "range": 1,
+    "attack": 3,
+    "armor": {
+      "melee": 0,
+      "pierce": 4
+    },
+    "attack_bonus": [
+      "+3 spearmen",
+      "+4 archers/hand cannon/skirms/conquistadors",
+      "+6 against cavalry archers"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 90,
+    "blast_radius": null
+  },
+  {
+    "name": "Eagle Warrior",
+    "description": "Fast infantry with extensive sight; resists conversion; attack bonus vs. Monks",
+    "expansion": "The Conquerors",
+    "age": "Dark",
+    "created_in": "Barracks",
+    "cost": {
+      "info": 1
+    },
+    "build_time": 0,
+    "reload_time": 2,
+    "attack_delay": 0,
+    "movement_rate": 1.1,
+    "line_of_sight": 6,
+    "hit_points": 50,
+    "range": 0,
+    "attack": 4,
+    "armor": {
+      "melee": 0,
+      "pierce": 2
+    },
+    "attack_bonus": [
+      "+8 monks",
+      "+3 siege"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Eagle Warrior",
+    "description": "Fast infantry with extensive sight; resists conversion; attack bonus vs. Monks",
+    "expansion": "The Conquerors",
+    "age": "Castle",
+    "created_in": "Barracks",
+    "cost": {
+      "Food": 20,
+      "Gold": 50
+    },
+    "build_time": 35,
+    "reload_time": 2,
+    "attack_delay": 0,
+    "movement_rate": 1.1,
+    "line_of_sight": 6,
+    "hit_points": 50,
+    "range": 0,
+    "attack": 7,
+    "armor": {
+      "melee": 0,
+      "pierce": 2
+    },
+    "attack_bonus": [
+      "+8 monks",
+      "+3 siege",
+      "+2 cavalry",
+      "+1 ship/camel"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Eagle Warrior",
+    "description": "Upgraded Eagle Warrior",
+    "expansion": "The Conquerors",
+    "age": "Imperial",
+    "created_in": "Barracks",
+    "cost": {
+      "Food": 20,
+      "Gold": 50
+    },
+    "build_time": 20,
+    "reload_time": 2,
+    "attack_delay": 0,
+    "movement_rate": 1.3,
+    "line_of_sight": 6,
+    "hit_points": 60,
+    "range": 0,
+    "attack": 9,
+    "armor": {
+      "melee": 0,
+      "pierce": 4
+    },
+    "attack_bonus": [
+      "+10 monks",
+      "+5 siege",
+      "+4 cavalry",
+      "+2 ship/camel"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Spearman",
+    "description": "Medium infantry",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "created_in": "Barracks",
+    "cost": {
+      "Food": 35,
+      "Wood": 15
+    },
+    "build_time": 22,
+    "reload_time": 3,
+    "attack_delay": 0,
+    "movement_rate": 1,
+    "line_of_sight": 4,
+    "hit_points": 45,
+    "range": 0,
+    "attack": 3,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "attack_bonus": [
+      "+1 eagles",
+      "+1 buildings",
+      "+30 war elephants",
+      "+15 cavalry",
+      "+7 camels/ships"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Pikeman",
+    "description": "Upgraded Spearman",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "created_in": "Barracks",
+    "cost": {
+      "Food": 35,
+      "Wood": 25
+    },
+    "build_time": 22,
+    "reload_time": 3,
+    "attack_delay": 0,
+    "movement_rate": 1,
+    "line_of_sight": 4,
+    "hit_points": 55,
+    "range": 0,
+    "attack": 4,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "attack_bonus": [
+      "+1 eagles",
+      "+1 buildings",
+      "+47 war elephants",
+      "+22 cavalry",
+      "+11 camels/ships"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Halberdier",
+    "description": "Upgraded Pikeman",
+    "expansion": "The Conquerors",
+    "age": "Imperial",
+    "created_in": "Barracks",
+    "cost": {
+      "Food": 35,
+      "Wood": 25
+    },
+    "build_time": 22,
+    "reload_time": 3,
+    "attack_delay": 0,
+    "movement_rate": 1,
+    "line_of_sight": 4,
+    "hit_points": 60,
+    "range": 0,
+    "attack": 6,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "attack_bonus": [
+      "+1 eagles",
+      "+1 buildings",
+      "+60 war elephants",
+      "+32 cavalry",
+      "+16 camels/ships"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Militia",
+    "description": "Basic infantry swordsman. Quick and cheap to create",
+    "expansion": "Age of Kings",
+    "age": "Dark",
+    "created_in": "Barracks",
+    "cost": {
+      "Food": 60,
+      "Gold": 20
+    },
+    "build_time": 21,
+    "reload_time": 2,
+    "attack_delay": 0,
+    "movement_rate": 0.9,
+    "line_of_sight": 4,
+    "hit_points": 40,
+    "range": 0,
+    "attack": 4,
+    "armor": {
+      "melee": 0,
+      "pierce": 1
+    },
+    "attack_bonus": null,
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Man-at-Arms",
+    "description": "Upgraded Militia. Attack bonus vs. buildings",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "created_in": "Barracks",
+    "cost": {
+      "Food": 60,
+      "Gold": 20
+    },
+    "build_time": 21,
+    "reload_time": 2,
+    "attack_delay": 0,
+    "movement_rate": 0.9,
+    "line_of_sight": 4,
+    "hit_points": 45,
+    "range": 0,
+    "attack": 6,
+    "armor": {
+      "melee": 0,
+      "pierce": 1
+    },
+    "attack_bonus": [
+      "+2 eagles",
+      "+1 buildings"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Long Swordsman",
+    "description": "Upgraded Man-at-Arms",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "created_in": "Barracks",
+    "cost": {
+      "Food": 60,
+      "Gold": 20
+    },
+    "build_time": 21,
+    "reload_time": 2,
+    "attack_delay": 0,
+    "movement_rate": 0.9,
+    "line_of_sight": 4,
+    "hit_points": 55,
+    "range": 0,
+    "attack": 9,
+    "armor": {
+      "melee": 0,
+      "pierce": 1
+    },
+    "attack_bonus": [
+      "+4 eagles",
+      "+2 buildings"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Two-Handed Swordsman",
+    "description": "Upgraded Long Swordsman. Attack bonus vs. buildings",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "created_in": "Barracks",
+    "cost": {
+      "Food": 60,
+      "Gold": 20
+    },
+    "build_time": 21,
+    "reload_time": 2,
+    "attack_delay": 0,
+    "movement_rate": 0.9,
+    "line_of_sight": 5,
+    "hit_points": 60,
+    "range": 0,
+    "attack": 11,
+    "armor": {
+      "melee": 0,
+      "pierce": 1
+    },
+    "attack_bonus": [
+      "+6 eagles",
+      "+3 buildings"
+    ],
+    "armor_bonus": null,
+    "search_radius": 4,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Champion",
+    "description": "Upgraded Two-Handed Swordsman",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "created_in": "Barracks",
+    "cost": {
+      "Food": 60,
+      "Gold": 20
+    },
+    "build_time": 21,
+    "reload_time": 2,
+    "attack_delay": 0,
+    "movement_rate": 0.9,
+    "line_of_sight": 5,
+    "hit_points": 70,
+    "range": 0,
+    "attack": 13,
+    "armor": {
+      "melee": 1,
+      "pierce": 1
+    },
+    "attack_bonus": [
+      "+6 eagles",
+      "+3 buildings"
+    ],
+    "armor_bonus": null,
+    "search_radius": 5,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "King",
+    "description": "Cannot be produced so the cost and build time just for the sake of interest",
+    "expansion": "Age of Kings",
+    "age": "Dark",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 50
+    },
+    "build_time": 30,
+    "reload_time": 0,
+    "attack_delay": 0,
+    "movement_rate": 1.32,
+    "line_of_sight": 6,
+    "hit_points": 75,
+    "range": 0,
+    "attack": 0,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "attack_bonus": null,
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Petard",
+    "description": "Demolition infantry unit armed with explosives. Bonuses add up - for example against walls and gates: +500 buildings +900 walls = +1400 bonus attack",
+    "expansion": "The Conquerors",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 80,
+      "Gold": 20
+    },
+    "build_time": 25,
+    "reload_time": 0,
+    "attack_delay": 0,
+    "movement_rate": 0.8,
+    "line_of_sight": 4,
+    "hit_points": 50,
+    "range": 0,
+    "attack": 25,
+    "armor": {
+      "melee": 0,
+      "pierce": 2
+    },
+    "attack_bonus": [
+      "+500 buildings",
+      "+100 castle",
+      "+60 siege",
+      "+900 walls & gates"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": 0.5
+  },
+  {
+    "name": "Trebuchet",
+    "description": "Powerful siege weapon used to destroy buildings and walls from long distance. Cannot fire on close units. Must be packed to move and unpacked to attack. Can cut paths through forests. Unpack time: 0:11",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "created_in": "Castle",
+    "cost": {
+      "Wood": 200,
+      "Gold": 200
+    },
+    "build_time": 50,
+    "reload_time": 10,
+    "attack_delay": 0.6,
+    "movement_rate": 0,
+    "line_of_sight": 18,
+    "hit_points": 150,
+    "range": 4,
+    "attack": 200,
+    "armor": {
+      "melee": 1,
+      "pierce": 150
+    },
+    "attack_bonus": "+250 buildings",
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 15,
+    "blast_radius": null
+  },
+  {
+    "name": "Trebuchet (packed)",
+    "description": "Powerful siege weapon used to destroy buildings and walls from long distance. Cannot fire on close units. Must be packed to move and unpacked to attack. Can cut paths through forests. Unpack time: 0:11",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "created_in": "Castle",
+    "cost": {
+      "Wood": 200,
+      "Gold": 200
+    },
+    "build_time": 50,
+    "reload_time": 0,
+    "attack_delay": 0,
+    "movement_rate": 0.8,
+    "line_of_sight": 18,
+    "hit_points": 150,
+    "range": 0,
+    "attack": 0,
+    "armor": {
+      "melee": 2,
+      "pierce": 8
+    },
+    "attack_bonus": "+250 buildings",
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 15,
+    "blast_radius": null
+  },
+  {
+    "name": "Cannon Galleon",
+    "description": "Long-range warship used to attack targets on shore to establish beachhead. Fires slowly and has minimum range",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "created_in": "Dock",
+    "cost": {
+      "Wood": 200,
+      "Gold": 150
+    },
+    "build_time": 46,
+    "reload_time": 10,
+    "attack_delay": 0,
+    "movement_rate": 1.1,
+    "line_of_sight": 15,
+    "hit_points": 120,
+    "range": 3,
+    "attack": 35,
+    "armor": {
+      "melee": 0,
+      "pierce": 6
+    },
+    "attack_bonus": [
+      "+200 buildings",
+      "+15 infantry",
+      "+15 archers",
+      "+15 cavalry",
+      "+40 siege"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 50,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Cannon Galleon",
+    "description": "Upgraded Cannon Galleon",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "created_in": "Dock",
+    "cost": {
+      "Wood": 200,
+      "Gold": 150
+    },
+    "build_time": 46,
+    "reload_time": 10,
+    "attack_delay": 0,
+    "movement_rate": 1.1,
+    "line_of_sight": 17,
+    "hit_points": 150,
+    "range": 3,
+    "attack": 45,
+    "armor": {
+      "melee": 0,
+      "pierce": 8
+    },
+    "attack_bonus": [
+      "+275 buildings",
+      "+15 infantry",
+      "+15 archers",
+      "+15 cavalry",
+      "+40 siege"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 50,
+    "blast_radius": null
+  },
+  {
+    "name": "Demolition Ship",
+    "description": "Filled with explosives. Self-destructs when used. Pilot near enemy ships and detonate to wrest control of the sea from an entrenched opponent",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "created_in": "Dock",
+    "cost": {
+      "Wood": 70,
+      "Gold": 50
+    },
+    "build_time": 31,
+    "reload_time": 0,
+    "attack_delay": 0,
+    "movement_rate": 1.6,
+    "line_of_sight": 6,
+    "hit_points": 50,
+    "range": 0,
+    "attack": 110,
+    "armor": {
+      "melee": 0,
+      "pierce": 3
+    },
+    "attack_bonus": "+220 buildings",
+    "armor_bonus": {
+      "melee": 3,
+      "pierce": "camel"
+    },
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": 2.5
+  },
+  {
+    "name": "Heavy Demolition Ship",
+    "description": "Upgraded Demolition Ship",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "created_in": "Dock",
+    "cost": {
+      "Wood": 70,
+      "Gold": 50
+    },
+    "build_time": 31,
+    "reload_time": 0,
+    "attack_delay": 0,
+    "movement_rate": 1.6,
+    "line_of_sight": 6,
+    "hit_points": 60,
+    "range": 0,
+    "attack": 140,
+    "armor": {
+      "melee": 0,
+      "pierce": 3
+    },
+    "attack_bonus": "+280 buildings",
+    "armor_bonus": {
+      "melee": 5,
+      "pierce": "camel"
+    },
+    "search_radius": 5,
+    "accuracy": null,
+    "blast_radius": 3.5
+  },
+  {
+    "name": "Fire Ship",
+    "description": "Spews fire at other ships. Good at sinking galleys. Attack shows pierce attack",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "created_in": "Dock",
+    "cost": {
+      "Wood": 75,
+      "Gold": 45
+    },
+    "build_time": 36,
+    "reload_time": 0.25,
+    "attack_delay": 0,
+    "movement_rate": 1.35,
+    "line_of_sight": 5,
+    "hit_points": 100,
+    "range": 2.49,
+    "attack": 2,
+    "armor": {
+      "melee": 0,
+      "pierce": 6
+    },
+    "attack_bonus": [
+      "+2 buildings",
+      "+3 ships/camels",
+      "+2 turtle ships",
+      "+1 melee"
+    ],
+    "armor_bonus": {
+      "melee": 5,
+      "pierce": "camel"
+    },
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Fast Fire Ship",
+    "description": "Upgraded Fire Ship",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "created_in": "Dock",
+    "cost": {
+      "Wood": 75,
+      "Gold": 45
+    },
+    "build_time": 36,
+    "reload_time": 0.25,
+    "attack_delay": 0,
+    "movement_rate": 1.43,
+    "line_of_sight": 6,
+    "hit_points": 120,
+    "range": 2.49,
+    "attack": 3,
+    "armor": {
+      "melee": 0,
+      "pierce": 8
+    },
+    "attack_bonus": [
+      "+3 buildings",
+      "+4 ships/camels",
+      "+3 turtle ships",
+      "+1 melee"
+    ],
+    "armor_bonus": {
+      "melee": 7,
+      "pierce": "camel"
+    },
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Galley",
+    "description": "Small and fast ship with weak attack. Used to scout the water and for early attacks on enemy fishing fleets",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "created_in": "Dock",
+    "cost": {
+      "Wood": 90,
+      "Gold": 30
+    },
+    "build_time": 60,
+    "reload_time": 3,
+    "attack_delay": 0,
+    "movement_rate": 1.43,
+    "line_of_sight": 7,
+    "hit_points": 120,
+    "range": 5,
+    "attack": 6,
+    "armor": {
+      "melee": 0,
+      "pierce": 6
+    },
+    "attack_bonus": [
+      "+6 buildings",
+      "+8 ships/camels",
+      "+3 rams"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "War Galley",
+    "description": "Upgraded Galley",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "created_in": "Dock",
+    "cost": {
+      "Wood": 90,
+      "Gold": 30
+    },
+    "build_time": 36,
+    "reload_time": 3,
+    "attack_delay": 0,
+    "movement_rate": 1.43,
+    "line_of_sight": 8,
+    "hit_points": 135,
+    "range": 6,
+    "attack": 7,
+    "armor": {
+      "melee": 0,
+      "pierce": 6
+    },
+    "attack_bonus": [
+      "+7 buildings",
+      "+9 ships/camels",
+      "+4 rams"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Galleon",
+    "description": "Upgraded War Galley",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "created_in": "Dock",
+    "cost": {
+      "Wood": 90,
+      "Gold": 30
+    },
+    "build_time": 36,
+    "reload_time": 3,
+    "attack_delay": 0,
+    "movement_rate": 1.43,
+    "line_of_sight": 9,
+    "hit_points": 165,
+    "range": 7,
+    "attack": 8,
+    "armor": {
+      "melee": 0,
+      "pierce": 8
+    },
+    "attack_bonus": [
+      "+8 buildings",
+      "+11 ships/camels",
+      "+4 rams"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Longboat",
+    "description": "Viking unique unit. Fires multiple arrows. volley of 4 arrows (7-1-1-1). Castle needed. Because of the multiple arrows the delay between starts of attacks is roughly 3.34",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "created_in": "Dock",
+    "cost": {
+      "Wood": 80,
+      "Gold": 40
+    },
+    "build_time": 25,
+    "reload_time": 3,
+    "attack_delay": 9,
+    "movement_rate": 1.54,
+    "line_of_sight": 8,
+    "hit_points": 130,
+    "range": 6,
+    "attack": 7,
+    "armor": {
+      "melee": 0,
+      "pierce": 6
+    },
+    "attack_bonus": [
+      "+7 buildings",
+      "+9 ships",
+      "+4 rams"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 100,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Longboat",
+    "description": "Upgraded Longboat",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "created_in": "Dock",
+    "cost": {
+      "Wood": 80,
+      "Gold": 40
+    },
+    "build_time": 25,
+    "reload_time": 3,
+    "attack_delay": 0,
+    "movement_rate": 1.54,
+    "line_of_sight": 9,
+    "hit_points": 160,
+    "range": 7,
+    "attack": 8,
+    "armor": {
+      "melee": 0,
+      "pierce": 8
+    },
+    "attack_bonus": [
+      "+8 buildings",
+      "+11 ships",
+      "+4 rams"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 100,
+    "blast_radius": null
+  },
+  {
+    "name": "Fishing Ship",
+    "description": "Ship to harvest fish (resource)",
+    "expansion": "Age of Kings",
+    "age": "Dark",
+    "created_in": "Dock",
+    "cost": {
+      "Wood": 75
+    },
+    "build_time": 40,
+    "reload_time": 0,
+    "attack_delay": 0,
+    "movement_rate": 1.26,
+    "line_of_sight": 5,
+    "hit_points": 60,
+    "range": 0,
+    "attack": 0,
+    "armor": {
+      "melee": 0,
+      "pierce": 6
+    },
+    "attack_bonus": null,
+    "armor_bonus": null,
+    "search_radius": 12,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Trade Cog",
+    "description": "Movement rate 2.00 with caravan",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "created_in": "Dock",
+    "cost": {
+      "Wood": 100,
+      "Gold": 50
+    },
+    "build_time": 36,
+    "reload_time": 0,
+    "attack_delay": 0,
+    "movement_rate": 1.32,
+    "line_of_sight": 6,
+    "hit_points": 80,
+    "range": 0,
+    "attack": 0,
+    "armor": {
+      "melee": 0,
+      "pierce": 6
+    },
+    "attack_bonus": null,
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Transport Ship",
+    "description": "Ship to carry units. Garrison inside 5 (10 with careening and 20 with dry dock)",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "created_in": "Dock",
+    "cost": {
+      "Wood": 125
+    },
+    "build_time": 45,
+    "reload_time": 0,
+    "attack_delay": 0,
+    "movement_rate": 1.45,
+    "line_of_sight": 5,
+    "hit_points": 100,
+    "range": 0,
+    "attack": 0,
+    "armor": {
+      "melee": 4,
+      "pierce": 8
+    },
+    "attack_bonus": null,
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Turtle Ship",
+    "description": "Korean unique unit. Slow and ironclad battleship used to destroy other ships at close range",
+    "expansion": "The Conquerors",
+    "age": "Castle",
+    "created_in": "Dock",
+    "cost": {
+      "Wood": 200,
+      "Gold": 200
+    },
+    "build_time": 50,
+    "reload_time": 6,
+    "attack_delay": 0,
+    "movement_rate": 0.9,
+    "line_of_sight": 8,
+    "hit_points": 200,
+    "range": 6,
+    "attack": 50,
+    "armor": {
+      "melee": 6,
+      "pierce": 5
+    },
+    "attack_bonus": null,
+    "armor_bonus": 8,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": 0.5
+  },
+  {
+    "name": "Elite Turtle Ship",
+    "description": "Upgraded Turtle Ship",
+    "expansion": "The Conquerors",
+    "age": "Imperial",
+    "created_in": "Dock",
+    "cost": {
+      "Wood": 200,
+      "Gold": 200
+    },
+    "build_time": 50,
+    "reload_time": 6,
+    "attack_delay": 0,
+    "movement_rate": 0.9,
+    "line_of_sight": 8,
+    "hit_points": 300,
+    "range": 6,
+    "attack": 50,
+    "armor": {
+      "melee": 8,
+      "pierce": 6
+    },
+    "attack_bonus": null,
+    "armor_bonus": 11,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": 0.5
+  },
+  {
+    "name": "Wild Boar",
+    "description": "Wild boar",
+    "expansion": "Age of Kings",
+    "age": "Dark",
+    "created_in": "Gaia",
+    "cost": {
+      "Food": 340
+    },
+    "build_time": 0,
+    "reload_time": 2,
+    "attack_delay": 0,
+    "movement_rate": 0.96,
+    "line_of_sight": 4,
+    "hit_points": 75,
+    "range": 0,
+    "attack": 7,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "attack_bonus": null,
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Deer",
+    "description": "Wild deers running around",
+    "expansion": "Age of Kings",
+    "age": "Dark",
+    "created_in": "Gaia",
+    "cost": {
+      "Food": 140
+    },
+    "build_time": 0,
+    "reload_time": 0,
+    "attack_delay": 0,
+    "movement_rate": 0.737,
+    "line_of_sight": 2,
+    "hit_points": 5,
+    "range": 0,
+    "attack": 0,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "attack_bonus": null,
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Horse",
+    "description": "Can be used as scout",
+    "expansion": "Age of Kings",
+    "age": "Dark",
+    "created_in": "Gaia",
+    "cost": {
+      "raw": "{Cost:No cost}"
+    },
+    "build_time": 0,
+    "reload_time": 0,
+    "attack_delay": 0,
+    "movement_rate": 1.2,
+    "line_of_sight": 2,
+    "hit_points": 50,
+    "range": 0,
+    "attack": 0,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "attack_bonus": null,
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Sheep",
+    "description": "Can be picked up by player and used to scout",
+    "expansion": "Age of Kings",
+    "age": "Dark",
+    "created_in": "Gaia",
+    "cost": {
+      "Food": 100
+    },
+    "build_time": 0,
+    "reload_time": 0,
+    "attack_delay": 0,
+    "movement_rate": 0.7,
+    "line_of_sight": 3,
+    "hit_points": 7,
+    "range": 0,
+    "attack": 0,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "attack_bonus": null,
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Turkey",
+    "description": "Alternative to sheep",
+    "expansion": "The Conquerors",
+    "age": "Dark",
+    "created_in": "Gaia",
+    "cost": {
+      "Food": 100
+    },
+    "build_time": 0,
+    "reload_time": 0,
+    "attack_delay": 0,
+    "movement_rate": 0.7,
+    "line_of_sight": 3,
+    "hit_points": 7,
+    "range": 0,
+    "attack": 0,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "attack_bonus": null,
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Wolf",
+    "description": "Wild wolf. Gives no food just kills people. Line of sight also depends on difficulty (4-12 LOS)",
+    "expansion": "Age of Kings",
+    "age": "Dark",
+    "created_in": "Gaia",
+    "cost": {
+      "raw": "{Cost:No cost}"
+    },
+    "build_time": 0,
+    "reload_time": 2,
+    "attack_delay": 0,
+    "movement_rate": 1.05,
+    "line_of_sight": 12,
+    "hit_points": 25,
+    "range": 0,
+    "attack": 3,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "attack_bonus": null,
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Jaguar",
+    "description": "Wild jaguar. Same as wolf on yucatan and other americas maps",
+    "expansion": "Age of Kings",
+    "age": "Dark",
+    "created_in": "Gaia",
+    "cost": {
+      "raw": "{Cost:No cost}"
+    },
+    "build_time": 0,
+    "reload_time": 2,
+    "attack_delay": 0,
+    "movement_rate": 1.05,
+    "line_of_sight": 12,
+    "hit_points": 25,
+    "range": 0,
+    "attack": 3,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "attack_bonus": null,
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Trade Cart",
+    "description": "Used to trade with other players by land. Carries goods from your Market to another player's Market and brings back gold. The farther the Market the higher your profit",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "created_in": "Market",
+    "cost": {
+      "Wood": 100,
+      "Gold": 50
+    },
+    "build_time": 50,
+    "reload_time": 0,
+    "attack_delay": 0,
+    "movement_rate": 1,
+    "line_of_sight": 7,
+    "hit_points": 70,
+    "range": 0,
+    "attack": 0,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "attack_bonus": null,
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Missionary",
+    "description": "Spanish unique unit. Mounted monk",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "created_in": "Monastery",
+    "cost": {
+      "Gold": 100
+    },
+    "build_time": 51,
+    "reload_time": 0,
+    "attack_delay": 0,
+    "movement_rate": 1.1,
+    "line_of_sight": 9,
+    "hit_points": 30,
+    "range": 7,
+    "attack": 0,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "attack_bonus": null,
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Monk",
+    "description": "Slow and weak. Converts enemy units and ships to your civilization (player color). Heals wounded villagers and military units (except siege weapons)",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "created_in": "Monastery",
+    "cost": {
+      "Gold": 100
+    },
+    "build_time": 51,
+    "reload_time": 5.5,
+    "attack_delay": 0,
+    "movement_rate": 0.7,
+    "line_of_sight": 11,
+    "hit_points": 30,
+    "range": 9,
+    "attack": 0,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "attack_bonus": null,
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Bombard Cannon",
+    "description": "Powerful mobile anti-building siege weapon",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "created_in": "Siege Workshop",
+    "cost": {
+      "Wood": 225,
+      "Gold": 225
+    },
+    "build_time": 56,
+    "reload_time": 6.5,
+    "attack_delay": 0.21,
+    "movement_rate": 0.7,
+    "line_of_sight": 14,
+    "hit_points": 80,
+    "range": 5,
+    "attack": 40,
+    "armor": {
+      "melee": 2,
+      "pierce": 5
+    },
+    "attack_bonus": [
+      "+200 buildings",
+      "+40 siege/camels",
+      "+20 siege",
+      "+40 stone defense"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 92,
+    "blast_radius": 0.5
+  },
+  {
+    "name": "Mangonel",
+    "description": "Wheeled siege weapon used to attack a small mass of units. Area of effect attack. Can attack ground. Weak vs. close nonranged units",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "created_in": "Siege Workshop",
+    "cost": {
+      "Wood": 160,
+      "Gold": 135
+    },
+    "build_time": 46,
+    "reload_time": 6,
+    "attack_delay": 0,
+    "movement_rate": 0.6,
+    "line_of_sight": 9,
+    "hit_points": 50,
+    "range": 3,
+    "attack": 40,
+    "armor": {
+      "melee": 0,
+      "pierce": 6
+    },
+    "attack_bonus": [
+      "+35 buildings",
+      "+12 siege"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": 1
+  },
+  {
+    "name": "Onager",
+    "description": "Upgraded Mangonel",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "created_in": "Siege Workshop",
+    "cost": {
+      "Wood": 160,
+      "Gold": 135
+    },
+    "build_time": 46,
+    "reload_time": 6,
+    "attack_delay": 0,
+    "movement_rate": 0.6,
+    "line_of_sight": 10,
+    "hit_points": 60,
+    "range": 3,
+    "attack": 50,
+    "armor": {
+      "melee": 0,
+      "pierce": 7
+    },
+    "attack_bonus": [
+      "+45 buildings",
+      "+12 siege"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": 1.25
+  },
+  {
+    "name": "Siege Onager",
+    "description": "Upgraded Onager",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "created_in": "Siege Workshop",
+    "cost": {
+      "Wood": 160,
+      "Gold": 135
+    },
+    "build_time": 46,
+    "reload_time": 6,
+    "attack_delay": 0,
+    "movement_rate": 0.6,
+    "line_of_sight": 10,
+    "hit_points": 70,
+    "range": 3,
+    "attack": 75,
+    "armor": {
+      "melee": 0,
+      "pierce": 8
+    },
+    "attack_bonus": [
+      "+60 buildings",
+      "+12 siege"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": 1.5
+  },
+  {
+    "name": "Battering Ram",
+    "description": "Slow and lumbering siege weapon used to reduce enemy towns to ruins. Can garrison 4 units (affects movement rate +0.05 per unit)",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "created_in": "Siege Workshop",
+    "cost": {
+      "Wood": 160,
+      "Gold": 75
+    },
+    "build_time": 36,
+    "reload_time": 5,
+    "attack_delay": 0,
+    "movement_rate": 0.5,
+    "line_of_sight": 3,
+    "hit_points": 175,
+    "range": 0,
+    "attack": 2,
+    "armor": {
+      "melee": 0,
+      "pierce": 180
+    },
+    "attack_bonus": [
+      "+125 (+165 full) buildings",
+      "+40 siege",
+      "+150 (+190 full) with siege engineers buildings"
+    ],
+    "armor_bonus": -3,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Capped Ram",
+    "description": "Upgraded Battering Ram. Can garrison 4 units (affects movement rate +0.05 per unit). Max speed at 0.7",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "created_in": "Siege Workshop",
+    "cost": {
+      "Wood": 160,
+      "Gold": 75
+    },
+    "build_time": 36,
+    "reload_time": 5,
+    "attack_delay": 0,
+    "movement_rate": 0.5,
+    "line_of_sight": 3,
+    "hit_points": 200,
+    "range": 0,
+    "attack": 3,
+    "armor": {
+      "melee": 0,
+      "pierce": 190
+    },
+    "attack_bonus": [
+      "+150 (+190 full) buildings",
+      "+50 siege",
+      "+180 (+220 full) with siege engineers buildings"
+    ],
+    "armor_bonus": -3,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": 1.5
+  },
+  {
+    "name": "Siege Ram",
+    "description": "Upgraded Capped Ram. Can garrison 6 units (affects movement rate +0.05 per unit)",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "created_in": "Siege Workshop",
+    "cost": {
+      "Wood": 160,
+      "Gold": 75
+    },
+    "build_time": 36,
+    "reload_time": 5,
+    "attack_delay": 0,
+    "movement_rate": 0.6,
+    "line_of_sight": 3,
+    "hit_points": 270,
+    "range": 0,
+    "attack": 4,
+    "armor": {
+      "melee": 0,
+      "pierce": 195
+    },
+    "attack_bonus": [
+      "+200 (+260 full) buildings",
+      "+65 siege",
+      "+240 (+300 full) with siege engineers buildings"
+    ],
+    "armor_bonus": -3,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": 2
+  },
+  {
+    "name": "Scorpion",
+    "description": "Damage to all units in the path",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "created_in": "Siege Workshop",
+    "cost": {
+      "Wood": 75,
+      "Gold": 75
+    },
+    "build_time": 30,
+    "reload_time": 3.6,
+    "attack_delay": 0.21,
+    "movement_rate": 0.65,
+    "line_of_sight": 9,
+    "hit_points": 40,
+    "range": 2,
+    "attack": 12,
+    "armor": {
+      "melee": 0,
+      "pierce": 6
+    },
+    "attack_bonus": [
+      "+2 buildings",
+      "+6 war elephants",
+      "+0 melee",
+      "+1 rams"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 100,
+    "blast_radius": null
+  },
+  {
+    "name": "Heavy Scorpion",
+    "description": "Upgraded Scorpion",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "created_in": "Siege Workshop",
+    "cost": {
+      "Wood": 75,
+      "Gold": 75
+    },
+    "build_time": 30,
+    "reload_time": 3.6,
+    "attack_delay": 0.21,
+    "movement_rate": 0.65,
+    "line_of_sight": 9,
+    "hit_points": 50,
+    "range": 2,
+    "attack": 16,
+    "armor": {
+      "melee": 0,
+      "pierce": 7
+    },
+    "attack_bonus": [
+      "+4 buildings",
+      "+8 war elephants",
+      "+0 melee",
+      "+2 rams"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 100,
+    "blast_radius": null
+  },
+  {
+    "name": "Camel",
+    "description": "Excels at killing other mounted units. (not classified as cavalry)",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "created_in": "Stable",
+    "cost": {
+      "Food": 55,
+      "Gold": 60
+    },
+    "build_time": 22,
+    "reload_time": 2,
+    "attack_delay": 0,
+    "movement_rate": 1.45,
+    "line_of_sight": 4,
+    "hit_points": 100,
+    "range": 0,
+    "attack": 5,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "attack_bonus": [
+      "+10 against cavalry",
+      "+5 ships/camels"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Heavy Camel",
+    "description": "Upgraded Camel. Attack bonus vs. cavalry. (not classified as cavalry)",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "created_in": "Stable",
+    "cost": {
+      "Food": 55,
+      "Gold": 60
+    },
+    "build_time": 22,
+    "reload_time": 2,
+    "attack_delay": 0,
+    "movement_rate": 1.45,
+    "line_of_sight": 5,
+    "hit_points": 120,
+    "range": 0,
+    "attack": 7,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "attack_bonus": [
+      "+18 against cavalry",
+      "+9 ships/camels"
+    ],
+    "armor_bonus": null,
+    "search_radius": 4,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Knight",
+    "description": "Fast and heavy cavalry",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "created_in": "Stable",
+    "cost": {
+      "Food": 60,
+      "Gold": 75
+    },
+    "build_time": 30,
+    "reload_time": 1.8,
+    "attack_delay": 0,
+    "movement_rate": 1.35,
+    "line_of_sight": 4,
+    "hit_points": 100,
+    "range": 0,
+    "attack": 10,
+    "armor": {
+      "melee": 2,
+      "pierce": 2
+    },
+    "attack_bonus": null,
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Cavalier",
+    "description": "Upgraded Knight",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "created_in": "Stable",
+    "cost": {
+      "Food": 60,
+      "Gold": 75
+    },
+    "build_time": 30,
+    "reload_time": 1.8,
+    "attack_delay": 0,
+    "movement_rate": 1.35,
+    "line_of_sight": 4,
+    "hit_points": 120,
+    "range": 0,
+    "attack": 12,
+    "armor": {
+      "melee": 2,
+      "pierce": 2
+    },
+    "attack_bonus": null,
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Paladin",
+    "description": "Upgraded Cavalier",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "created_in": "Stable",
+    "cost": {
+      "Food": 60,
+      "Gold": 75
+    },
+    "build_time": 30,
+    "reload_time": 1.9,
+    "attack_delay": 0,
+    "movement_rate": 1.35,
+    "line_of_sight": 5,
+    "hit_points": 160,
+    "range": 0,
+    "attack": 14,
+    "armor": {
+      "melee": 2,
+      "pierce": 3
+    },
+    "attack_bonus": null,
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Scout Cavalry",
+    "description": "Fast with extensive line of sight. Resistant to conversion and +2 Line of sight per age",
+    "expansion": "Age of Kings",
+    "age": "Dark",
+    "created_in": "Stable",
+    "cost": {
+      "raw": "{info:All civilizations except Mayans and Aztecs start with an scout cavalry}"
+    },
+    "build_time": 0,
+    "reload_time": 2,
+    "attack_delay": 0,
+    "movement_rate": 1.2,
+    "line_of_sight": 4,
+    "hit_points": 45,
+    "range": 0,
+    "attack": 3,
+    "armor": {
+      "melee": 0,
+      "pierce": 2
+    },
+    "attack_bonus": "+6 monks",
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Scout Cavalry",
+    "description": "Fast with extensive line of sight. Resistant to conversion +2 Line of sight per age",
+    "expansion": "Age of Kings",
+    "age": "Feudal",
+    "created_in": "Stable",
+    "cost": {
+      "Food": 80
+    },
+    "build_time": 30,
+    "reload_time": 2.04,
+    "attack_delay": 0,
+    "movement_rate": 1.55,
+    "line_of_sight": 6,
+    "hit_points": 45,
+    "range": 0,
+    "attack": 5,
+    "armor": {
+      "melee": 0,
+      "pierce": 2
+    },
+    "attack_bonus": "+6 monks",
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Light Cavalry",
+    "description": "Upgraded scout cavalry. +2 Line of sight per age",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "created_in": "Stable",
+    "cost": {
+      "Food": 80
+    },
+    "build_time": 30,
+    "reload_time": 2,
+    "attack_delay": 0,
+    "movement_rate": 1.5,
+    "line_of_sight": 8,
+    "hit_points": 60,
+    "range": 0,
+    "attack": 7,
+    "armor": {
+      "melee": 0,
+      "pierce": 2
+    },
+    "attack_bonus": "+10 monks",
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Hussar",
+    "description": "Upgraded Light Cavalry. +2 Line of sight per age",
+    "expansion": "The Conquerors",
+    "age": "Imperial",
+    "created_in": "Stable",
+    "cost": {
+      "Food": 80
+    },
+    "build_time": 30,
+    "reload_time": 1.9,
+    "attack_delay": 0,
+    "movement_rate": 1.5,
+    "line_of_sight": 10,
+    "hit_points": 75,
+    "range": 0,
+    "attack": 7,
+    "armor": {
+      "melee": 0,
+      "pierce": 2
+    },
+    "attack_bonus": "+12 monks",
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Villager",
+    "description": "Gathers resources. Builds and repairs buildings. Also repairs ships and siege weapons",
+    "expansion": "Age of Kings",
+    "age": "Dark",
+    "created_in": "Town Center",
+    "cost": {
+      "Food": 50
+    },
+    "build_time": 25,
+    "reload_time": 2,
+    "attack_delay": 0,
+    "movement_rate": 0.8,
+    "line_of_sight": 4,
+    "hit_points": 25,
+    "range": 0,
+    "attack": 3,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "attack_bonus": [
+      "+3 buildings",
+      "+6 stone defense"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Berserk",
+    "description": "Viking unique unit. Infantry that slowly heals itself",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 65,
+      "Gold": 25
+    },
+    "build_time": 16,
+    "reload_time": 2,
+    "attack_delay": 0,
+    "movement_rate": 1.05,
+    "line_of_sight": 3,
+    "hit_points": 55,
+    "range": 0,
+    "attack": 9,
+    "armor": {
+      "melee": 0,
+      "pierce": 1
+    },
+    "attack_bonus": [
+      "+2 eagles",
+      "+2 buildings"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Berserk",
+    "description": "Upgraded Berserk",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 65,
+      "Gold": 25
+    },
+    "build_time": 16,
+    "reload_time": 2,
+    "attack_delay": 0,
+    "movement_rate": 1.05,
+    "line_of_sight": 5,
+    "hit_points": 72,
+    "range": 0,
+    "attack": 14,
+    "armor": {
+      "melee": 2,
+      "pierce": 1
+    },
+    "attack_bonus": [
+      "+3 eagles",
+      "+3 buildings"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Cataphract",
+    "description": "Byzantine unique unit. Heavily armored cavalry",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 70,
+      "Gold": 75
+    },
+    "build_time": 20,
+    "reload_time": 1.8,
+    "attack_delay": 0,
+    "movement_rate": 1.35,
+    "line_of_sight": 4,
+    "hit_points": 110,
+    "range": 0,
+    "attack": 9,
+    "armor": {
+      "melee": 2,
+      "pierce": 1
+    },
+    "attack_bonus": "+9 infantry",
+    "armor_bonus": 12,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Cataphract",
+    "description": "Upgraded Cataphract",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 70,
+      "Gold": 75
+    },
+    "build_time": 20,
+    "reload_time": 1.7,
+    "attack_delay": 0,
+    "movement_rate": 1.35,
+    "line_of_sight": 5,
+    "hit_points": 150,
+    "range": 0,
+    "attack": 12,
+    "armor": {
+      "melee": 2,
+      "pierce": 1
+    },
+    "attack_bonus": "+12 infantry",
+    "armor_bonus": 16,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Chu Ko Nu",
+    "description": "Chinese unique unit. Archer with mediocre range. Shoots a volley of 2 extra arrows with 3 attack. Because of the multiple arrows the delay between starts of attacks is more (roughly 3.6)",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Wood": 40,
+      "Gold": 35
+    },
+    "build_time": 19,
+    "reload_time": 3.6,
+    "attack_delay": 0.21,
+    "movement_rate": 0.96,
+    "line_of_sight": 6,
+    "hit_points": 45,
+    "range": 4,
+    "attack": 8,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "attack_bonus": "+2 spearmen",
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 85,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Chu Ko Nu",
+    "description": "Upgraded Chu Ko NU",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "created_in": "Castle",
+    "cost": {
+      "Wood": 40,
+      "Gold": 35
+    },
+    "build_time": 13,
+    "reload_time": 3.75,
+    "attack_delay": 0.21,
+    "movement_rate": 0.96,
+    "line_of_sight": 6,
+    "hit_points": 50,
+    "range": 6,
+    "attack": 8,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "attack_bonus": "+2 spearmen",
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 85,
+    "blast_radius": null
+  },
+  {
+    "name": "Conquistador",
+    "description": "Spanish unique unit. Mounted Hand Cannoneer. Powerful close attack but inaccurate at range. (Only archer armor upgrades apply from blacksmith not range or attack)",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 60,
+      "Gold": 70
+    },
+    "build_time": 24,
+    "reload_time": 2.9,
+    "attack_delay": 0.4,
+    "movement_rate": 1.3,
+    "line_of_sight": 8,
+    "hit_points": 55,
+    "range": 6,
+    "attack": 16,
+    "armor": {
+      "melee": 2,
+      "pierce": 2
+    },
+    "attack_bonus": "+4 rams",
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 65,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Conquistador",
+    "description": "Upgraded Conquistador",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 60,
+      "Gold": 70
+    },
+    "build_time": 24,
+    "reload_time": 2.9,
+    "attack_delay": 0.4,
+    "movement_rate": 1.3,
+    "line_of_sight": 8,
+    "hit_points": 70,
+    "range": 6,
+    "attack": 18,
+    "armor": {
+      "melee": 2,
+      "pierce": 2
+    },
+    "attack_bonus": [
+      "+6 ram",
+      "+2 buildings"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 70,
+    "blast_radius": null
+  },
+  {
+    "name": "Huskarl",
+    "description": "Gothic unique unit. Infantry with substantial pierce armor; virtually immune to archer fire. Attack bonus vs. buildings and archers",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 52,
+      "Gold": 26
+    },
+    "build_time": 16,
+    "reload_time": 2,
+    "attack_delay": 0,
+    "movement_rate": 1.05,
+    "line_of_sight": 3,
+    "hit_points": 60,
+    "range": 0,
+    "attack": 10,
+    "armor": {
+      "melee": 0,
+      "pierce": 6
+    },
+    "attack_bonus": [
+      "+2 eagles",
+      "+2 buildings",
+      "+6 archers/hand cannoneers"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Huskarl",
+    "description": "Upgraded Huskarl",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 52,
+      "Gold": 26
+    },
+    "build_time": 16,
+    "reload_time": 2,
+    "attack_delay": 0,
+    "movement_rate": 1.05,
+    "line_of_sight": 5,
+    "hit_points": 70,
+    "range": 0,
+    "attack": 12,
+    "armor": {
+      "melee": 0,
+      "pierce": 8
+    },
+    "attack_bonus": [
+      "+3 eagles",
+      "+3 buildings",
+      "+10 archers/hand cannoneers"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Jaguar Warrior",
+    "description": "Aztec unique unit. Attack bonus vs. other infantry",
+    "expansion": "The Conquerors",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 60,
+      "Gold": 30
+    },
+    "build_time": 17,
+    "reload_time": 2,
+    "attack_delay": 0,
+    "movement_rate": 1,
+    "line_of_sight": 3,
+    "hit_points": 50,
+    "range": 0,
+    "attack": 10,
+    "armor": {
+      "melee": 1,
+      "pierce": 0
+    },
+    "attack_bonus": [
+      "+12 eagles",
+      "+2 buildings",
+      "+10 infantry"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Jaguar Warrior",
+    "description": "Upgraded Jaguar Warrior",
+    "expansion": "The Conquerors",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 60,
+      "Gold": 30
+    },
+    "build_time": 17,
+    "reload_time": 2,
+    "attack_delay": 0,
+    "movement_rate": 1,
+    "line_of_sight": 5,
+    "hit_points": 75,
+    "range": 0,
+    "attack": 12,
+    "armor": {
+      "melee": 2,
+      "pierce": 0
+    },
+    "attack_bonus": [
+      "+12 eagles",
+      "+2 buildings",
+      "+10 infantry"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Janissary",
+    "description": "Turkish unique unit. Hand Cannoneer with longer range and no minimum range",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 60,
+      "Gold": 55
+    },
+    "build_time": 17,
+    "reload_time": 3.45,
+    "attack_delay": 0.28,
+    "movement_rate": 0.96,
+    "line_of_sight": 10,
+    "hit_points": 44,
+    "range": 8,
+    "attack": 17,
+    "armor": {
+      "melee": 1,
+      "pierce": 0
+    },
+    "attack_bonus": "+2 rams",
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 50,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Janissary",
+    "description": "Upgraded Janissary",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 60,
+      "Gold": 55
+    },
+    "build_time": 17,
+    "reload_time": 3.45,
+    "attack_delay": 0,
+    "movement_rate": 0.96,
+    "line_of_sight": 10,
+    "hit_points": 50,
+    "range": 8,
+    "attack": 22,
+    "armor": {
+      "melee": 2,
+      "pierce": 0
+    },
+    "attack_bonus": "+3 rams",
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 50,
+    "blast_radius": null
+  },
+  {
+    "name": "Longbowman",
+    "description": "British unique unit. Powerful archer with long range",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Wood": 35,
+      "Gold": 40
+    },
+    "build_time": 19,
+    "reload_time": 2,
+    "attack_delay": 0.35,
+    "movement_rate": 0.96,
+    "line_of_sight": 8,
+    "hit_points": 35,
+    "range": 6,
+    "attack": 6,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "attack_bonus": "+2 spearmen",
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 70,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Longbowman",
+    "description": "Upgraded Longbowman",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "created_in": "Castle",
+    "cost": {
+      "Wood": 35,
+      "Gold": 40
+    },
+    "build_time": 19,
+    "reload_time": 2,
+    "attack_delay": 0.35,
+    "movement_rate": 0.96,
+    "line_of_sight": 10,
+    "hit_points": 40,
+    "range": 8,
+    "attack": 7,
+    "armor": {
+      "melee": 0,
+      "pierce": 1
+    },
+    "attack_bonus": "+2 spearmen",
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 70,
+    "blast_radius": null
+  },
+  {
+    "name": "Mameluke",
+    "description": "Saracen unique unit. Camel with hand-to-hand attack at distance. Excels vs. other mounted units",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 55,
+      "Gold": 85
+    },
+    "build_time": 23,
+    "reload_time": 2,
+    "attack_delay": 0.6,
+    "movement_rate": 1.4,
+    "line_of_sight": 5,
+    "hit_points": 65,
+    "range": 3,
+    "attack": 7,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "attack_bonus": "+9 cavalry",
+    "armor_bonus": 11,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Mameluke",
+    "description": "Upgraded Mameluke",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 55,
+      "Gold": 85
+    },
+    "build_time": 23,
+    "reload_time": 2,
+    "attack_delay": 0,
+    "movement_rate": 1.4,
+    "line_of_sight": 5,
+    "hit_points": 80,
+    "range": 3,
+    "attack": 10,
+    "armor": {
+      "melee": 1,
+      "pierce": 0
+    },
+    "attack_bonus": "+12 cavalry",
+    "armor_bonus": 11,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Mangudai",
+    "description": "Mongol unique unit. Cavalry archer with attack bonus vs. siege weapons",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Wood": 55,
+      "Gold": 65
+    },
+    "build_time": 26,
+    "reload_time": 1.68,
+    "attack_delay": 1,
+    "movement_rate": 1.45,
+    "line_of_sight": 6,
+    "hit_points": 60,
+    "range": 4,
+    "attack": 6,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "attack_bonus": [
+      "+1 spearmen",
+      "+3 siege"
+    ],
+    "armor_bonus": null,
+    "search_radius": 5,
+    "accuracy": 95,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Mangudai",
+    "description": "Upgraded Mangudai",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "created_in": "Castle",
+    "cost": {
+      "Wood": 55,
+      "Gold": 65
+    },
+    "build_time": 26,
+    "reload_time": 1.68,
+    "attack_delay": 0,
+    "movement_rate": 1.45,
+    "line_of_sight": 6,
+    "hit_points": 60,
+    "range": 4,
+    "attack": 8,
+    "armor": {
+      "melee": 0,
+      "pierce": 1
+    },
+    "attack_bonus": [
+      "+1 spearmen",
+      "+5 siege"
+    ],
+    "armor_bonus": null,
+    "search_radius": 6,
+    "accuracy": 95,
+    "blast_radius": null
+  },
+  {
+    "name": "Plumed Archer",
+    "description": "Mayan unique unit. Strong fast and well-armored archer with less attack than other archers",
+    "expansion": "The Conquerors",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Wood": 37,
+      "Gold": 37
+    },
+    "build_time": 16,
+    "reload_time": 1.9,
+    "attack_delay": 0.5,
+    "movement_rate": 1.2,
+    "line_of_sight": 6,
+    "hit_points": 50,
+    "range": 4,
+    "attack": 5,
+    "armor": {
+      "melee": 0,
+      "pierce": 1
+    },
+    "attack_bonus": [
+      "+1 infantry",
+      "+2 spearmen"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 80,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Plumed Archer",
+    "description": "Upgraded Plumed Archer",
+    "expansion": "The Conquerors",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Wood": 32,
+      "Gold": 32
+    },
+    "build_time": 16,
+    "reload_time": 1.9,
+    "attack_delay": 0.5,
+    "movement_rate": 1.2,
+    "line_of_sight": 7,
+    "hit_points": 65,
+    "range": 5,
+    "attack": 5,
+    "armor": {
+      "melee": 0,
+      "pierce": 2
+    },
+    "attack_bonus": [
+      "+2 infantry",
+      "+2 spearmen"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 80,
+    "blast_radius": null
+  },
+  {
+    "name": "Samurai",
+    "description": "Japanese unique unit. Infantry with fast attack. Attack bonus vs. other unique units and buildings",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 60,
+      "Gold": 30
+    },
+    "build_time": 9,
+    "reload_time": 1.425,
+    "attack_delay": 0,
+    "movement_rate": 1,
+    "line_of_sight": 4,
+    "hit_points": 60,
+    "range": 0,
+    "attack": 8,
+    "armor": {
+      "melee": 1,
+      "pierce": 1
+    },
+    "attack_bonus": [
+      "+2 eagles",
+      "+2 buildings",
+      "+10 unique units"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Samurai",
+    "description": "Upgraded Samurai",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 60,
+      "Gold": 30
+    },
+    "build_time": 9,
+    "reload_time": 1.425,
+    "attack_delay": 0,
+    "movement_rate": 1,
+    "line_of_sight": 5,
+    "hit_points": 80,
+    "range": 0,
+    "attack": 12,
+    "armor": {
+      "melee": 1,
+      "pierce": 1
+    },
+    "attack_bonus": [
+      "+3 eagles",
+      "+3 buildings",
+      "+12 unique units"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Tarkan",
+    "description": "Hun unique unit. Cavalry with attack bonus vs. buildings. (Attack bonuses stack - for example +16 against a palisade wall (8 buildings + 8 walls))",
+    "expansion": "The Conquerors",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 60,
+      "Gold": 60
+    },
+    "build_time": 14,
+    "reload_time": 2.1,
+    "attack_delay": 0,
+    "movement_rate": 1.35,
+    "line_of_sight": 5,
+    "hit_points": 90,
+    "range": 0,
+    "attack": 7,
+    "armor": {
+      "melee": 1,
+      "pierce": 2
+    },
+    "attack_bonus": [
+      "+10 castle",
+      "+8 buildings",
+      "+12 stone defense",
+      "+8 walls and gates"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Tarkan",
+    "description": "Upgraded Tarkan",
+    "expansion": "The Conquerors",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 60,
+      "Gold": 60
+    },
+    "build_time": 14,
+    "reload_time": 2.1,
+    "attack_delay": 0,
+    "movement_rate": 1.35,
+    "line_of_sight": 7,
+    "hit_points": 150,
+    "range": 0,
+    "attack": 11,
+    "armor": {
+      "melee": 1,
+      "pierce": 3
+    },
+    "attack_bonus": [
+      "+10 castle",
+      "+10 buildings",
+      "+12 stone defense",
+      "+10 walls and gates"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Teutonic Knight",
+    "description": "Teutonic unique unit. Infantry with effective armor and slow but powerful attack",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 85,
+      "Gold": 40
+    },
+    "build_time": 12,
+    "reload_time": 2,
+    "attack_delay": 0,
+    "movement_rate": 0.65,
+    "line_of_sight": 3,
+    "hit_points": 70,
+    "range": 0,
+    "attack": 12,
+    "armor": {
+      "melee": 5,
+      "pierce": 2
+    },
+    "attack_bonus": [
+      "+4 eagles",
+      "+4 buildings"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Teutonic Knight",
+    "description": "Upgraded Teutonic Knight",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 85,
+      "Gold": 40
+    },
+    "build_time": 12,
+    "reload_time": 2,
+    "attack_delay": 0,
+    "movement_rate": 0.65,
+    "line_of_sight": 5,
+    "hit_points": 100,
+    "range": 0,
+    "attack": 17,
+    "armor": {
+      "melee": 10,
+      "pierce": 2
+    },
+    "attack_bonus": [
+      "+4 eagles",
+      "+4 buildings"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Throwing Axeman",
+    "description": "Frankish unique unit. Infantry with ranged attack",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 55,
+      "Gold": 25
+    },
+    "build_time": 17,
+    "reload_time": 2,
+    "attack_delay": 1.2,
+    "movement_rate": 0.9,
+    "line_of_sight": 5,
+    "hit_points": 50,
+    "range": 3,
+    "attack": 7,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "attack_bonus": [
+      "+1 eagles",
+      "+1 buildings"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Throwing Axeman",
+    "description": "Upgraded Throwing Axeman",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 55,
+      "Gold": 25
+    },
+    "build_time": 17,
+    "reload_time": 2,
+    "attack_delay": 0.8,
+    "movement_rate": 0.9,
+    "line_of_sight": 6,
+    "hit_points": 60,
+    "range": 4,
+    "attack": 8,
+    "armor": {
+      "melee": 1,
+      "pierce": 0
+    },
+    "attack_bonus": [
+      "+2 eagles",
+      "+2 buildings"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "War Elephant",
+    "description": "Persian unique unit. Slow powerful strong and well-armored cavalry",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 200,
+      "Gold": 75
+    },
+    "build_time": 31,
+    "reload_time": 2,
+    "attack_delay": 0,
+    "movement_rate": 0.6,
+    "line_of_sight": 4,
+    "hit_points": 450,
+    "range": 0,
+    "attack": 15,
+    "armor": {
+      "melee": 1,
+      "pierce": 2
+    },
+    "attack_bonus": [
+      "+7 buildings",
+      "+7 stone defense"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite War Elephant",
+    "description": "Upgraded War Elephant",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 200,
+      "Gold": 75
+    },
+    "build_time": 31,
+    "reload_time": 2,
+    "attack_delay": 0,
+    "movement_rate": 0.6,
+    "line_of_sight": 5,
+    "hit_points": 600,
+    "range": 0,
+    "attack": 20,
+    "armor": {
+      "melee": 1,
+      "pierce": 3
+    },
+    "attack_bonus": [
+      "+10 buildings",
+      "+10 stone defense"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "War Wagon",
+    "description": "Korean unique unit. Heavily armored horse-drawn archery unit",
+    "expansion": "The Conquerors",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Wood": 120,
+      "Gold": 60
+    },
+    "build_time": 25,
+    "reload_time": 2.5,
+    "attack_delay": 1,
+    "movement_rate": 1.2,
+    "line_of_sight": 6,
+    "hit_points": 150,
+    "range": 4,
+    "attack": 9,
+    "armor": {
+      "melee": 0,
+      "pierce": 3
+    },
+    "attack_bonus": "+5 buildings",
+    "armor_bonus": null,
+    "search_radius": 6,
+    "accuracy": 100,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite War Wagon",
+    "description": "Upgraded War Wagon",
+    "expansion": "The Conquerors",
+    "age": "Imperial",
+    "created_in": "Castle",
+    "cost": {
+      "Wood": 120,
+      "Gold": 60
+    },
+    "build_time": 25,
+    "reload_time": 2.5,
+    "attack_delay": 1,
+    "movement_rate": 1.2,
+    "line_of_sight": 8,
+    "hit_points": 200,
+    "range": 5,
+    "attack": 9,
+    "armor": {
+      "melee": 0,
+      "pierce": 4
+    },
+    "attack_bonus": "+5 buildings",
+    "armor_bonus": null,
+    "search_radius": 7,
+    "accuracy": 100,
+    "blast_radius": null
+  },
+  {
+    "name": "Woad Raider",
+    "description": "Celtic unique unit. Exceptionally quick infantry. Attack bonus vs. buildings",
+    "expansion": "Age of Kings",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 65,
+      "Gold": 25
+    },
+    "build_time": 10,
+    "reload_time": 2,
+    "attack_delay": 0,
+    "movement_rate": 1.38,
+    "line_of_sight": 3,
+    "hit_points": 65,
+    "range": 0,
+    "attack": 8,
+    "armor": {
+      "melee": 0,
+      "pierce": 1
+    },
+    "attack_bonus": [
+      "+2 eagles",
+      "+2 buildings"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Woad Raider",
+    "description": "Upgraded Woad Raider",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 65,
+      "Gold": 25
+    },
+    "build_time": 10,
+    "reload_time": 2,
+    "attack_delay": 0,
+    "movement_rate": 1.38,
+    "line_of_sight": 5,
+    "hit_points": 80,
+    "range": 0,
+    "attack": 13,
+    "armor": {
+      "melee": 0,
+      "pierce": 1
+    },
+    "attack_bonus": [
+      "+3 eagles",
+      "+3 buildings"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Karambit Warrior",
+    "description": "Malay unique unit. Cheap and weak infantry unit that only takes half a population slot",
+    "expansion": "Rise of Rajas",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 30,
+      "Gold": 15
+    },
+    "build_time": 6,
+    "reload_time": 2,
+    "attack_delay": null,
+    "movement_rate": 1.2,
+    "line_of_sight": 5,
+    "hit_points": 30,
+    "range": 0,
+    "attack": 7,
+    "armor": {
+      "melee": 0,
+      "pierce": 1
+    },
+    "attack_bonus": "+2 eagle warrior",
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Karambit Warrior",
+    "description": "Upgraded Karambit Warrior",
+    "expansion": "Rise of Rajas",
+    "age": "Imperial",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 30,
+      "Gold": 15
+    },
+    "build_time": 6,
+    "reload_time": 2,
+    "attack_delay": null,
+    "movement_rate": 1.2,
+    "line_of_sight": 5,
+    "hit_points": 40,
+    "range": 0,
+    "attack": 8,
+    "armor": {
+      "melee": 1,
+      "pierce": 1
+    },
+    "attack_bonus": [
+      "+2 eagle warrior",
+      "+1 standard building"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Kamayuk",
+    "description": "Inca unique unit. Infantry unit with attack bonus vs. cavalry. Carries a long spear to infiltrate formations.",
+    "expansion": "The Forgotten",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 60,
+      "Gold": 30
+    },
+    "build_time": 10,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 4,
+    "hit_points": 60,
+    "range": 1,
+    "attack": 7,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "attack_bonus": [
+      "+20 war elephants",
+      "+8 cavalry",
+      "+6 camel"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Kamayuk",
+    "description": "Upgraded Kamayuk",
+    "expansion": "The Forgotten",
+    "age": "Imperial",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 60,
+      "Gold": 30
+    },
+    "build_time": 10,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 5,
+    "hit_points": 80,
+    "range": 1,
+    "attack": 8,
+    "armor": {
+      "melee": 1,
+      "pierce": 0
+    },
+    "attack_bonus": [
+      "+20 war elephants",
+      "+12 cavalry",
+      "+10 camel",
+      "+1 mameluke"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Slinger",
+    "description": "Inca unique unit. Ranged unit with attack bonus vs. Infantry.",
+    "expansion": "The Forgotten",
+    "age": "Castle",
+    "created_in": "Archery Range",
+    "cost": {
+      "Food": 30,
+      "Gold": 40
+    },
+    "build_time": 25,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 7,
+    "hit_points": 40,
+    "range": 5,
+    "attack": 4,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "attack_bonus": [
+      "+10 infantry",
+      "+10 condottiero",
+      "+3 ram",
+      "+1 spearman"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 90,
+    "blast_radius": null
+  },
+  {
+    "name": "Eagle Scout",
+    "description": "Fast infantry with extensive sight.",
+    "expansion": "The Forgotten",
+    "age": "Feudal",
+    "created_in": "Barracks",
+    "cost": {
+      "Food": 20,
+      "Gold": 50
+    },
+    "build_time": 35,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 5,
+    "hit_points": 50,
+    "range": 0,
+    "attack": 4,
+    "armor": {
+      "melee": 0,
+      "pierce": 2
+    },
+    "attack_bonus": [
+      "+8 monk",
+      "+3 siege",
+      "+2 cavalry",
+      "+1 camel",
+      "+1 ship"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Elephant Archer",
+    "description": "Indian unique unit. Heavy mounted archer.",
+    "expansion": "The Forgotten",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 100,
+      "Gold": 70
+    },
+    "build_time": 25,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 7,
+    "hit_points": 280,
+    "range": 4,
+    "attack": 6,
+    "armor": {
+      "melee": 0,
+      "pierce": 3
+    },
+    "attack_bonus": [
+      "+3 stone defense",
+      "+3 standard building"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 100,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Elephant Archer",
+    "description": "Upgraded Elephant Archer",
+    "expansion": "The Forgotten",
+    "age": "Imperial",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 100,
+      "Gold": 70
+    },
+    "build_time": 25,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 7,
+    "hit_points": 330,
+    "range": 4,
+    "attack": 7,
+    "armor": {
+      "melee": 0,
+      "pierce": 3
+    },
+    "attack_bonus": [
+      "+4 stone defense",
+      "+4 standard building"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Imperial Camel Rider",
+    "description": "Stronger than Heavy Camel. Excels at killing other mounted units.",
+    "expansion": "The Forgotten",
+    "age": "Imperial",
+    "created_in": "Stable",
+    "cost": {
+      "Food": 55,
+      "Gold": 60
+    },
+    "build_time": 20,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 5,
+    "hit_points": 140,
+    "range": 0,
+    "attack": 9,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "attack_bonus": [
+      "+18 cavalry",
+      "+9 camel",
+      "+9 ship",
+      "+9 fishing ship",
+      "+7 mameluke",
+      "+4 standard building"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Genoese Crossbowman",
+    "description": "Italian unique unit. Anti cavalry archery unit.",
+    "expansion": "The Forgotten",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Wood": 45,
+      "Gold": 40
+    },
+    "build_time": 18,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 8,
+    "hit_points": 45,
+    "range": 4,
+    "attack": 6,
+    "armor": {
+      "melee": 1,
+      "pierce": 0
+    },
+    "attack_bonus": [
+      "+5 cavalry",
+      "+5 war elephant",
+      "+4 camel",
+      "+4 ship",
+      "+4 fishing"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 100,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Genoese Crossbowman",
+    "description": "Upgraded Genoese Crossbowman",
+    "expansion": "The Forgotten",
+    "age": "Imperial",
+    "created_in": "Castle",
+    "cost": {
+      "Wood": 45,
+      "Gold": 40
+    },
+    "build_time": 14,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 8,
+    "hit_points": 50,
+    "range": 4,
+    "attack": 6,
+    "armor": {
+      "melee": 1,
+      "pierce": 0
+    },
+    "attack_bonus": [
+      "+7 cavalry",
+      "+7 war elephant",
+      "+6 camel",
+      "+5 ship",
+      "+5 fishing"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 100,
+    "blast_radius": null
+  },
+  {
+    "name": "Condottiero",
+    "description": "Italian mercenary unit. Quick infantry.",
+    "expansion": "The Forgotten",
+    "age": "Imperial",
+    "created_in": "Barracks",
+    "cost": {
+      "Food": 50,
+      "Gold": 35
+    },
+    "build_time": 18,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 6,
+    "hit_points": 80,
+    "range": 0,
+    "attack": 10,
+    "armor": {
+      "melee": 1,
+      "pierce": 0
+    },
+    "attack_bonus": [
+      "+10 gunpowder",
+      "+2 standard building"
+    ],
+    "armor_bonus": 10,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Magyar Huszar",
+    "description": "Magyar unique unit. Light cavalry unit with a bonus vs. Siege",
+    "expansion": "The Forgotten",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 80,
+      "Gold": 10
+    },
+    "build_time": 16,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 5,
+    "hit_points": 70,
+    "range": 0,
+    "attack": 9,
+    "armor": {
+      "melee": 0,
+      "pierce": 2
+    },
+    "attack_bonus": [
+      "+5 siege weapon",
+      "+1 ram"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Magyar Huszar",
+    "description": "Upgraded Magyar Huszar",
+    "expansion": "The Forgotten",
+    "age": "Imperial",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 80,
+      "Gold": 10
+    },
+    "build_time": 16,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 6,
+    "hit_points": 85,
+    "range": 0,
+    "attack": 10,
+    "armor": {
+      "melee": 0,
+      "pierce": 2
+    },
+    "attack_bonus": [
+      "+8 siege weapon",
+      "+2 ram"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Boyar",
+    "description": "Slavic Unique Unit. Heavily armored cavalry; resistant to melee attack.",
+    "expansion": "The Forgotten",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 50,
+      "Gold": 80
+    },
+    "build_time": 15,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 5,
+    "hit_points": 100,
+    "range": 0,
+    "attack": 12,
+    "armor": {
+      "melee": 4,
+      "pierce": 2
+    },
+    "attack_bonus": null,
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Boyar",
+    "description": "Upgraded Boyar",
+    "expansion": "The Forgotten",
+    "age": "Imperial",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 50,
+      "Gold": 80
+    },
+    "build_time": 15,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 5,
+    "hit_points": 130,
+    "range": 0,
+    "attack": 14,
+    "armor": {
+      "melee": 6,
+      "pierce": 3
+    },
+    "attack_bonus": null,
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Camel Archer",
+    "description": "Berber unique unit. Cavalry archer with an attack bonus vs. cavalry archers.",
+    "expansion": "The African Kingdoms",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Wood": 50,
+      "Gold": 60
+    },
+    "build_time": 25,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 5,
+    "hit_points": 55,
+    "range": 4,
+    "attack": 7,
+    "armor": {
+      "melee": 0,
+      "pierce": 1
+    },
+    "attack_bonus": "+4 cavalry archer",
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 95,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Camel Archer",
+    "description": "Upgraded Camel Archer",
+    "expansion": "The African Kingdoms",
+    "age": "Imperial",
+    "created_in": "Castle",
+    "cost": {
+      "Wood": 50,
+      "Gold": 60
+    },
+    "build_time": 25,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 5,
+    "hit_points": 60,
+    "range": 4,
+    "attack": 8,
+    "armor": {
+      "melee": 1,
+      "pierce": 1
+    },
+    "attack_bonus": "+6 cavalry archer",
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Genitour",
+    "description": "Berber unique unit. Mounted Skirmisher.",
+    "expansion": "The African Kingdoms",
+    "age": "Castle",
+    "created_in": "Archery Range",
+    "cost": {
+      "Food": 50,
+      "Wood": 35
+    },
+    "build_time": 25,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 5,
+    "hit_points": 50,
+    "range": 4,
+    "attack": 3,
+    "armor": {
+      "melee": 0,
+      "pierce": 4
+    },
+    "attack_bonus": [
+      "+4 archer",
+      "+2 spearman"
+    ],
+    "armor_bonus": 1,
+    "search_radius": null,
+    "accuracy": 90,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Genitour",
+    "description": "Upgraded Genitour",
+    "expansion": "The African Kingdoms",
+    "age": "Imperial",
+    "created_in": "Archery Range",
+    "cost": {
+      "Food": 50,
+      "Wood": 35
+    },
+    "build_time": 25,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 6,
+    "hit_points": 55,
+    "range": 4,
+    "attack": 4,
+    "armor": {
+      "melee": 0,
+      "pierce": 4
+    },
+    "attack_bonus": [
+      "+5 archer",
+      "+2 spearman",
+      "+2 cavalry archer"
+    ],
+    "armor_bonus": 1,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Shotel Warrior",
+    "description": "Ethiopian unique unit. Cheap infantry unit with high creation speed.",
+    "expansion": "The African Kingdoms",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 50,
+      "Gold": 30
+    },
+    "build_time": 8,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 3,
+    "hit_points": 40,
+    "range": 0,
+    "attack": 16,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "attack_bonus": [
+      "+2 eagle warrior",
+      "+1 standard building"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Shotel Warrior",
+    "description": "Upgraded Shotel Warrior",
+    "expansion": "The African Kingdoms",
+    "age": "Imperial",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 50,
+      "Gold": 30
+    },
+    "build_time": 8,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 3,
+    "hit_points": 50,
+    "range": 0,
+    "attack": 18,
+    "armor": {
+      "melee": 0,
+      "pierce": 1
+    },
+    "attack_bonus": [
+      "+2 eagle warrior",
+      "+1 standard building"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Gbeto",
+    "description": "Malian unique unit. Quick infantry unit with a high ranged attack.",
+    "expansion": "The African Kingdoms",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 50,
+      "Gold": 40
+    },
+    "build_time": 17,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 6,
+    "hit_points": 30,
+    "range": 5,
+    "attack": 10,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "attack_bonus": "+1 eagle",
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 100,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Gbeto",
+    "description": "Upgraded Gbeto",
+    "expansion": "The African Kingdoms",
+    "age": "Imperial",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 50,
+      "Gold": 40
+    },
+    "build_time": 17,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 7,
+    "hit_points": 45,
+    "range": 6,
+    "attack": 13,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "attack_bonus": "+1 eagle",
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 100,
+    "blast_radius": null
+  },
+  {
+    "name": "Organ Gun",
+    "description": "Portuguese unique unit. Siege weapon that fires a volley of bullets. Very effective against large groups of units.",
+    "expansion": "The African Kingdoms",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Wood": 80,
+      "Gold": 56
+    },
+    "build_time": 21,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 9,
+    "hit_points": 60,
+    "range": 7,
+    "attack": 16,
+    "armor": {
+      "melee": 2,
+      "pierce": 4
+    },
+    "attack_bonus": "+1 ram",
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 50,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Organ Gun",
+    "description": "Upgraded Organ Gun",
+    "expansion": "The African Kingdoms",
+    "age": "Imperial",
+    "created_in": "Castle",
+    "cost": {
+      "Wood": 80,
+      "Gold": 56
+    },
+    "build_time": 21,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 9,
+    "hit_points": 70,
+    "range": 7,
+    "attack": 20,
+    "armor": {
+      "melee": 2,
+      "pierce": 6
+    },
+    "attack_bonus": "+1 ram",
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 50,
+    "blast_radius": null
+  },
+  {
+    "name": "Arambai",
+    "description": "Burmese unique unit. Mounted dart thrower.",
+    "expansion": "Rise of the Rajas",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Wood": 75,
+      "Gold": 60
+    },
+    "build_time": 21,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 7,
+    "hit_points": 60,
+    "range": 5,
+    "attack": 12,
+    "armor": {
+      "melee": 0,
+      "pierce": 1
+    },
+    "attack_bonus": "+2 ram",
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 20,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Arambai",
+    "description": "Upgraded Arambai",
+    "expansion": "Rise of the Rajas",
+    "age": "Imperial",
+    "created_in": "Castle",
+    "cost": {
+      "Wood": 75,
+      "Gold": 60
+    },
+    "build_time": 21,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 7,
+    "hit_points": 65,
+    "range": 5,
+    "attack": 15,
+    "armor": {
+      "melee": 0,
+      "pierce": 2
+    },
+    "attack_bonus": "+2 ram",
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 20,
+    "blast_radius": null
+  },
+  {
+    "name": "Ballista Elephant",
+    "description": "Khmer unique unit. Heavy cavalry equipped with a Scorpion. Can fell trees.",
+    "expansion": "Rise of the Rajas",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 100,
+      "Gold": 80
+    },
+    "build_time": 25,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 7,
+    "hit_points": 250,
+    "range": 5,
+    "attack": 8,
+    "armor": {
+      "melee": 0,
+      "pierce": 3
+    },
+    "attack_bonus": [
+      "+8 ship",
+      "+8 fishing ship",
+      "+3 stone defense",
+      "+3 standard building",
+      "+2 building"
+    ],
+    "armor_bonus": -2,
+    "search_radius": null,
+    "accuracy": 100,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Ballista Elephant",
+    "description": "Upgraded Ballista Elephant",
+    "expansion": "Rise of the Rajas",
+    "age": "Imperial",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 100,
+      "Gold": 80
+    },
+    "build_time": 25,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 7,
+    "hit_points": 290,
+    "range": 5,
+    "attack": 9,
+    "armor": {
+      "melee": 0,
+      "pierce": 3
+    },
+    "attack_bonus": [
+      "+8 ship",
+      "+8 fishing ship",
+      "+4 stone defense",
+      "+4 standard building",
+      "+4 building"
+    ],
+    "armor_bonus": -2,
+    "search_radius": null,
+    "accuracy": 100,
+    "blast_radius": null
+  },
+  {
+    "name": "Rattan Archer",
+    "description": "Vietnamese unique unit. Heavily armored Archer.",
+    "expansion": "Rise of the Rajas",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Wood": 50,
+      "Gold": 45
+    },
+    "build_time": 16,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 6,
+    "hit_points": 40,
+    "range": 4,
+    "attack": 6,
+    "armor": {
+      "melee": 0,
+      "pierce": 4
+    },
+    "attack_bonus": "+2 spearman",
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 80,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Rattan Archer",
+    "description": "Upgraded Rattan Archer",
+    "expansion": "Rise of the Rajas",
+    "age": "Imperial",
+    "created_in": "Castle",
+    "cost": {
+      "Wood": 50,
+      "Gold": 45
+    },
+    "build_time": 16,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 6,
+    "hit_points": 45,
+    "range": 5,
+    "attack": 7,
+    "armor": {
+      "melee": 0,
+      "pierce": 6
+    },
+    "attack_bonus": "+2 spearman",
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 80,
+    "blast_radius": null
+  },
+  {
+    "name": "Imperial Skirmisher",
+    "description": "Upgraded Elite Skirmisher. Only available to Vietnamese and allies.",
+    "expansion": "Rise of the Rajas",
+    "age": "Imperial",
+    "created_in": "Archery Range",
+    "cost": {
+      "Food": 25,
+      "Wood": 35
+    },
+    "build_time": 22,
+    "reload_time": 3,
+    "attack_delay": 0.5,
+    "movement_rate": 0.96,
+    "line_of_sight": 7,
+    "hit_points": 35,
+    "range": 1,
+    "attack": 4,
+    "armor": {
+      "melee": 0,
+      "pierce": 5
+    },
+    "attack_bonus": [
+      "+5 spearmen",
+      "+5 archers",
+      "+3 cavalry archers"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 90,
+    "blast_radius": null
+  },
+  {
+    "name": "Battle Elephant",
+    "description": "Slow and powerful cavalry.",
+    "expansion": "Rise of the Rajas",
+    "age": "Castle",
+    "created_in": "Stable",
+    "cost": {
+      "Food": 120,
+      "Gold": 70
+    },
+    "build_time": 28,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 4,
+    "hit_points": 250,
+    "range": 0,
+    "attack": 12,
+    "armor": {
+      "melee": 1,
+      "pierce": 2
+    },
+    "attack_bonus": "+7 buildings",
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": 0.5
+  },
+  {
+    "name": "Elite Battle Elephant",
+    "description": "Upgraded Battle Elephant.",
+    "expansion": "Rise of the Rajas",
+    "age": "Imperial",
+    "created_in": "Stable",
+    "cost": {
+      "Food": 120,
+      "Gold": 70
+    },
+    "build_time": 28,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 5,
+    "hit_points": 300,
+    "range": 0,
+    "attack": 14,
+    "armor": {
+      "melee": 1,
+      "pierce": 3
+    },
+    "attack_bonus": "+10 buildings",
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": 0.5
+  },
+  {
+    "name": "Steppe Lancer",
+    "description": "Fast cavalry with increased attack range.",
+    "expansion": "The Last Khans",
+    "age": "Castle",
+    "created_in": "Stable",
+    "cost": {
+      "Food": 70,
+      "Gold": 45
+    },
+    "build_time": 24,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 5,
+    "hit_points": 60,
+    "range": 1,
+    "attack": 9,
+    "armor": {
+      "melee": 0,
+      "pierce": 1
+    },
+    "attack_bonus": null,
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Steppe Lancer",
+    "description": "Upgraded Steppe Lancer.",
+    "expansion": "The Last Khans",
+    "age": "Imperial",
+    "created_in": "Stable",
+    "cost": {
+      "Food": 70,
+      "Gold": 45
+    },
+    "build_time": 20,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 5,
+    "hit_points": 80,
+    "range": 1,
+    "attack": 11,
+    "armor": {
+      "melee": 0,
+      "pierce": 2
+    },
+    "attack_bonus": null,
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Konnik",
+    "description": "Bulgarian unique unit. Cavalry that can fight on after losing its horse.",
+    "expansion": "The Last Khans",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 60,
+      "Gold": 70
+    },
+    "build_time": 19,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 5,
+    "hit_points": 100,
+    "range": 0,
+    "attack": 12,
+    "armor": {
+      "melee": 2,
+      "pierce": 1
+    },
+    "attack_bonus": null,
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Konnik",
+    "description": "Upgraded Konnik.",
+    "expansion": "The Last Khans",
+    "age": "Imperial",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 60,
+      "Gold": 70
+    },
+    "build_time": 19,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 5,
+    "hit_points": 120,
+    "range": 0,
+    "attack": 14,
+    "armor": {
+      "melee": 2,
+      "pierce": 2
+    },
+    "attack_bonus": null,
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Konnik (Dismounted)",
+    "description": "Bulgarian unique unit. Infantry form of the Konnik.",
+    "expansion": "The Last Khans",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "raw": "{info: Spawns when Konnik dies}"
+    },
+    "build_time": 0,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 3,
+    "hit_points": 45,
+    "range": 0,
+    "attack": 4,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "attack_bonus": null,
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Konnik (Dismounted)",
+    "description": "Upgraded Konnik (Dismounted).",
+    "expansion": "The Last Khans",
+    "age": "Imperial",
+    "created_in": "Castle",
+    "cost": {
+      "raw": "{info: Spawns when Elite Konnik dies}"
+    },
+    "build_time": 0,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 3,
+    "hit_points": 50,
+    "range": 0,
+    "attack": 6,
+    "armor": {
+      "melee": 0,
+      "pierce": 1
+    },
+    "attack_bonus": null,
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Kipchak",
+    "description": "Cuman unique unit. Cavalry archer that fires multiple arrows.",
+    "expansion": "The Last Khans",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Wood": 60,
+      "Gold": 35
+    },
+    "build_time": 20,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 6,
+    "hit_points": 40,
+    "range": 4,
+    "attack": 4,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "attack_bonus": "+1 spearman",
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 90,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Kipchak",
+    "description": "Upgraded Kipchak.",
+    "expansion": "The Last Khans",
+    "age": "Imperial",
+    "created_in": "Castle",
+    "cost": {
+      "Wood": 60,
+      "Gold": 35
+    },
+    "build_time": 20,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 6,
+    "hit_points": 45,
+    "range": 4,
+    "attack": 5,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "attack_bonus": "+1 spearman",
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": 90,
+    "blast_radius": null
+  },
+  {
+    "name": "Leitis",
+    "description": "Lithuanian unique unit. Cavalry whose attack ignores armor.",
+    "expansion": "The Last Khans",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 70,
+      "Gold": 50
+    },
+    "build_time": 20,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 5,
+    "hit_points": 100,
+    "range": 0,
+    "attack": 12,
+    "armor": {
+      "melee": 1,
+      "pierce": 1
+    },
+    "attack_bonus": null,
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Leitis",
+    "description": "Upgraded Leitis.",
+    "expansion": "The Last Khans",
+    "age": "Imperial",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 70,
+      "Gold": 50
+    },
+    "build_time": 18,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 5,
+    "hit_points": 130,
+    "range": 0,
+    "attack": 14,
+    "armor": {
+      "melee": 1,
+      "pierce": 2
+    },
+    "attack_bonus": null,
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Keshik",
+    "description": "Tatar unique unit. Cavalry that generates gold when attacking.",
+    "expansion": "The Last Khans",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 60,
+      "Gold": 40
+    },
+    "build_time": 16,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 5,
+    "hit_points": 100,
+    "range": 0,
+    "attack": 9,
+    "armor": {
+      "melee": 1,
+      "pierce": 2
+    },
+    "attack_bonus": null,
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Keshik",
+    "description": "Upgraded Keshik.",
+    "expansion": "The Last Khans",
+    "age": "Imperial",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 60,
+      "Gold": 40
+    },
+    "build_time": 14,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 6,
+    "hit_points": 130,
+    "range": 0,
+    "attack": 11,
+    "armor": {
+      "melee": 1,
+      "pierce": 3
+    },
+    "attack_bonus": null,
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Flaming Camel",
+    "description": "Tatar unique unit. Camel loaded with incendiary materials.",
+    "expansion": "The Last Khans",
+    "age": "Imperial",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 75,
+      "Gold": 30
+    },
+    "build_time": 20,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 4,
+    "hit_points": 55,
+    "range": 0,
+    "attack": 20,
+    "armor": {
+      "melee": 0,
+      "pierce": 0
+    },
+    "attack_bonus": [
+      "+50 cavalry",
+      "+50 war elephant",
+      "+30 camel"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": 1.5
+  },
+  {
+    "name": "Coustillier",
+    "description": "Burgundian unique unit. Cavalry with a devastating charge attack.",
+    "expansion": "Lords of the West",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 55,
+      "Gold": 55
+    },
+    "build_time": 15,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 5,
+    "hit_points": 115,
+    "range": 0,
+    "attack": 8,
+    "armor": {
+      "melee": 2,
+      "pierce": 2
+    },
+    "attack_bonus": null,
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Coustillier",
+    "description": "Upgraded Coustillier.",
+    "expansion": "Lords of the West",
+    "age": "Imperial",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 55,
+      "Gold": 55
+    },
+    "build_time": 15,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 5,
+    "hit_points": 145,
+    "range": 0,
+    "attack": 11,
+    "armor": {
+      "melee": 2,
+      "pierce": 2
+    },
+    "attack_bonus": null,
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Flemish Militia",
+    "description": "Burgundian unique unit. Infantry with bonus vs. cavalry.",
+    "expansion": "Lords of the West",
+    "age": "Imperial",
+    "created_in": "Town Center",
+    "cost": {
+      "Food": 60,
+      "Gold": 25
+    },
+    "build_time": 14,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 5,
+    "hit_points": 75,
+    "range": 0,
+    "attack": 12,
+    "armor": {
+      "melee": 1,
+      "pierce": 1
+    },
+    "attack_bonus": [
+      "+8 cavalry",
+      "+6 camel",
+      "+4 war elephant"
+    ],
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Serjeant",
+    "description": "Sicilian unique unit. Infantry that can build Donjons.",
+    "expansion": "Lords of the West",
+    "age": "Castle",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 60,
+      "Gold": 35
+    },
+    "build_time": 12,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 4,
+    "hit_points": 45,
+    "range": 0,
+    "attack": 5,
+    "armor": {
+      "melee": 2,
+      "pierce": 2
+    },
+    "attack_bonus": null,
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  },
+  {
+    "name": "Elite Serjeant",
+    "description": "Upgraded Serjeant.",
+    "expansion": "Lords of the West",
+    "age": "Imperial",
+    "created_in": "Castle",
+    "cost": {
+      "Food": 60,
+      "Gold": 35
+    },
+    "build_time": 12,
+    "reload_time": null,
+    "attack_delay": null,
+    "movement_rate": null,
+    "line_of_sight": 5,
+    "hit_points": 75,
+    "range": 0,
+    "attack": 11,
+    "armor": {
+      "melee": 4,
+      "pierce": 4
+    },
+    "attack_bonus": null,
+    "armor_bonus": null,
+    "search_radius": null,
+    "accuracy": null,
+    "blast_radius": null
+  }
+]
