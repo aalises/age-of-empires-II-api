@@ -4,6 +4,8 @@ A free API for Age of Empires II game data, providing information about civiliza
 
 Built with Cloudflare Workers for fast, serverless delivery.
 
+If you see an error or want to add more data, pull requests are welcomed.
+
 ## Base URL
 
 ```
@@ -240,3 +242,10 @@ npm run deploy
 ## License
 
 MIT
+
+
+## Special Thanks
+
+Thanks to [Aalises's original API](https://github.com/aalises/age-of-empires-II-api) that this was forked from.
+
+Enjoyed this API? Check out my [YouTube channel](https://www.youtube.com/@TeamRespawn) where I post Age of Empires videos.
